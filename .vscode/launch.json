@@ -1,0 +1,39 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Gather Data for Annotations",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "generateAllAnnotations.js",
+            "cwd": "${workspaceFolder}/script",
+            "outFiles": [
+                "${workspaceFolder}/**/*.js"
+            ]
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Genrate Annotations from Data",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "generateAllAnnotations.js",
+            "cwd": "${workspaceFolder}/script",
+            "args": [
+                "--generate-from-data"
+            ],
+            "outFiles": [
+                "${workspaceFolder}/**/*.js"
+            ]
+        },
+
+    ]
+}

@@ -1,0 +1,731 @@
+{
+  ActivateEditBox: {
+    type: direct
+    original: widgetSystem.activateEditBox
+    file: widget_fullscreen.lua
+    parameters: [
+      {
+        name: editboxID
+        type: any
+        optional: false
+        description: ""
+      }
+      {
+        name: cursorpos
+        type: any
+        optional: false
+        description: ""
+      }
+      {
+        name: shiftstartpos
+        type: any
+        optional: false
+        description: ""
+      }
+    ]
+    description: Global access to widgetSystem.activateEditBox
+    detailed: ""
+    notes: ""
+    returnType: boolean
+  }
+  ActivateSliderCellInput: {
+    type: direct
+    original: widgetSystem.activateSliderCellInput
+    file: widget_fullscreen.lua
+    parameters: [
+      {
+        name: slidercellID
+        type: any
+        optional: false
+        description: ""
+      }
+    ]
+    description: Global access to widgetSystem.activateSliderCellInput
+    detailed: ""
+    notes: ""
+    returnType: boolean
+  }
+  CancelEditBoxInput: {
+    type: direct
+    original: widgetSystem.cancelEditBoxInput
+    file: widget_fullscreen.lua
+    parameters: [
+      {
+        name: editboxID
+        type: any
+        optional: false
+        description: ""
+      }
+    ]
+    description: Global access to widgetSystem.cancelEditBoxInput
+    detailed: ""
+    notes: ""
+    returnType: boolean
+  }
+  CloseDropDownOptions: {
+    type: direct
+    original: widgetSystem.closeDropDownOptions
+    file: widget_fullscreen.lua
+    parameters: [
+      {
+        name: dropdownID
+        type: any
+        optional: false
+        description: ""
+      }
+    ]
+    description: Global access to widgetSystem.closeDropDownOptions
+    detailed: ""
+    notes: ""
+    returnType: boolean
+  }
+  ConfirmEditBoxInput: {
+    type: direct
+    original: widgetSystem.confirmEditBoxInput
+    file: widget_fullscreen.lua
+    parameters: [
+      {
+        name: editboxID
+        type: any
+        optional: false
+        description: ""
+      }
+    ]
+    description: Global access to widgetSystem.confirmEditBoxInput
+    detailed: ""
+    notes: ""
+    returnType: boolean
+  }
+  DrawCircle: {
+    type: wrapper
+    original: widgetSystem.queueShapeDraw
+    wrapperParams: ...
+    targetParams: '''"circle", ...'''
+    fixedParams: [
+      '''"circle"'''
+    ]
+    paramTransformation: Prepends fixed parameters: "circle"
+    file: widget_fullscreen.lua
+    description: Wrapper for widgetSystem.queueShapeDraw with parameter transformation
+    detailed: ""
+    notes: ""
+  }
+  DrawRect: {
+    type: wrapper
+    original: widgetSystem.queueShapeDraw
+    wrapperParams: ...
+    targetParams: '''"rectangle", ...'''
+    fixedParams: [
+      '''"rectangle"'''
+    ]
+    paramTransformation: Prepends fixed parameters: "rectangle"
+    file: widget_fullscreen.lua
+    description: Wrapper for widgetSystem.queueShapeDraw with parameter transformation
+    detailed: ""
+    notes: ""
+  }
+  DrawTriangle: {
+    type: wrapper
+    original: widgetSystem.queueShapeDraw
+    wrapperParams: ...
+    targetParams: '''"triangle", ...'''
+    fixedParams: [
+      '''"triangle"'''
+    ]
+    paramTransformation: Prepends fixed parameters: "triangle"
+    file: widget_fullscreen.lua
+    description: Wrapper for widgetSystem.queueShapeDraw with parameter transformation
+    detailed: ""
+    notes: ""
+  }
+  GetCurrentMouseOverFont: {
+    type: direct
+    original: widgetSystem.getCurrentMouseOverFont
+    file: widget_fullscreen.lua
+    parameters: []
+    description: Global access to widgetSystem.getCurrentMouseOverFont
+    detailed: ""
+    notes: ""
+    returnType: any
+  }
+  GetCurrentMouseOverWidth: {
+    type: direct
+    original: widgetSystem.getCurrentMouseOverWidth
+    file: widget_fullscreen.lua
+    parameters: []
+    description: Global access to widgetSystem.getCurrentMouseOverWidth
+    detailed: ""
+    notes: ""
+    returnType: any
+  }
+  GetFlowchartFirstVisibleCell: {
+    type: direct
+    original: widgetSystem.getFlowchartFirstVisibleCell
+    file: widget_fullscreen.lua
+    parameters: [
+      {
+        name: flowchartID
+        type: any
+        optional: false
+        description: ""
+      }
+    ]
+    description: Global access to widgetSystem.getFlowchartFirstVisibleCell
+    detailed: ""
+    notes: ""
+    returnType: number
+  }
+  GetFlowchartNodeExpandedFrameData: {
+    type: direct
+    original: widgetSystem.getFlowchartNodeExpandedFrameData
+    file: widget_fullscreen.lua
+    parameters: [
+      {
+        name: flowchartNodeID
+        type: any
+        optional: false
+        description: ""
+      }
+    ]
+    description: Global access to widgetSystem.getFlowchartNodeExpandedFrameData
+    detailed: ""
+    notes: ""
+    returnType: any
+  }
+  GetFlowchartSelectedCell: {
+    type: direct
+    original: widgetSystem.getFlowchartSelectedCell
+    file: widget_fullscreen.lua
+    parameters: [
+      {
+        name: flowchartID
+        type: any
+        optional: false
+        description: ""
+      }
+    ]
+    description: Global access to widgetSystem.getFlowchartSelectedCell
+    detailed: ""
+    notes: ""
+    returnType: number
+  }
+  GetRenderTargetMousePosition: {
+    type: direct
+    original: widgetSystem.getRenderTargetMousePosition
+    file: widget_fullscreen.lua
+    parameters: [
+      {
+        name: renderTargetID
+        type: any
+        optional: false
+        description: ""
+      }
+    ]
+    description: Global access to widgetSystem.getRenderTargetMousePosition
+    detailed: ""
+    notes: ""
+    returnType: any
+  }
+  GetRenderTargetTexture: {
+    type: direct
+    original: widgetSystem.getRenderTargetTexture
+    file: widget_fullscreen.lua
+    parameters: [
+      {
+        name: renderTargetID
+        type: any
+        optional: false
+        description: ""
+      }
+    ]
+    description: Global access to widgetSystem.getRenderTargetTexture
+    detailed: ""
+    notes: ""
+    returnType: any
+  }
+  GetSelectedRows: {
+    type: direct
+    original: widgetSystem.getSelectedRows
+    file: widget_fullscreen.lua
+    parameters: [
+      {
+        name: tableID
+        type: any
+        optional: false
+        description: ""
+      }
+    ]
+    description: Global access to widgetSystem.getSelectedRows
+    detailed: ""
+    notes: ""
+    returnType: any
+  }
+  GetShiftStartEndRow: {
+    type: direct
+    original: widgetSystem.getShiftStartEndRow
+    file: widget_fullscreen.lua
+    parameters: [
+      {
+        name: tableID
+        type: any
+        optional: false
+        description: ""
+      }
+    ]
+    description: Global access to widgetSystem.getShiftStartEndRow
+    detailed: ""
+    notes: ""
+    returnType: any
+  }
+  GetTopRow: {
+    type: direct
+    original: widgetSystem.getTopRow
+    file: widget_fullscreen.lua
+    parameters: [
+      {
+        name: tableID
+        type: any
+        optional: false
+        description: ""
+      }
+    ]
+    description: Global access to widgetSystem.getTopRow
+    detailed: ""
+    notes: ""
+    returnType: any
+  }
+  GetUsableTableWidth: {
+    type: direct
+    original: widgetSystem.getUsableTableWidth
+    file: widget_fullscreen.lua
+    parameters: [
+      {
+        name: width
+        type: any
+        optional: false
+        description: ""
+      }
+      {
+        name: offsetx
+        type: any
+        optional: false
+        description: ""
+      }
+      {
+        name: numColumns
+        type: any
+        optional: false
+        description: ""
+      }
+      {
+        name: hasScrollBar
+        type: any
+        optional: false
+        description: ""
+      }
+    ]
+    description: Global access to widgetSystem.getUsableTableWidth
+    detailed: ""
+    notes: ""
+    returnType: any
+  }
+  GetWidgetSystemSize: {
+    type: direct
+    original: widgetSystem.getWidgetSystemSize
+    file: widget_fullscreen.lua
+    parameters: []
+    description: Global access to widgetSystem.getWidgetSystemSize
+    detailed: ""
+    notes: ""
+    returnType: any
+  }
+  HideAllCircles: {
+    type: direct
+    original: widgetSystem.hideCircles
+    file: widget_fullscreen.lua
+    parameters: []
+    description: Global access to widgetSystem.hideCircles
+    detailed: ""
+    notes: ""
+    returnType: any
+  }
+  HideAllRects: {
+    type: direct
+    original: widgetSystem.hideRects
+    file: widget_fullscreen.lua
+    parameters: []
+    description: Global access to widgetSystem.hideRects
+    detailed: ""
+    notes: ""
+    returnType: any
+  }
+  HideAllShapes: {
+    type: direct
+    original: widgetSystem.hideAllShapes
+    file: widget_fullscreen.lua
+    parameters: []
+    description: Global access to widgetSystem.hideAllShapes
+    detailed: ""
+    notes: ""
+    returnType: any
+  }
+  HideAllTriangles: {
+    type: direct
+    original: widgetSystem.hideTriangles
+    file: widget_fullscreen.lua
+    parameters: []
+    description: Global access to widgetSystem.hideTriangles
+    detailed: ""
+    notes: ""
+    returnType: any
+  }
+  HideCircle: {
+    type: direct
+    original: widgetSystem.hideCircle
+    file: widget_fullscreen.lua
+    parameters: [
+      {
+        name: id
+        type: any
+        optional: false
+        description: ""
+      }
+    ]
+    description: Global access to widgetSystem.hideCircle
+    detailed: ""
+    notes: ""
+    returnType: any
+  }
+  HideRect: {
+    type: direct
+    original: widgetSystem.hideRect
+    file: widget_fullscreen.lua
+    parameters: [
+      {
+        name: id
+        type: any
+        optional: false
+        description: ""
+      }
+    ]
+    description: Global access to widgetSystem.hideRect
+    detailed: ""
+    notes: ""
+    returnType: any
+  }
+  HideTriangle: {
+    type: direct
+    original: widgetSystem.hideTriangle
+    file: widget_fullscreen.lua
+    parameters: [
+      {
+        name: id
+        type: any
+        optional: false
+        description: ""
+      }
+    ]
+    description: Global access to widgetSystem.hideTriangle
+    detailed: ""
+    notes: ""
+    returnType: any
+  }
+  IsFullscreenWidgetSystem: {
+    type: direct
+    original: widgetSystem.isFullscreenMode
+    file: widget_fullscreen.lua
+    parameters: []
+    description: Global access to widgetSystem.isFullscreenMode
+    detailed: ""
+    notes: ""
+  }
+  RemoveHighlightOverlay: {
+    type: direct
+    original: widgetSystem.removeHelpOverlay
+    file: widget_fullscreen.lua
+    parameters: [
+      {
+        name: id
+        type: any
+        optional: false
+        description: ""
+      }
+    ]
+    description: Global access to widgetSystem.removeHelpOverlay
+    detailed: ""
+    notes: ""
+    returnType: any
+  }
+  SelectColumn: {
+    type: direct
+    original: widgetSystem.selectColumn
+    file: widget_fullscreen.lua
+    parameters: [
+      {
+        name: tableID
+        type: any
+        optional: false
+        description: ""
+      }
+      {
+        name: column
+        type: any
+        optional: false
+        description: ""
+      }
+    ]
+    description: Global access to widgetSystem.selectColumn
+    detailed: ""
+    notes: ""
+    returnType: any
+  }
+  SelectGraphDataPoint: {
+    type: direct
+    original: widgetSystem.selectGraphDataPoint
+    file: widget_fullscreen.lua
+    parameters: [
+      {
+        name: graphID
+        type: any
+        optional: false
+        description: ""
+      }
+      {
+        name: recordIdx
+        type: any
+        optional: false
+        description: ""
+      }
+      {
+        name: dataIdx
+        type: any
+        optional: false
+        description: ""
+      }
+      {
+        name: selected
+        type: any
+        optional: false
+        description: ""
+      }
+    ]
+    description: Global access to widgetSystem.selectGraphDataPoint
+    detailed: ""
+    notes: ""
+    returnType: any
+  }
+  SelectRow: {
+    type: direct
+    original: widgetSystem.selectRowExternal
+    file: widget_fullscreen.lua
+    parameters: [
+      {
+        name: tableID
+        type: any
+        optional: false
+        description: ""
+      }
+      {
+        name: row
+        type: any
+        optional: false
+        description: ""
+      }
+      {
+        name: modified
+        type: any
+        optional: false
+        description: ""
+      }
+      {
+        name: input
+        type: any
+        optional: false
+        description: ""
+      }
+      {
+        name: source
+        type: any
+        optional: false
+        description: ""
+      }
+      {
+        name: settableinteractive
+        type: any
+        optional: false
+        description: ""
+      }
+    ]
+    description: Global access to widgetSystem.selectRowExternal
+    detailed: ""
+    notes: ""
+    returnType: any
+  }
+  SetMouseCursorOverride: {
+    type: direct
+    original: widgetSystem.setMouseCursorOverride
+    file: widget_fullscreen.lua
+    parameters: [
+      {
+        name: cursorIcon
+        type: any
+        optional: false
+        description: ""
+      }
+    ]
+    description: Global access to widgetSystem.setMouseCursorOverride
+    detailed: ""
+    notes: ""
+    returnType: any
+  }
+  SetMouseOverOverride: {
+    type: direct
+    original: widgetSystem.setMouseOverOverride
+    file: widget_fullscreen.lua
+    parameters: [
+      {
+        name: widgetID
+        type: any
+        optional: false
+        description: ""
+      }
+      {
+        name: override
+        type: any
+        optional: false
+        description: ""
+      }
+      {
+        name: forceHide
+        type: any
+        optional: false
+        description: ""
+      }
+    ]
+    description: Global access to widgetSystem.setMouseOverOverride
+    detailed: ""
+    notes: ""
+    returnType: any
+  }
+  SetRenderTargetNoise: {
+    type: direct
+    original: widgetSystem.setRenderTargetNoise
+    file: widget_fullscreen.lua
+    parameters: [
+      {
+        name: renderTargetID
+        type: any
+        optional: false
+        description: ""
+      }
+      {
+        name: active
+        type: any
+        optional: false
+        description: ""
+      }
+    ]
+    description: Global access to widgetSystem.setRenderTargetNoise
+    detailed: ""
+    notes: ""
+    returnType: any
+  }
+  SetSelectedRows: {
+    type: direct
+    original: widgetSystem.setSelectedRows
+    file: widget_fullscreen.lua
+    parameters: [
+      {
+        name: tableID
+        type: any
+        optional: false
+        description: ""
+      }
+      {
+        name: rows
+        type: any
+        optional: false
+        description: ""
+      }
+      {
+        name: curRow
+        type: any
+        optional: false
+        description: ""
+      }
+    ]
+    description: Global access to widgetSystem.setSelectedRows
+    detailed: ""
+    notes: ""
+    returnType: any
+  }
+  SetSliderCellValue: {
+    type: direct
+    original: widgetSystem.setSliderCellValue
+    file: widget_fullscreen.lua
+    parameters: [
+      {
+        name: slidercellID
+        type: any
+        optional: false
+        description: ""
+      }
+      {
+        name: value
+        type: any
+        optional: false
+        description: ""
+      }
+      {
+        name: newmaxselect
+        type: any
+        optional: false
+        description: ""
+      }
+    ]
+    description: Global access to widgetSystem.setSliderCellValue
+    detailed: ""
+    notes: ""
+    returnType: boolean
+  }
+  SetTopRow: {
+    type: direct
+    original: widgetSystem.setTopRow
+    file: widget_fullscreen.lua
+    parameters: [
+      {
+        name: tableID
+        type: any
+        optional: false
+        description: ""
+      }
+      {
+        name: row
+        type: any
+        optional: false
+        description: ""
+      }
+    ]
+    description: Global access to widgetSystem.setTopRow
+    detailed: ""
+    notes: ""
+    returnType: any
+  }
+  ShowHighlightOverlay: {
+    type: direct
+    original: widgetSystem.showHighlightOverlay
+    file: widget_fullscreen.lua
+    parameters: [
+      {
+        name: id
+        type: any
+        optional: false
+        description: ""
+      }
+    ]
+    description: Global access to widgetSystem.showHighlightOverlay
+    detailed: ""
+    notes: ""
+    returnType: any
+  }
+}

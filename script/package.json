@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "hjson": "^3.2.2",
+    "jsdom": "^26.0.0",
+    "turndown": "^7.2.0"
+  }
+}

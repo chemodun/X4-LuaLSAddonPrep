@@ -1,0 +1,7141 @@
+{
+  activateEditBox: {
+    name: activateEditBox
+    parameters: [
+      {
+        name: tableobj
+        type: any
+        description: ""
+      }
+      {
+        name: row
+        type: any
+        description: ""
+      }
+      {
+        name: col
+        type: any
+        description: ""
+      }
+      {
+        name: cursorpos
+        type: any
+        description: ""
+      }
+      {
+        name: shiftstartpos
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  activateSliderCellInput: {
+    name: activateSliderCellInput
+    parameters: [
+      {
+        name: tableobj
+        type: any
+        description: ""
+      }
+      {
+        name: row
+        type: any
+        description: ""
+      }
+      {
+        name: col
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  addConversationReturnHandler: {
+    name: addConversationReturnHandler
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  addDelayedOneTimeCallbackOnUpdate: {
+    name: addDelayedOneTimeCallbackOnUpdate
+    parameters: [
+      {
+        name: callback
+        type: any
+        description: ""
+      }
+      {
+        name: blockinput
+        type: any
+        description: ""
+      }
+      {
+        name: delaytime
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  addDisplayedMenu: {
+    name: addDisplayedMenu
+    parameters: [
+      {
+        name: array
+        type: any
+        description: ""
+      }
+      {
+        name: index
+        type: any
+        description: ""
+      }
+      {
+        name: offset
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  addShipComparison: {
+    name: addShipComparison
+    parameters: [
+      {
+        name: id
+        type: any
+        description: ""
+      }
+      {
+        name: macro
+        type: any
+        description: ""
+      }
+      {
+        name: upgradeplan
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  addTableDescRowDataMap: {
+    name: addTableDescRowDataMap
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+      {
+        name: desc
+        type: any
+        description: ""
+      }
+      {
+        name: rowdatamap
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  addTableIndexRowDataMap: {
+    name: addTableIndexRowDataMap
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+      {
+        name: tableidx
+        type: any
+        description: ""
+      }
+      {
+        name: rowdatamap
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  buttonAddContact: {
+    name: buttonAddContact
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+      {
+        name: userid
+        type: any
+        description: ""
+      }
+      {
+        name: block
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  buttonAddForumUser: {
+    name: buttonAddForumUser
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+      {
+        name: instance
+        type: any
+        description: ""
+      }
+      {
+        name: userid
+        type: any
+        description: ""
+      }
+      {
+        name: block
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  buttonCancelTrade: {
+    name: buttonCancelTrade
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+      {
+        name: container
+        type: any
+        description: ""
+      }
+      {
+        name: tradeid
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  buttonCancelTradeActive: {
+    name: buttonCancelTradeActive
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+      {
+        name: container
+        type: any
+        description: ""
+      }
+      {
+        name: tradeid
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  buttonContactMessage: {
+    name: buttonContactMessage
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+      {
+        name: id
+        type: any
+        description: ""
+      }
+      {
+        name: name
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  buttonCreateFriendListContext: {
+    name: buttonCreateFriendListContext
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  buttonDropWares: {
+    name: buttonDropWares
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  buttonEditTradeRule: {
+    name: buttonEditTradeRule
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+      {
+        name: traderuleid
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  buttonExpandTransactionEntry: {
+    name: buttonExpandTransactionEntry
+    parameters: [
+      {
+        name: buttondata
+        type: any
+        description: ""
+      }
+      {
+        name: row
+        type: any
+        description: ""
+      }
+      {
+        name: refreshCallback
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  buttonImportFriendList: {
+    name: buttonImportFriendList
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  buttonImportFriendListActive: {
+    name: buttonImportFriendListActive
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  buttonMuteContact: {
+    name: buttonMuteContact
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+      {
+        name: userid
+        type: any
+        description: ""
+      }
+      {
+        name: mute
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  buttonRemoveContact: {
+    name: buttonRemoveContact
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+      {
+        name: userid
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  buttonReportContact: {
+    name: buttonReportContact
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+      {
+        name: userid
+        type: any
+        description: ""
+      }
+      {
+        name: reason
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  buttonRightBar: {
+    name: buttonRightBar
+    parameters: [
+      {
+        name: container
+        type: any
+        description: ""
+      }
+      {
+        name: currentmode
+        type: any
+        description: ""
+      }
+      {
+        name: callback
+        type: any
+        description: ""
+      }
+      {
+        name: selfcallback
+        type: any
+        description: ""
+      }
+      {
+        name: mode
+        type: any
+        description: ""
+      }
+      {
+        name: row
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  buttonStorageBuyProductWare: {
+    name: buttonStorageBuyProductWare
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+      {
+        name: container64
+        type: any
+        description: ""
+      }
+      {
+        name: ware
+        type: any
+        description: ""
+      }
+      {
+        name: haslimitoverride
+        type: any
+        description: ""
+      }
+      {
+        name: currentlimit
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  buttonStorageBuyTradeWare: {
+    name: buttonStorageBuyTradeWare
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+      {
+        name: container64
+        type: any
+        description: ""
+      }
+      {
+        name: ware
+        type: any
+        description: ""
+      }
+      {
+        name: istradewarebought
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  buttonStorageSellResourceWare: {
+    name: buttonStorageSellResourceWare
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+      {
+        name: container64
+        type: any
+        description: ""
+      }
+      {
+        name: ware
+        type: any
+        description: ""
+      }
+      {
+        name: haslimitoverride
+        type: any
+        description: ""
+      }
+      {
+        name: currentlimit
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  buttonStorageSellTradeWare: {
+    name: buttonStorageSellTradeWare
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+      {
+        name: container64
+        type: any
+        description: ""
+      }
+      {
+        name: ware
+        type: any
+        description: ""
+      }
+      {
+        name: istradewaresold
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  buttonTransactionLogZoom: {
+    name: buttonTransactionLogZoom
+    parameters: [
+      {
+        name: direction
+        type: any
+        description: ""
+      }
+      {
+        name: refreshCallback
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  buttonVentureContactsSubMode: {
+    name: buttonVentureContactsSubMode
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+      {
+        name: mode
+        type: any
+        description: ""
+      }
+      {
+        name: col
+        type: any
+        description: ""
+      }
+      {
+        name: instance
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  callExtensionFunction: {
+    name: callExtensionFunction
+    parameters: [
+      {
+        name: extensionid
+        type: any
+        description: ""
+      }
+      {
+        name: functionname
+        type: any
+        description: ""
+      }
+      {
+        name: ...
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  callLoadoutFunction: {
+    name: callLoadoutFunction
+    parameters: [
+      {
+        name: upgradeplan
+        type: any
+        description: ""
+      }
+      {
+        name: crewplan
+        type: any
+        description: ""
+      }
+      {
+        name: func
+        type: any
+        description: ""
+      }
+      {
+        name: clear
+        type: any
+        description: ""
+      }
+      {
+        name: loadoutType
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  cancelEditBoxInput: {
+    name: cancelEditBoxInput
+    parameters: [
+      {
+        name: tableobj
+        type: any
+        description: ""
+      }
+      {
+        name: row
+        type: any
+        description: ""
+      }
+      {
+        name: col
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  checkboxBuyLimitOverride: {
+    name: checkboxBuyLimitOverride
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+      {
+        name: container
+        type: any
+        description: ""
+      }
+      {
+        name: ware
+        type: any
+        description: ""
+      }
+      {
+        name: row
+        type: any
+        description: ""
+      }
+      {
+        name: currentlimit
+        type: any
+        description: ""
+      }
+      {
+        name: checked
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  checkboxSellLimitOverride: {
+    name: checkboxSellLimitOverride
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+      {
+        name: container
+        type: any
+        description: ""
+      }
+      {
+        name: ware
+        type: any
+        description: ""
+      }
+      {
+        name: row
+        type: any
+        description: ""
+      }
+      {
+        name: currentlimit
+        type: any
+        description: ""
+      }
+      {
+        name: checked
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  checkboxSetTradeRuleOverride: {
+    name: checkboxSetTradeRuleOverride
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+      {
+        name: container
+        type: any
+        description: ""
+      }
+      {
+        name: type
+        type: any
+        description: ""
+      }
+      {
+        name: ware
+        type: any
+        description: ""
+      }
+      {
+        name: checked
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  checkboxStorageLevelOverride: {
+    name: checkboxStorageLevelOverride
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+      {
+        name: container
+        type: any
+        description: ""
+      }
+      {
+        name: ware
+        type: any
+        description: ""
+      }
+      {
+        name: row
+        type: any
+        description: ""
+      }
+      {
+        name: currentlimit
+        type: any
+        description: ""
+      }
+      {
+        name: checked
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  checkboxStorageWarePriceOverride: {
+    name: checkboxStorageWarePriceOverride
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+      {
+        name: container
+        type: any
+        description: ""
+      }
+      {
+        name: ware
+        type: any
+        description: ""
+      }
+      {
+        name: row
+        type: any
+        description: ""
+      }
+      {
+        name: buysellswitch
+        type: any
+        description: ""
+      }
+      {
+        name: price
+        type: any
+        description: ""
+      }
+      {
+        name: checked
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  checkDiscardStationEditorChanges: {
+    name: checkDiscardStationEditorChanges
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+      {
+        name: dueToClose
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  checkTopLevelConditions: {
+    name: checkTopLevelConditions
+    parameters: [
+      {
+        name: entry
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  clearBuyLimit: {
+    name: clearBuyLimit
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+      {
+        name: container64
+        type: any
+        description: ""
+      }
+      {
+        name: ware
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  clearChatUpdateHandler: {
+    name: clearChatUpdateHandler
+    parameters: []
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  clearDataForRefresh: {
+    name: clearDataForRefresh
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+      {
+        name: layer
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  clearFrame: {
+    name: clearFrame
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+      {
+        name: layer
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  clearMenu: {
+    name: clearMenu
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  clearSellLimit: {
+    name: clearSellLimit
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+      {
+        name: container64
+        type: any
+        description: ""
+      }
+      {
+        name: ware
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  clearShipComparisonData: {
+    name: clearShipComparisonData
+    parameters: []
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  clearStationEditorState: {
+    name: clearStationEditorState
+    parameters: []
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  clearTableConnectionColumn: {
+    name: clearTableConnectionColumn
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+      {
+        name: col
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  closeDropDownOptions: {
+    name: closeDropDownOptions
+    parameters: [
+      {
+        name: tableobj
+        type: any
+        description: ""
+      }
+      {
+        name: row
+        type: any
+        description: ""
+      }
+      {
+        name: col
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  closeInteractMenu: {
+    name: closeInteractMenu
+    parameters: []
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  closeMenu: {
+    name: closeMenu
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+      {
+        name: dueToClose
+        type: any
+        description: ""
+      }
+      {
+        name: allowAutoMenu
+        type: any
+        description: ""
+      }
+      {
+        name: sound
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  closeMenuAndCancel: {
+    name: closeMenuAndCancel
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  closeMenuAndOpenNewMenu: {
+    name: closeMenuAndOpenNewMenu
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+      {
+        name: newname
+        type: any
+        description: ""
+      }
+      {
+        name: param
+        type: any
+        description: ""
+      }
+      {
+        name: noreturn
+        type: any
+        description: ""
+      }
+      {
+        name: quickaccess
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  closeMenuAndReturn: {
+    name: closeMenuAndReturn
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+      {
+        name: returnparam
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  closeMenuForNewConversation: {
+    name: closeMenuForNewConversation
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+      {
+        name: conversation
+        type: any
+        description: ""
+      }
+      {
+        name: actor
+        type: any
+        description: ""
+      }
+      {
+        name: convparam
+        type: any
+        description: ""
+      }
+      {
+        name: disablereturn
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  closeMenuForSection: {
+    name: closeMenuForSection
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+      {
+        name: nextsection
+        type: any
+        description: ""
+      }
+      {
+        name: choiceparam
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  closeMenuForSubConversation: {
+    name: closeMenuForSubConversation
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+      {
+        name: nextconversation
+        type: any
+        description: ""
+      }
+      {
+        name: nextactor
+        type: any
+        description: ""
+      }
+      {
+        name: convparam
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  closeMenuForSubSection: {
+    name: closeMenuForSubSection
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+      {
+        name: nextsection
+        type: any
+        description: ""
+      }
+      {
+        name: choiceparam
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  closeMinimizedMenus: {
+    name: closeMinimizedMenus
+    parameters: []
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  comparePositions: {
+    name: comparePositions
+    parameters: [
+      {
+        name: pos1
+        type: any
+        description: ""
+      }
+      {
+        name: pos2
+        type: any
+        description: ""
+      }
+      {
+        name: deviation
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  confirmEditBoxInput: {
+    name: confirmEditBoxInput
+    parameters: [
+      {
+        name: tableobj
+        type: any
+        description: ""
+      }
+      {
+        name: row
+        type: any
+        description: ""
+      }
+      {
+        name: col
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  contactSearchHelper: {
+    name: contactSearchHelper
+    parameters: [
+      {
+        name: entry
+        type: any
+        description: ""
+      }
+      {
+        name: text
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  convertColorToText: {
+    name: convertColorToText
+    parameters: [
+      {
+        name: color
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  convertComponentIDs: {
+    name: convertComponentIDs
+    parameters: [
+      {
+        name: input
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  convertGameTimeToXTimeString: {
+    name: convertGameTimeToXTimeString
+    parameters: [
+      {
+        name: time
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  convertLoadout: {
+    name: convertLoadout
+    parameters: [
+      {
+        name: object
+        type: any
+        description: ""
+      }
+      {
+        name: macro
+        type: any
+        description: ""
+      }
+      {
+        name: loadout
+        type: any
+        description: ""
+      }
+      {
+        name: softwaredata
+        type: any
+        description: ""
+      }
+      {
+        name: loadoutType
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  convertLoadoutStats: {
+    name: convertLoadoutStats
+    parameters: [
+      {
+        name: stats
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  createButton: {
+    name: createButton
+    parameters: [
+      {
+        name: text
+        type: any
+        description: ""
+      }
+      {
+        name: icon
+        type: any
+        description: ""
+      }
+      {
+        name: noscaling
+        type: any
+        description: ""
+      }
+      {
+        name: active
+        type: any
+        description: ""
+      }
+      {
+        name: offsetx
+        type: any
+        description: ""
+      }
+      {
+        name: offsety
+        type: any
+        description: ""
+      }
+      {
+        name: width
+        type: any
+        description: ""
+      }
+      {
+        name: height
+        type: any
+        description: ""
+      }
+      {
+        name: color
+        type: any
+        description: ""
+      }
+      {
+        name: hotkey
+        type: any
+        description: ""
+      }
+      {
+        name: icon2
+        type: any
+        description: ""
+      }
+      {
+        name: mouseovertext
+        type: any
+        description: ""
+      }
+      {
+        name: helpoverlayid
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  createButtonIcon: {
+    name: createButtonIcon
+    parameters: [
+      {
+        name: icon
+        type: any
+        description: ""
+      }
+      {
+        name: swapicon
+        type: any
+        description: ""
+      }
+      {
+        name: red
+        type: any
+        description: ""
+      }
+      {
+        name: green
+        type: any
+        description: ""
+      }
+      {
+        name: blue
+        type: any
+        description: ""
+      }
+      {
+        name: alpha
+        type: any
+        description: ""
+      }
+      {
+        name: width
+        type: any
+        description: ""
+      }
+      {
+        name: height
+        type: any
+        description: ""
+      }
+      {
+        name: offsetx
+        type: any
+        description: ""
+      }
+      {
+        name: offsety
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  createDropDown: {
+    name: createDropDown
+    parameters: [
+      {
+        name: options
+        type: any
+        description: ""
+      }
+      {
+        name: startoption
+        type: any
+        description: ""
+      }
+      {
+        name: text
+        type: any
+        description: ""
+      }
+      {
+        name: icon
+        type: any
+        description: ""
+      }
+      {
+        name: noscaling
+        type: any
+        description: ""
+      }
+      {
+        name: active
+        type: any
+        description: ""
+      }
+      {
+        name: offsetx
+        type: any
+        description: ""
+      }
+      {
+        name: offsety
+        type: any
+        description: ""
+      }
+      {
+        name: width
+        type: any
+        description: ""
+      }
+      {
+        name: height
+        type: any
+        description: ""
+      }
+      {
+        name: color
+        type: any
+        description: ""
+      }
+      {
+        name: hotkey
+        type: any
+        description: ""
+      }
+      {
+        name: mouseovertext
+        type: any
+        description: ""
+      }
+      {
+        name: optionwidth
+        type: any
+        description: ""
+      }
+      {
+        name: allowmouseoverinteraction
+        type: any
+        description: ""
+      }
+      {
+        name: optionheight
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  createDropWaresContext: {
+    name: createDropWaresContext
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+      {
+        name: frame
+        type: any
+        description: ""
+      }
+      {
+        name: instance
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  createEditBox: {
+    name: createEditBox
+    parameters: [
+      {
+        name: text
+        type: any
+        description: ""
+      }
+      {
+        name: noscaling
+        type: any
+        description: ""
+      }
+      {
+        name: offsetx
+        type: any
+        description: ""
+      }
+      {
+        name: offsety
+        type: any
+        description: ""
+      }
+      {
+        name: width
+        type: any
+        description: ""
+      }
+      {
+        name: height
+        type: any
+        description: ""
+      }
+      {
+        name: color
+        type: any
+        description: ""
+      }
+      {
+        name: hotkey
+        type: any
+        description: ""
+      }
+      {
+        name: closemenuonback
+        type: any
+        description: ""
+      }
+      {
+        name: mouseovertext
+        type: any
+        description: ""
+      }
+      {
+        name: defaulttext
+        type: any
+        description: ""
+      }
+      {
+        name: texthidden
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  createFrameHandle: {
+    name: createFrameHandle
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+      {
+        name: properties
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  createLSOStorageNode: {
+    name: createLSOStorageNode
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+      {
+        name: container
+        type: any
+        description: ""
+      }
+      {
+        name: ware
+        type: any
+        description: ""
+      }
+      {
+        name: planned
+        type: any
+        description: ""
+      }
+      {
+        name: hasstorage
+        type: any
+        description: ""
+      }
+      {
+        name: iscargo
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  createPlayerInfoConfig: {
+    name: createPlayerInfoConfig
+    parameters: []
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  createRightSideBar: {
+    name: createRightSideBar
+    parameters: [
+      {
+        name: frame
+        type: any
+        description: ""
+      }
+      {
+        name: container
+        type: any
+        description: ""
+      }
+      {
+        name: condition
+        type: any
+        description: ""
+      }
+      {
+        name: currentmode
+        type: any
+        description: ""
+      }
+      {
+        name: callback
+        type: any
+        description: ""
+      }
+      {
+        name: selfcallback
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  createScriptValueWrapper: {
+    name: createScriptValueWrapper
+    parameters: [
+      {
+        name: type
+        type: any
+        description: ""
+      }
+      {
+        name: value
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  createSliderCell: {
+    name: createSliderCell
+    parameters: [
+      {
+        name: text
+        type: any
+        description: ""
+      }
+      {
+        name: noscaling
+        type: any
+        description: ""
+      }
+      {
+        name: offsetx
+        type: any
+        description: ""
+      }
+      {
+        name: offsety
+        type: any
+        description: ""
+      }
+      {
+        name: width
+        type: any
+        description: ""
+      }
+      {
+        name: height
+        type: any
+        description: ""
+      }
+      {
+        name: bgcolor
+        type: any
+        description: ""
+      }
+      {
+        name: valuecolor
+        type: any
+        description: ""
+      }
+      {
+        name: scale
+        type: any
+        description: ""
+      }
+      {
+        name: mouseovertext
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  createTextInfo: {
+    name: createTextInfo
+    parameters: [
+      {
+        name: text
+        type: any
+        description: ""
+      }
+      {
+        name: alignment
+        type: any
+        description: ""
+      }
+      {
+        name: fontname
+        type: any
+        description: ""
+      }
+      {
+        name: fontsize
+        type: any
+        description: ""
+      }
+      {
+        name: red
+        type: any
+        description: ""
+      }
+      {
+        name: green
+        type: any
+        description: ""
+      }
+      {
+        name: blue
+        type: any
+        description: ""
+      }
+      {
+        name: alpha
+        type: any
+        description: ""
+      }
+      {
+        name: offsetx
+        type: any
+        description: ""
+      }
+      {
+        name: offsety
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  createTopLevelConfig: {
+    name: createTopLevelConfig
+    parameters: []
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  createTopLevelTab: {
+    name: createTopLevelTab
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+      {
+        name: id
+        type: any
+        description: ""
+      }
+      {
+        name: frame
+        type: any
+        description: ""
+      }
+      {
+        name: overrideText
+        type: any
+        description: ""
+      }
+      {
+        name: locked
+        type: any
+        description: ""
+      }
+      {
+        name: noreturn
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  createTransactionLog: {
+    name: createTransactionLog
+    parameters: [
+      {
+        name: frame
+        type: any
+        description: ""
+      }
+      {
+        name: container
+        type: any
+        description: ""
+      }
+      {
+        name: tableProperties
+        type: any
+        description: ""
+      }
+      {
+        name: refreshCallback
+        type: any
+        description: ""
+      }
+      {
+        name: selectionData
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  createUserQuestionContext: {
+    name: createUserQuestionContext
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+      {
+        name: frame
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  createVentureContactContext: {
+    name: createVentureContactContext
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+      {
+        name: frame
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  createVentureContacts: {
+    name: createVentureContacts
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+      {
+        name: frame
+        type: any
+        description: ""
+      }
+      {
+        name: instance
+        type: any
+        description: ""
+      }
+      {
+        name: width
+        type: any
+        description: ""
+      }
+      {
+        name: x
+        type: any
+        description: ""
+      }
+      {
+        name: y
+        type: any
+        description: ""
+      }
+      {
+        name: globalx
+        type: any
+        description: ""
+      }
+      {
+        name: globaly
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  createVentureContactsHeader: {
+    name: createVentureContactsHeader
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+      {
+        name: frame
+        type: any
+        description: ""
+      }
+      {
+        name: instance
+        type: any
+        description: ""
+      }
+      {
+        name: x
+        type: any
+        description: ""
+      }
+      {
+        name: y
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  createVentureContactsTab: {
+    name: createVentureContactsTab
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+      {
+        name: frame
+        type: any
+        description: ""
+      }
+      {
+        name: instance
+        type: any
+        description: ""
+      }
+      {
+        name: mode
+        type: any
+        description: ""
+      }
+      {
+        name: width
+        type: any
+        description: ""
+      }
+      {
+        name: x
+        type: any
+        description: ""
+      }
+      {
+        name: y
+        type: any
+        description: ""
+      }
+      {
+        name: globalx
+        type: any
+        description: ""
+      }
+      {
+        name: globaly
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  diffpercent: {
+    name: diffpercent
+    parameters: [
+      {
+        name: x
+        type: any
+        description: ""
+      }
+      {
+        name: isbuyoffer
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  disableAutoMouseEmulation: {
+    name: disableAutoMouseEmulation
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  displaySkill: {
+    name: displaySkill
+    parameters: [
+      {
+        name: skill
+        type: any
+        description: ""
+      }
+      {
+        name: usebold
+        type: any
+        description: ""
+      }
+      {
+        name: noemptystars
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  displayStars: {
+    name: displayStars
+    parameters: [
+      {
+        name: progress
+        type: any
+        description: ""
+      }
+      {
+        name: total
+        type: any
+        description: ""
+      }
+      {
+        name: usebold
+        type: any
+        description: ""
+      }
+      {
+        name: noemptystars
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  drawCircle: {
+    name: drawCircle
+    parameters: [
+      {
+        name: radius
+        type: any
+        description: ""
+      }
+      {
+        name: centerx
+        type: any
+        description: ""
+      }
+      {
+        name: centery
+        type: any
+        description: ""
+      }
+      {
+        name: z
+        type: any
+        description: ""
+      }
+      {
+        name: color
+        type: any
+        description: ""
+      }
+      {
+        name: noscaling
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  drawEllipse: {
+    name: drawEllipse
+    parameters: [
+      {
+        name: radiusx
+        type: any
+        description: ""
+      }
+      {
+        name: radiusy
+        type: any
+        description: ""
+      }
+      {
+        name: centerx
+        type: any
+        description: ""
+      }
+      {
+        name: centery
+        type: any
+        description: ""
+      }
+      {
+        name: z
+        type: any
+        description: ""
+      }
+      {
+        name: color
+        type: any
+        description: ""
+      }
+      {
+        name: noscaling
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  drawLine: {
+    name: drawLine
+    parameters: [
+      {
+        name: startpos
+        type: any
+        description: ""
+      }
+      {
+        name: endpos
+        type: any
+        description: ""
+      }
+      {
+        name: thickness
+        type: any
+        description: ""
+      }
+      {
+        name: z
+        type: any
+        description: ""
+      }
+      {
+        name: color
+        type: any
+        description: ""
+      }
+      {
+        name: noscaling
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  drawRectangle: {
+    name: drawRectangle
+    parameters: [
+      {
+        name: width
+        type: any
+        description: ""
+      }
+      {
+        name: height
+        type: any
+        description: ""
+      }
+      {
+        name: offsetx
+        type: any
+        description: ""
+      }
+      {
+        name: offsety
+        type: any
+        description: ""
+      }
+      {
+        name: angle
+        type: any
+        description: ""
+      }
+      {
+        name: z
+        type: any
+        description: ""
+      }
+      {
+        name: color
+        type: any
+        description: ""
+      }
+      {
+        name: noscaling
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  drawTriangle: {
+    name: drawTriangle
+    parameters: [
+      {
+        name: width
+        type: any
+        description: ""
+      }
+      {
+        name: height
+        type: any
+        description: ""
+      }
+      {
+        name: offsetx
+        type: any
+        description: ""
+      }
+      {
+        name: offsety
+        type: any
+        description: ""
+      }
+      {
+        name: angle
+        type: any
+        description: ""
+      }
+      {
+        name: z
+        type: any
+        description: ""
+      }
+      {
+        name: color
+        type: any
+        description: ""
+      }
+      {
+        name: noscaling
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  dropdownAssignment: {
+    name: dropdownAssignment
+    parameters: [
+      {
+        name: _
+        type: any
+        description: ""
+      }
+      {
+        name: ship
+        type: any
+        description: ""
+      }
+      {
+        name: subordinategroupid
+        type: any
+        description: ""
+      }
+      {
+        name: commander
+        type: any
+        description: ""
+      }
+      {
+        name: newassignment
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  dropdownDropWaresLockbox: {
+    name: dropdownDropWaresLockbox
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+      {
+        name: id
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  dropdownTradeRule: {
+    name: dropdownTradeRule
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+      {
+        name: container
+        type: any
+        description: ""
+      }
+      {
+        name: type
+        type: any
+        description: ""
+      }
+      {
+        name: ware
+        type: any
+        description: ""
+      }
+      {
+        name: id
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  editboxTransactionLogPage: {
+    name: editboxTransactionLogPage
+    parameters: [
+      {
+        name: text
+        type: any
+        description: ""
+      }
+      {
+        name: textchanged
+        type: any
+        description: ""
+      }
+      {
+        name: refreshCallback
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  editboxVentureContactsPage: {
+    name: editboxVentureContactsPage
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+      {
+        name: instance
+        type: any
+        description: ""
+      }
+      {
+        name: text
+        type: any
+        description: ""
+      }
+      {
+        name: textchanged
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  editboxVentureContactsPageActivated: {
+    name: editboxVentureContactsPageActivated
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+      {
+        name: widget
+        type: any
+        description: ""
+      }
+      {
+        name: instance
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  editboxVentureFindForumUser: {
+    name: editboxVentureFindForumUser
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+      {
+        name: instance
+        type: any
+        description: ""
+      }
+      {
+        name: text
+        type: any
+        description: ""
+      }
+      {
+        name: textchanged
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  enableAutoMouseEmulation: {
+    name: enableAutoMouseEmulation
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  estimateString: {
+    name: estimateString
+    parameters: [
+      {
+        name: estimated
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  evaluateTopLevelParam: {
+    name: evaluateTopLevelParam
+    parameters: [
+      {
+        name: params
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  evaluateTopLevelParamHelper: {
+    name: evaluateTopLevelParamHelper
+    parameters: [
+      {
+        name: param
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  ffiClearNewHelper: {
+    name: ffiClearNewHelper
+    parameters: []
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  ffiColor: {
+    name: ffiColor
+    parameters: [
+      {
+        name: color
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  ffiNewHelper: {
+    name: ffiNewHelper
+    parameters: [
+      {
+        name: ...
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  ffiNewString: {
+    name: ffiNewString
+    parameters: [
+      {
+        name: string
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  ffiVLA: {
+    name: ffiVLA
+    parameters: [
+      {
+        name: result
+        type: any
+        description: ""
+      }
+      {
+        name: vlaType
+        type: any
+        description: ""
+      }
+      {
+        name: vlaSizeFunction
+        type: any
+        description: ""
+      }
+      {
+        name: vlaFunction
+        type: any
+        description: ""
+      }
+      {
+        name: ...
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  findFrameLayer: {
+    name: findFrameLayer
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+      {
+        name: widget
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  findUpgradeType: {
+    name: findUpgradeType
+    parameters: [
+      {
+        name: type
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  findUpgradeTypeByGroupType: {
+    name: findUpgradeTypeByGroupType
+    parameters: [
+      {
+        name: grouptype
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  floor: {
+    name: floor
+    parameters: [
+      {
+        name: x
+        type: any
+        description: ""
+      }
+      {
+        name: digits
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  formatOptionalShortcut: {
+    name: formatOptionalShortcut
+    parameters: [
+      {
+        name: format
+        type: any
+        description: ""
+      }
+      {
+        name: inputtype
+        type: any
+        description: ""
+      }
+      {
+        name: inputid
+        type: any
+        description: ""
+      }
+      {
+        name: fallback
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  formatTimeLeft: {
+    name: formatTimeLeft
+    parameters: [
+      {
+        name: timeleft
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  getBlackLists: {
+    name: getBlackLists
+    parameters: []
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  getClassText: {
+    name: getClassText
+    parameters: [
+      {
+        name: class
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  getContainerWareType: {
+    name: getContainerWareType
+    parameters: [
+      {
+        name: container
+        type: any
+        description: ""
+      }
+      {
+        name: ware
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  getCurrentRowData: {
+    name: getCurrentRowData
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+      {
+        name: uitable
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  getDisplayableGateDestinationSpace: {
+    name: getDisplayableGateDestinationSpace
+    parameters: [
+      {
+        name: gate
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  getEmptyCellDescriptor: {
+    name: getEmptyCellDescriptor
+    parameters: []
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  getETAString: {
+    name: getETAString
+    parameters: [
+      {
+        name: name
+        type: any
+        description: ""
+      }
+      {
+        name: eta
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  getFightRules: {
+    name: getFightRules
+    parameters: []
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  getHoloMapColors: {
+    name: getHoloMapColors
+    parameters: []
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  getInputMouseOverText: {
+    name: getInputMouseOverText
+    parameters: [
+      {
+        name: input
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  getInstalledModInfo: {
+    name: getInstalledModInfo
+    parameters: [
+      {
+        name: type
+        type: any
+        description: ""
+      }
+      {
+        name: component
+        type: any
+        description: ""
+      }
+      {
+        name: context
+        type: any
+        description: ""
+      }
+      {
+        name: group
+        type: any
+        description: ""
+      }
+      {
+        name: isgroup
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  getLimitedWareAmount: {
+    name: getLimitedWareAmount
+    parameters: [
+      {
+        name: ware
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  getLoadoutHelper: {
+    name: getLoadoutHelper
+    parameters: [
+      {
+        name: getLoadout
+        type: any
+        description: ""
+      }
+      {
+        name: getLoadoutCounts
+        type: any
+        description: ""
+      }
+      {
+        name: ...
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  getLoadoutHelper2: {
+    name: getLoadoutHelper2
+    parameters: [
+      {
+        name: getLoadout
+        type: any
+        description: ""
+      }
+      {
+        name: getLoadoutCounts
+        type: any
+        description: ""
+      }
+      {
+        name: loadoutType
+        type: any
+        description: ""
+      }
+      {
+        name: ...
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  getMacroTurretModes: {
+    name: getMacroTurretModes
+    parameters: [
+      {
+        name: turret
+        type: any
+        description: ""
+      }
+      {
+        name: forall
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  getMenu: {
+    name: getMenu
+    parameters: [
+      {
+        name: name
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  getPassedTime: {
+    name: getPassedTime
+    parameters: [
+      {
+        name: time
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  getPassedUTCTime: {
+    name: getPassedUTCTime
+    parameters: [
+      {
+        name: time
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  getPlayerLogoColor: {
+    name: getPlayerLogoColor
+    parameters: []
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  getProjectEntry: {
+    name: getProjectEntry
+    parameters: [
+      {
+        name: cluster
+        type: any
+        description: ""
+      }
+      {
+        name: buffer
+        type: any
+        description: ""
+      }
+      {
+        name: isevent
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  getRelativeRenderTargetSize: {
+    name: getRelativeRenderTargetSize
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+      {
+        name: layer
+        type: any
+        description: ""
+      }
+      {
+        name: rendertarget
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  getResourceBufferAmount: {
+    name: getResourceBufferAmount
+    parameters: [
+      {
+        name: container
+        type: any
+        description: ""
+      }
+      {
+        name: ware
+        type: any
+        description: ""
+      }
+      {
+        name: storageinfo_amounts
+        type: any
+        description: ""
+      }
+      {
+        name: accuracy
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  getShipComparisonMacro: {
+    name: getShipComparisonMacro
+    parameters: [
+      {
+        name: id
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  getShipComparisonUpgradeplan: {
+    name: getShipComparisonUpgradeplan
+    parameters: [
+      {
+        name: id
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  getSlotSizeText: {
+    name: getSlotSizeText
+    parameters: [
+      {
+        name: slotsize
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  getStorageAmount: {
+    name: getStorageAmount
+    parameters: [
+      {
+        name: container
+        type: any
+        description: ""
+      }
+      {
+        name: nodedata
+        type: any
+        description: ""
+      }
+      {
+        name: storageinfo_amounts
+        type: any
+        description: ""
+      }
+      {
+        name: storageinfo_capacity
+        type: any
+        description: ""
+      }
+      {
+        name: accuracy
+        type: any
+        description: ""
+      }
+      {
+        name: showvolume
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  getSuitableControlEntities: {
+    name: getSuitableControlEntities
+    parameters: [
+      {
+        name: object
+        type: any
+        description: ""
+      }
+      {
+        name: getshiptrader
+        type: any
+        description: ""
+      }
+      {
+        name: onlynpcs
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  getSyncPointName: {
+    name: getSyncPointName
+    parameters: [
+      {
+        name: id
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  getTopLevelMenuIndex: {
+    name: getTopLevelMenuIndex
+    parameters: [
+      {
+        name: index
+        type: any
+        description: ""
+      }
+      {
+        name: offset
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  getTurretModes: {
+    name: getTurretModes
+    parameters: [
+      {
+        name: turret
+        type: any
+        description: ""
+      }
+      {
+        name: forall
+        type: any
+        description: ""
+      }
+      {
+        name: helpoverlayprefix
+        type: any
+        description: ""
+      }
+      {
+        name: counter
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  getUTCTime: {
+    name: getUTCTime
+    parameters: [
+      {
+        name: time
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  getWorkforceConsumption: {
+    name: getWorkforceConsumption
+    parameters: [
+      {
+        name: container
+        type: any
+        description: ""
+      }
+      {
+        name: ware
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  graphDataSelection: {
+    name: graphDataSelection
+    parameters: [
+      {
+        name: data
+        type: any
+        description: ""
+      }
+      {
+        name: refreshCallback
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  handleCreatedTables: {
+    name: handleCreatedTables
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+      {
+        name: tables
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  handleTableDesc: {
+    name: handleTableDesc
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+      {
+        name: descriptors
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  hasExtension: {
+    name: hasExtension
+    parameters: [
+      {
+        name: extensionid
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  hasVentureRewards: {
+    name: hasVentureRewards
+    parameters: []
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  indentText: {
+    name: indentText
+    parameters: [
+      {
+        name: text
+        type: any
+        description: ""
+      }
+      {
+        name: indentstring
+        type: any
+        description: ""
+      }
+      {
+        name: textboxwidth
+        type: any
+        description: ""
+      }
+      {
+        name: font
+        type: any
+        description: ""
+      }
+      {
+        name: fontsize
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  interpolatePriceColor: {
+    name: interpolatePriceColor
+    parameters: [
+      {
+        name: ware
+        type: any
+        description: ""
+      }
+      {
+        name: price
+        type: any
+        description: ""
+      }
+      {
+        name: isselloffer
+        type: any
+        description: ""
+      }
+      {
+        name: darkbasecolor
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  isOnlineGame: {
+    name: isOnlineGame
+    parameters: []
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  isPlayerCovered: {
+    name: isPlayerCovered
+    parameters: []
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  isTradeRestricted: {
+    name: isTradeRestricted
+    parameters: [
+      {
+        name: container
+        type: any
+        description: ""
+      }
+      {
+        name: ware
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  minimizeMenu: {
+    name: minimizeMenu
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+      {
+        name: text
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  modPropertyEval2Float: {
+    name: modPropertyEval2Float
+    parameters: [
+      {
+        name: basevalue
+        type: any
+        description: ""
+      }
+      {
+        name: value
+        type: any
+        description: ""
+      }
+      {
+        name: color
+        type: any
+        description: ""
+      }
+      {
+        name: value2
+        type: any
+        description: ""
+      }
+      {
+        name: color2
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  modPropertyEval2UINT: {
+    name: modPropertyEval2UINT
+    parameters: [
+      {
+        name: basevalue
+        type: any
+        description: ""
+      }
+      {
+        name: value
+        type: any
+        description: ""
+      }
+      {
+        name: color
+        type: any
+        description: ""
+      }
+      {
+        name: value2
+        type: any
+        description: ""
+      }
+      {
+        name: color2
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  modPropertyEvalFloat: {
+    name: modPropertyEvalFloat
+    parameters: [
+      {
+        name: basevalue
+        type: any
+        description: ""
+      }
+      {
+        name: value
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  modPropertyEvalUINT: {
+    name: modPropertyEvalUINT
+    parameters: [
+      {
+        name: basevalue
+        type: any
+        description: ""
+      }
+      {
+        name: value
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  onCheckUsername: {
+    name: onCheckUsername
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+      {
+        name: result
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  onCollapseLSOStorageNode: {
+    name: onCollapseLSOStorageNode
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+      {
+        name: nodedata
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  onConversationReturned: {
+    name: onConversationReturned
+    parameters: [
+      {
+        name: eventname
+        type: any
+        description: ""
+      }
+      {
+        name: sectionname
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  onExpandLSOStorageNode: {
+    name: onExpandLSOStorageNode
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+      {
+        name: container
+        type: any
+        description: ""
+      }
+      {
+        name: _
+        type: any
+        description: ""
+      }
+      {
+        name: ftable
+        type: any
+        description: ""
+      }
+      {
+        name: _
+        type: any
+        description: ""
+      }
+      {
+        name: nodedata
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  onPlatformFriendsLookedUp: {
+    name: onPlatformFriendsLookedUp
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  onReceiveContacts: {
+    name: onReceiveContacts
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  onSliderChangedLSOStorageNode: {
+    name: onSliderChangedLSOStorageNode
+    parameters: [
+      {
+        name: container
+        type: any
+        description: ""
+      }
+      {
+        name: node
+        type: any
+        description: ""
+      }
+      {
+        name: nodedata
+        type: any
+        description: ""
+      }
+      {
+        name: slideridx
+        type: any
+        description: ""
+      }
+      {
+        name: value
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  onTransactionLogEditBoxActivated: {
+    name: onTransactionLogEditBoxActivated
+    parameters: [
+      {
+        name: widget
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  onTransactionLogRowChanged: {
+    name: onTransactionLogRowChanged
+    parameters: [
+      {
+        name: rowdata
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  onTransactionLogUpdate: {
+    name: onTransactionLogUpdate
+    parameters: []
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  openInteractMenu: {
+    name: openInteractMenu
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+      {
+        name: param
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  orderedKeys: {
+    name: orderedKeys
+    parameters: [
+      {
+        name: t
+        type: any
+        description: ""
+      }
+      {
+        name: sorter
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  orderedNext: {
+    name: orderedNext
+    parameters: [
+      {
+        name: t
+        type: any
+        description: ""
+      }
+      {
+        name: state
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  orderedNextByWareName: {
+    name: orderedNextByWareName
+    parameters: [
+      {
+        name: t
+        type: any
+        description: ""
+      }
+      {
+        name: state
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  orderedPairs: {
+    name: orderedPairs
+    parameters: [
+      {
+        name: t
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  orderedPairsByWareName: {
+    name: orderedPairsByWareName
+    parameters: [
+      {
+        name: t
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  parseAICommand: {
+    name: parseAICommand
+    parameters: [
+      {
+        name: entity
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  percent: {
+    name: percent
+    parameters: [
+      {
+        name: x
+        type: any
+        description: ""
+      }
+      {
+        name: digits
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  playerInfoConfigTextLeft: {
+    name: playerInfoConfigTextLeft
+    parameters: [
+      {
+        name: _
+        type: any
+        description: ""
+      }
+      {
+        name: width
+        type: any
+        description: ""
+      }
+      {
+        name: ismultiverse
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  playerInfoConfigTextRight: {
+    name: playerInfoConfigTextRight
+    parameters: [
+      {
+        name: _
+        type: any
+        description: ""
+      }
+      {
+        name: ismultiverse
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  registerExtension: {
+    name: registerExtension
+    parameters: [
+      {
+        name: extensionid
+        type: any
+        description: ""
+      }
+      {
+        name: hook
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  registerMenu: {
+    name: registerMenu
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  registerStationEditorChanges: {
+    name: registerStationEditorChanges
+    parameters: []
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  registerStationEditorState: {
+    name: registerStationEditorState
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  registerVentureContactCallbacks: {
+    name: registerVentureContactCallbacks
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  removeAllButtonScripts: {
+    name: removeAllButtonScripts
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+      {
+        name: layer
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  removeAllCheckBoxScripts: {
+    name: removeAllCheckBoxScripts
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+      {
+        name: layer
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  removeAllDropDownScripts: {
+    name: removeAllDropDownScripts
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+      {
+        name: layer
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  removeAllEditBoxScripts: {
+    name: removeAllEditBoxScripts
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+      {
+        name: layer
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  removeAllFlowchartNodeScripts: {
+    name: removeAllFlowchartNodeScripts
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+      {
+        name: layer
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  removeAllGraphScripts: {
+    name: removeAllGraphScripts
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+      {
+        name: layer
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  removeAllKeyBindings: {
+    name: removeAllKeyBindings
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  removeAllMenuScripts: {
+    name: removeAllMenuScripts
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+      {
+        name: layer
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  removeAllScripts: {
+    name: removeAllScripts
+    parameters: [
+      {
+        name: scriptMap
+        type: any
+        description: ""
+      }
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+      {
+        name: layer
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  removeAllSliderCellScripts: {
+    name: removeAllSliderCellScripts
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+      {
+        name: layer
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  removeAllTabScrollCallbacks: {
+    name: removeAllTabScrollCallbacks
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  removeAllWidgetScripts: {
+    name: removeAllWidgetScripts
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+      {
+        name: layer
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  removeButtonScripts: {
+    name: removeButtonScripts
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+      {
+        name: tableobj
+        type: any
+        description: ""
+      }
+      {
+        name: row
+        type: any
+        description: ""
+      }
+      {
+        name: col
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  removeCheckBoxScripts: {
+    name: removeCheckBoxScripts
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+      {
+        name: tableobj
+        type: any
+        description: ""
+      }
+      {
+        name: row
+        type: any
+        description: ""
+      }
+      {
+        name: col
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  removeDropDownScripts: {
+    name: removeDropDownScripts
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+      {
+        name: tableobj
+        type: any
+        description: ""
+      }
+      {
+        name: row
+        type: any
+        description: ""
+      }
+      {
+        name: col
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  removeEditBoxScripts: {
+    name: removeEditBoxScripts
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+      {
+        name: tableobj
+        type: any
+        description: ""
+      }
+      {
+        name: row
+        type: any
+        description: ""
+      }
+      {
+        name: col
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  removeFlowchartNodeScripts: {
+    name: removeFlowchartNodeScripts
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+      {
+        name: flowchartid
+        type: any
+        description: ""
+      }
+      {
+        name: row
+        type: any
+        description: ""
+      }
+      {
+        name: col
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  removeFlowchartScript: {
+    name: removeFlowchartScript
+    parameters: [
+      {
+        name: flowchartid
+        type: any
+        description: ""
+      }
+      {
+        name: row
+        type: any
+        description: ""
+      }
+      {
+        name: col
+        type: any
+        description: ""
+      }
+      {
+        name: type
+        type: any
+        description: ""
+      }
+      {
+        name: script
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  removeGraphScripts: {
+    name: removeGraphScripts
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+      {
+        name: tableobj
+        type: any
+        description: ""
+      }
+      {
+        name: row
+        type: any
+        description: ""
+      }
+      {
+        name: col
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  removeKeyBinding: {
+    name: removeKeyBinding
+    parameters: [
+      {
+        name: script
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  removeMenuScript: {
+    name: removeMenuScript
+    parameters: [
+      {
+        name: obj
+        type: any
+        description: ""
+      }
+      {
+        name: handleType
+        type: any
+        description: ""
+      }
+      {
+        name: script
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  removeScripts: {
+    name: removeScripts
+    parameters: [
+      {
+        name: scriptMap
+        type: any
+        description: ""
+      }
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+      {
+        name: widget
+        type: any
+        description: ""
+      }
+      {
+        name: row
+        type: any
+        description: ""
+      }
+      {
+        name: col
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  removeShipComparison: {
+    name: removeShipComparison
+    parameters: [
+      {
+        name: id
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  removeSliderCellScripts: {
+    name: removeSliderCellScripts
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+      {
+        name: tableobj
+        type: any
+        description: ""
+      }
+      {
+        name: row
+        type: any
+        description: ""
+      }
+      {
+        name: col
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  removeTableScript: {
+    name: removeTableScript
+    parameters: [
+      {
+        name: tableobj
+        type: any
+        description: ""
+      }
+      {
+        name: row
+        type: any
+        description: ""
+      }
+      {
+        name: col
+        type: any
+        description: ""
+      }
+      {
+        name: type
+        type: any
+        description: ""
+      }
+      {
+        name: script
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  removeTabScrollCallback: {
+    name: removeTabScrollCallback
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+      {
+        name: script
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  resetInteractMenuCallbacks: {
+    name: resetInteractMenuCallbacks
+    parameters: []
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  resetUpdateHandler: {
+    name: resetUpdateHandler
+    parameters: []
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  restoreMenu: {
+    name: restoreMenu
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  returnFromInteractMenu: {
+    name: returnFromInteractMenu
+    parameters: [
+      {
+        name: uitable
+        type: any
+        description: ""
+      }
+      {
+        name: ...
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  revOrderedNext: {
+    name: revOrderedNext
+    parameters: [
+      {
+        name: t
+        type: any
+        description: ""
+      }
+      {
+        name: state
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  revOrderedPairs: {
+    name: revOrderedPairs
+    parameters: [
+      {
+        name: t
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  round: {
+    name: round
+    parameters: [
+      {
+        name: x
+        type: any
+        description: ""
+      }
+      {
+        name: digits
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  roundStr: {
+    name: roundStr
+    parameters: [
+      {
+        name: x
+        type: any
+        description: ""
+      }
+      {
+        name: digits
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  scaleFont: {
+    name: scaleFont
+    parameters: [
+      {
+        name: fontname
+        type: any
+        description: ""
+      }
+      {
+        name: fontsize
+        type: any
+        description: ""
+      }
+      {
+        name: enabled
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  scaleX: {
+    name: scaleX
+    parameters: [
+      {
+        name: x
+        type: any
+        description: ""
+      }
+      {
+        name: enabled
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  scaleY: {
+    name: scaleY
+    parameters: [
+      {
+        name: y
+        type: any
+        description: ""
+      }
+      {
+        name: enabled
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  scrollTopLevel: {
+    name: scrollTopLevel
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+      {
+        name: id
+        type: any
+        description: ""
+      }
+      {
+        name: offset
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  scrollTopLevelInternal: {
+    name: scrollTopLevelInternal
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+      {
+        name: index
+        type: any
+        description: ""
+      }
+      {
+        name: offset
+        type: any
+        description: ""
+      }
+      {
+        name: noreturn
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  sendChatWindowCallback: {
+    name: sendChatWindowCallback
+    parameters: [
+      {
+        name: param
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  setButtonScript: {
+    name: setButtonScript
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+      {
+        name: id
+        type: any
+        description: ""
+      }
+      {
+        name: tableobj
+        type: any
+        description: ""
+      }
+      {
+        name: row
+        type: any
+        description: ""
+      }
+      {
+        name: col
+        type: any
+        description: ""
+      }
+      {
+        name: script
+        type: any
+        description: ""
+      }
+      {
+        name: onRightClickScript
+        type: any
+        description: ""
+      }
+      {
+        name: onDblClickScript
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  setBuyLimit: {
+    name: setBuyLimit
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+      {
+        name: container64
+        type: any
+        description: ""
+      }
+      {
+        name: ware
+        type: any
+        description: ""
+      }
+      {
+        name: limit
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  setCellContent: {
+    name: setCellContent
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+      {
+        name: tableID
+        type: any
+        description: ""
+      }
+      {
+        name: descriptor
+        type: any
+        description: ""
+      }
+      {
+        name: row
+        type: any
+        description: ""
+      }
+      {
+        name: column
+        type: any
+        description: ""
+      }
+      {
+        name: norelease
+        type: any
+        description: ""
+      }
+      {
+        name: type
+        type: any
+        description: ""
+      }
+      {
+        name: id
+        type: any
+        description: ""
+      }
+      {
+        name: ...
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  setChatUpdateHandler: {
+    name: setChatUpdateHandler
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  setCheckBoxScript: {
+    name: setCheckBoxScript
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+      {
+        name: id
+        type: any
+        description: ""
+      }
+      {
+        name: tableobj
+        type: any
+        description: ""
+      }
+      {
+        name: row
+        type: any
+        description: ""
+      }
+      {
+        name: col
+        type: any
+        description: ""
+      }
+      {
+        name: script
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  setDropDownScript: {
+    name: setDropDownScript
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+      {
+        name: id
+        type: any
+        description: ""
+      }
+      {
+        name: tableobj
+        type: any
+        description: ""
+      }
+      {
+        name: row
+        type: any
+        description: ""
+      }
+      {
+        name: col
+        type: any
+        description: ""
+      }
+      {
+        name: activateScript
+        type: any
+        description: ""
+      }
+      {
+        name: confirmScript
+        type: any
+        description: ""
+      }
+      {
+        name: removedScript
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  setEditBoxScript: {
+    name: setEditBoxScript
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+      {
+        name: id
+        type: any
+        description: ""
+      }
+      {
+        name: tableobj
+        type: any
+        description: ""
+      }
+      {
+        name: row
+        type: any
+        description: ""
+      }
+      {
+        name: col
+        type: any
+        description: ""
+      }
+      {
+        name: script
+        type: any
+        description: ""
+      }
+      {
+        name: textchangedscript
+        type: any
+        description: ""
+      }
+      {
+        name: activatedscript
+        type: any
+        description: ""
+      }
+      {
+        name: cursorchangedscript
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  setGraphScript: {
+    name: setGraphScript
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+      {
+        name: id
+        type: any
+        description: ""
+      }
+      {
+        name: tableobj
+        type: any
+        description: ""
+      }
+      {
+        name: row
+        type: any
+        description: ""
+      }
+      {
+        name: col
+        type: any
+        description: ""
+      }
+      {
+        name: script
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  setIntersectorDefence: {
+    name: setIntersectorDefence
+    parameters: [
+      {
+        name: controllable
+        type: any
+        description: ""
+      }
+      {
+        name: group
+        type: any
+        description: ""
+      }
+      {
+        name: reset
+        type: any
+        description: ""
+      }
+      {
+        name: sectorid
+        type: any
+        description: ""
+      }
+      {
+        name: pos_in
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  setKeyBinding: {
+    name: setKeyBinding
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+      {
+        name: script
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  setMenuScript: {
+    name: setMenuScript
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+      {
+        name: layer
+        type: any
+        description: ""
+      }
+      {
+        name: obj
+        type: any
+        description: ""
+      }
+      {
+        name: handleType
+        type: any
+        description: ""
+      }
+      {
+        name: script
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  setScripts: {
+    name: setScripts
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+      {
+        name: layer
+        type: any
+        description: ""
+      }
+      {
+        name: frame
+        type: any
+        description: ""
+      }
+      {
+        name: children
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  setSellLimit: {
+    name: setSellLimit
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+      {
+        name: container64
+        type: any
+        description: ""
+      }
+      {
+        name: ware
+        type: any
+        description: ""
+      }
+      {
+        name: limit
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  setSliderCellScript: {
+    name: setSliderCellScript
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+      {
+        name: id
+        type: any
+        description: ""
+      }
+      {
+        name: tableobj
+        type: any
+        description: ""
+      }
+      {
+        name: row
+        type: any
+        description: ""
+      }
+      {
+        name: col
+        type: any
+        description: ""
+      }
+      {
+        name: changedScript
+        type: any
+        description: ""
+      }
+      {
+        name: activateScript
+        type: any
+        description: ""
+      }
+      {
+        name: deactivateScript
+        type: any
+        description: ""
+      }
+      {
+        name: onRightClickScript
+        type: any
+        description: ""
+      }
+      {
+        name: confirmScript
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  setSliderCellValue: {
+    name: setSliderCellValue
+    parameters: [
+      {
+        name: tableobj
+        type: any
+        description: ""
+      }
+      {
+        name: row
+        type: any
+        description: ""
+      }
+      {
+        name: col
+        type: any
+        description: ""
+      }
+      {
+        name: value
+        type: any
+        description: ""
+      }
+      {
+        name: newmaxselect
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  setTabScrollCallback: {
+    name: setTabScrollCallback
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+      {
+        name: script
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  setupDAGLayout: {
+    name: setupDAGLayout
+    parameters: [
+      {
+        name: nodes
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  showVentureFriendListContext: {
+    name: showVentureFriendListContext
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+      {
+        name: frame
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  slidercellBuyLimitOverride: {
+    name: slidercellBuyLimitOverride
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+      {
+        name: container
+        type: any
+        description: ""
+      }
+      {
+        name: ware
+        type: any
+        description: ""
+      }
+      {
+        name: value
+        type: any
+        description: ""
+      }
+      {
+        name: sellslider
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  slidercellDropWares: {
+    name: slidercellDropWares
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+      {
+        name: ware
+        type: any
+        description: ""
+      }
+      {
+        name: value
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  slidercellSellLimitOverride: {
+    name: slidercellSellLimitOverride
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+      {
+        name: container
+        type: any
+        description: ""
+      }
+      {
+        name: ware
+        type: any
+        description: ""
+      }
+      {
+        name: value
+        type: any
+        description: ""
+      }
+      {
+        name: buyslider
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  slidercellStorageLevelOverride: {
+    name: slidercellStorageLevelOverride
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+      {
+        name: container
+        type: any
+        description: ""
+      }
+      {
+        name: ware
+        type: any
+        description: ""
+      }
+      {
+        name: value
+        type: any
+        description: ""
+      }
+      {
+        name: buyslider
+        type: any
+        description: ""
+      }
+      {
+        name: sellslider
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  slidercellStorageWarePriceOverride: {
+    name: slidercellStorageWarePriceOverride
+    parameters: [
+      {
+        name: container
+        type: any
+        description: ""
+      }
+      {
+        name: ware
+        type: any
+        description: ""
+      }
+      {
+        name: buysellswitch
+        type: any
+        description: ""
+      }
+      {
+        name: value
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  sortClass: {
+    name: sortClass
+    parameters: [
+      {
+        name: a
+        type: any
+        description: ""
+      }
+      {
+        name: b
+        type: any
+        description: ""
+      }
+      {
+        name: invert
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  sortComponentName: {
+    name: sortComponentName
+    parameters: [
+      {
+        name: a
+        type: any
+        description: ""
+      }
+      {
+        name: b
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  sortDate: {
+    name: sortDate
+    parameters: [
+      {
+        name: a
+        type: any
+        description: ""
+      }
+      {
+        name: b
+        type: any
+        description: ""
+      }
+      {
+        name: invert
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  sortEntityTypeAndName: {
+    name: sortEntityTypeAndName
+    parameters: [
+      {
+        name: a
+        type: any
+        description: ""
+      }
+      {
+        name: b
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  sortETA: {
+    name: sortETA
+    parameters: [
+      {
+        name: a
+        type: any
+        description: ""
+      }
+      {
+        name: b
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  sortFactionName: {
+    name: sortFactionName
+    parameters: [
+      {
+        name: a
+        type: any
+        description: ""
+      }
+      {
+        name: b
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  sortHullAndName: {
+    name: sortHullAndName
+    parameters: [
+      {
+        name: a
+        type: any
+        description: ""
+      }
+      {
+        name: b
+        type: any
+        description: ""
+      }
+      {
+        name: invert
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  sortID: {
+    name: sortID
+    parameters: [
+      {
+        name: a
+        type: any
+        description: ""
+      }
+      {
+        name: b
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  sortMacroName: {
+    name: sortMacroName
+    parameters: [
+      {
+        name: a
+        type: any
+        description: ""
+      }
+      {
+        name: b
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  sortMacroRaceAndShortname: {
+    name: sortMacroRaceAndShortname
+    parameters: [
+      {
+        name: a
+        type: any
+        description: ""
+      }
+      {
+        name: b
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  sortName: {
+    name: sortName
+    parameters: [
+      {
+        name: a
+        type: any
+        description: ""
+      }
+      {
+        name: b
+        type: any
+        description: ""
+      }
+      {
+        name: invert
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  sortNameAndObjectID: {
+    name: sortNameAndObjectID
+    parameters: [
+      {
+        name: a
+        type: any
+        description: ""
+      }
+      {
+        name: b
+        type: any
+        description: ""
+      }
+      {
+        name: invert
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  sortNameSectorAndObjectID: {
+    name: sortNameSectorAndObjectID
+    parameters: [
+      {
+        name: a
+        type: any
+        description: ""
+      }
+      {
+        name: b
+        type: any
+        description: ""
+      }
+      {
+        name: invert
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  sortPlayerMacro: {
+    name: sortPlayerMacro
+    parameters: [
+      {
+        name: a
+        type: any
+        description: ""
+      }
+      {
+        name: b
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  sortRelationAndName: {
+    name: sortRelationAndName
+    parameters: [
+      {
+        name: a
+        type: any
+        description: ""
+      }
+      {
+        name: b
+        type: any
+        description: ""
+      }
+      {
+        name: invert
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  sortShipsByClassAndPurpose: {
+    name: sortShipsByClassAndPurpose
+    parameters: [
+      {
+        name: a
+        type: any
+        description: ""
+      }
+      {
+        name: b
+        type: any
+        description: ""
+      }
+      {
+        name: invert
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  sortSlots: {
+    name: sortSlots
+    parameters: [
+      {
+        name: a
+        type: any
+        description: ""
+      }
+      {
+        name: b
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  sortUniverseIDName: {
+    name: sortUniverseIDName
+    parameters: [
+      {
+        name: a
+        type: any
+        description: ""
+      }
+      {
+        name: b
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  sortWareName: {
+    name: sortWareName
+    parameters: [
+      {
+        name: a
+        type: any
+        description: ""
+      }
+      {
+        name: b
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  sortWareSortOrder: {
+    name: sortWareSortOrder
+    parameters: [
+      {
+        name: a
+        type: any
+        description: ""
+      }
+      {
+        name: b
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  substituteText: {
+    name: substituteText
+    parameters: [
+      {
+        name: str
+        type: any
+        description: ""
+      }
+      {
+        name: substitutions
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  tableCopy: {
+    name: tableCopy
+    parameters: [
+      {
+        name: orig
+        type: any
+        description: ""
+      }
+      {
+        name: levels
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  tableLength: {
+    name: tableLength
+    parameters: [
+      {
+        name: value
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  textArrayHelper: {
+    name: textArrayHelper
+    parameters: [
+      {
+        name: texts
+        type: any
+        description: ""
+      }
+      {
+        name: func
+        type: any
+        description: ""
+      }
+      {
+        name: keyword
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  timeDuration: {
+    name: timeDuration
+    parameters: [
+      {
+        name: x
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  transactionLogSearchHelper: {
+    name: transactionLogSearchHelper
+    parameters: [
+      {
+        name: entry
+        type: any
+        description: ""
+      }
+      {
+        name: text
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  unlockInfo: {
+    name: unlockInfo
+    parameters: [
+      {
+        name: unlocked
+        type: any
+        description: ""
+      }
+      {
+        name: cellcontent
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  unregisterStationEditorChanges: {
+    name: unregisterStationEditorChanges
+    parameters: []
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  unregisterVentureContactCallbacks: {
+    name: unregisterVentureContactCallbacks
+    parameters: []
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  updateButtonColor: {
+    name: updateButtonColor
+    parameters: [
+      {
+        name: tableobj
+        type: any
+        description: ""
+      }
+      {
+        name: row
+        type: any
+        description: ""
+      }
+      {
+        name: col
+        type: any
+        description: ""
+      }
+      {
+        name: newcolor
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  updateCellText: {
+    name: updateCellText
+    parameters: [
+      {
+        name: tableobj
+        type: any
+        description: ""
+      }
+      {
+        name: row
+        type: any
+        description: ""
+      }
+      {
+        name: col
+        type: any
+        description: ""
+      }
+      {
+        name: newtext
+        type: any
+        description: ""
+      }
+      {
+        name: newcolor
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  updateEditBoxText: {
+    name: updateEditBoxText
+    parameters: [
+      {
+        name: tableobj
+        type: any
+        description: ""
+      }
+      {
+        name: row
+        type: any
+        description: ""
+      }
+      {
+        name: col
+        type: any
+        description: ""
+      }
+      {
+        name: newtext
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  updateLSOStorageNode: {
+    name: updateLSOStorageNode
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+      {
+        name: node
+        type: any
+        description: ""
+      }
+      {
+        name: container
+        type: any
+        description: ""
+      }
+      {
+        name: ware
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  updateStorageLevel: {
+    name: updateStorageLevel
+    parameters: [
+      {
+        name: menu
+        type: any
+        description: ""
+      }
+      {
+        name: container
+        type: any
+        description: ""
+      }
+      {
+        name: ware
+        type: any
+        description: ""
+      }
+      {
+        name: value
+        type: any
+        description: ""
+      }
+      {
+        name: buyslider
+        type: any
+        description: ""
+      }
+      {
+        name: sellslider
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  updateTradeRules: {
+    name: updateTradeRules
+    parameters: []
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  updateVenturePlatforms: {
+    name: updateVenturePlatforms
+    parameters: []
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  ventureEndTimeLeftText: {
+    name: ventureEndTimeLeftText
+    parameters: [
+      {
+        name: endtime
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  ventureOperationTimeLeftText: {
+    name: ventureOperationTimeLeftText
+    parameters: []
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  ventureSeasonTimeLeftText: {
+    name: ventureSeasonTimeLeftText
+    parameters: []
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+  ventureTimeLeft: {
+    name: ventureTimeLeft
+    parameters: [
+      {
+        name: timeleft
+        type: any
+        description: ""
+      }
+    ]
+    returnType: any
+    description: ""
+    source: helper.lua
+    detailed: ""
+    notes: ""
+  }
+}

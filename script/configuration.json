@@ -1,0 +1,23 @@
+{
+  "wikiUrl": "https://wiki.egosoft.com:1337/X%20Rebirth%20Wiki/Modding%20support/UI%20Modding%20support/Lua%20function%20overview/",
+  "luaFolderPath": "../../../ui",
+  "hjsonOutputPath": "../",
+  "luaOutputPath": "../../X4-LuaLSAddon/library",
+  "wikiHtmlPath": "./internal/wiki/WikiLuaDescriptions.html",
+  "outputFiles": {
+    "lua": "X4LuaAPI.lua",
+    "ffi": "X4FFIAPI.lua",
+    "ffiTypes": "X4FFITypes.lua",
+    "helper": "X4HelperAPI.lua",
+    "undocumented": "X4UndocumentedAPI.lua"
+  },
+  "hjsonFiles": {
+    "lua": "data/x4-lua-functions.hjson",
+    "ffi": "data/x4-ffi-definitions.hjson",
+    "helper": "data/x4-helper-functions.hjson",
+    "undocumented": "data/x4-undocumented-functions.hjson",
+    "GloballyExposed": "data/x4-globally-exposed.hjson",
+    "ffiNamespace": "script/internal/namespaces/x4-ffi-namespace.hjson",
+    "cNamespace": "script/internal/namespaces/x4-c-namespace.hjson"
+  }
+}
