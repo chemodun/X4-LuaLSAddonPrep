@@ -30,13 +30,6 @@ jobs:
         id: branch-name
         run: echo "branch_name=library-update-$(date +'%Y%m%d-%H%M')" >> $GITHUB_OUTPUT
 
-      # - name: Create branch in X4-LuaLSAddon
-      #   working-directory: common/X4-LuaLSAddon
-      #   run: |
-      #     git config user.name "${{ github.actor }}"
-      #     git config user.email "${{ github.actor }}@users.noreply.github.com"
-      #     git checkout -b ${{ steps.branch-name.outputs.branch_name }}
-
       - name: Install dependencies
         working-directory: common/X4-LuaLSAddonPrep/script
         run: npm install
@@ -54,14 +47,6 @@ jobs:
           git config user.email "${{ github.actor }}@users.noreply.github.com"
           git add .
           git diff --staged --quiet || echo "changes=true" >> $GITHUB_OUTPUT
-
-      # - name: Commit and push changes
-      #   if: steps.check_changes.outputs.changes == 'true'
-      #   working-directory: common/X4-LuaLSAddon
-      #   env:
-      #       GITHUB_TOKEN: ${{ secrets.LIBRARY_TOKEN }}
-      #   run: |
-      #       git commit -m "Auto-update X4 add-on library from data files"
 
       - name: Create Pull Request
         if: steps.check_changes.outputs.changes == 'true'
