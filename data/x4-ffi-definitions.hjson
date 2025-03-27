@@ -31037,31 +31037,31 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		BlacklistTypeID* blacklists;
-        		uint32_t numblacklists;
-        		FightRuleTypeID* fightrules;
-        		uint32_t numfightrules;
-        		const char* paintmodwareid;
-        	} AddBuildTask6Container;
+        typedef struct {
+        	BlacklistTypeID* blacklists;
+        	uint32_t numblacklists;
+        	FightRuleTypeID* fightrules;
+        	uint32_t numfightrules;
+        	const char* paintmodwareid;
+        } AddBuildTask6Container;
         '''
       file: menu_ship_configuration.lua
     }
     AIOrderID: {
       kind: uint64_t
-      declaration: '''	typedef uint64_t AIOrderID;'''
+      declaration: typedef uint64_t AIOrderID;
       file: menu_map.lua
     }
     AmmoData: {
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* macro;
-        		const char* ware;
-        		uint32_t amount;
-        		uint32_t capacity;
-        	} AmmoData;
+        typedef struct {
+        	const char* macro;
+        	const char* ware;
+        	uint32_t amount;
+        	uint32_t capacity;
+        } AmmoData;
         '''
       file: menu_docked.lua
     }
@@ -31069,11 +31069,11 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		float angle;
-        		bool inside;
-        		bool valid;
-        	} ArrowDetails;
+        typedef struct {
+        	float angle;
+        	bool inside;
+        	bool valid;
+        } ArrowDetails;
         '''
       file: crosshair handling.lua
     }
@@ -31081,11 +31081,11 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		uint32_t mintime;
-        		uint32_t maxtime;
-        		float factor;
-        	} AutosaveIntervalInfo;
+        typedef struct {
+        	uint32_t mintime;
+        	uint32_t maxtime;
+        	float factor;
+        } AutosaveIntervalInfo;
         '''
       file: gameoptions.lua
     }
@@ -31093,35 +31093,35 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		uint32_t nummacros;
-        		uint32_t numfactions;
-        	} BlacklistCounts;
+        typedef struct {
+        	uint32_t nummacros;
+        	uint32_t numfactions;
+        } BlacklistCounts;
         '''
       file: helper.lua
     }
     BlacklistID: {
       kind: int32_t
-      declaration: '''	typedef int32_t BlacklistID;'''
+      declaration: typedef int32_t BlacklistID;
       file: menu_map.lua
     }
     BlacklistInfo2: {
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		uint32_t id;
-        		const char* type;
-        		const char* name;
-        		bool usemacrowhitelist;
-        		uint32_t nummacros;
-        		const char** macros;
-        		bool usefactionwhitelist;
-        		uint32_t numfactions;
-        		const char** factions;
-        		const char* relation;
-        		bool hazardous;
-        	} BlacklistInfo2;
+        typedef struct {
+        	uint32_t id;
+        	const char* type;
+        	const char* name;
+        	bool usemacrowhitelist;
+        	uint32_t nummacros;
+        	const char** macros;
+        	bool usefactionwhitelist;
+        	uint32_t numfactions;
+        	const char** factions;
+        	const char* relation;
+        	bool hazardous;
+        } BlacklistInfo2;
         '''
       file: menu_playerinfo.lua
     }
@@ -31129,10 +31129,10 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		BlacklistID id;
-        		const char* type;
-        	} BlacklistTypeID;
+        typedef struct {
+        	BlacklistID id;
+        	const char* type;
+        } BlacklistTypeID;
         '''
       file: menu_ship_configuration.lua
     }
@@ -31140,10 +31140,10 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* id;
-        		const char* text;
-        	} BoardingBehaviour;
+        typedef struct {
+        	const char* id;
+        	const char* text;
+        } BoardingBehaviour;
         '''
       file: menu_map.lua
     }
@@ -31151,10 +31151,10 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* id;
-        		const char* text;
-        	} BoardingPhase;
+        typedef struct {
+        	const char* id;
+        	const char* text;
+        } BoardingPhase;
         '''
       file: menu_map.lua
     }
@@ -31162,33 +31162,33 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		uint32_t approach;
-        		uint32_t insertion;
-        	} BoardingRiskThresholds;
+        typedef struct {
+        	uint32_t approach;
+        	uint32_t insertion;
+        } BoardingRiskThresholds;
         '''
       file: menu_map.lua
     }
     BuildTaskID: {
       kind: uint64_t
-      declaration: '''	typedef uint64_t BuildTaskID;'''
+      declaration: typedef uint64_t BuildTaskID;
       file: menu_docked.lua
     }
     BuildTaskInfo: {
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		BuildTaskID id;
-        		UniverseID buildingcontainer;
-        		UniverseID component;
-        		const char* macro;
-        		const char* factionid;
-        		UniverseID buildercomponent;
-        		int64_t price;
-        		bool ismissingresources;
-        		uint32_t queueposition;
-        	} BuildTaskInfo;
+        typedef struct {
+        	BuildTaskID id;
+        	UniverseID buildingcontainer;
+        	UniverseID component;
+        	const char* macro;
+        	const char* factionid;
+        	UniverseID buildercomponent;
+        	int64_t price;
+        	bool ismissingresources;
+        	uint32_t queueposition;
+        } BuildTaskInfo;
         '''
       file: menu_docked.lua
     }
@@ -31196,12 +31196,12 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		uint32_t red;
-        		uint32_t green;
-        		uint32_t blue;
-        		uint32_t alpha;
-        	} Color;
+        typedef struct {
+        	uint32_t red;
+        	uint32_t green;
+        	uint32_t blue;
+        	uint32_t alpha;
+        } Color;
         '''
       file: menu_terraforming.lua
     }
@@ -31209,11 +31209,11 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* id;
-        		Color color;
-        		float glowfactor;
-        	} ColorMapEntry;
+        typedef struct {
+        	const char* id;
+        	Color color;
+        	float glowfactor;
+        } ColorMapEntry;
         '''
       file: compass.lua
     }
@@ -31221,11 +31221,11 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		UniverseID controllableid;
-        		FleetUnitID fleetunitid;
-        		int32_t groupindex;
-        	} CommanderInfo;
+        typedef struct {
+        	UniverseID controllableid;
+        	FleetUnitID fleetunitid;
+        	int32_t groupindex;
+        } CommanderInfo;
         '''
       file: menu_map.lua
     }
@@ -31233,13 +31233,13 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* type;
-        		const char* control;
-        		uint32_t controlid;
-        		uint32_t contextid;
-        		bool active;
-        	} CompassMenuEntry;
+        typedef struct {
+        	const char* type;
+        	const char* control;
+        	uint32_t controlid;
+        	uint32_t contextid;
+        	bool active;
+        } CompassMenuEntry;
         '''
       file: compass.lua
     }
@@ -31247,13 +31247,13 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* name;
-        		float hull;
-        		float shield;
-        		int speed;
-        		bool hasShield;
-        	} ComponentDetails;
+        typedef struct {
+        	const char* name;
+        	float hull;
+        	float shield;
+        	int speed;
+        	bool hasShield;
+        } ComponentDetails;
         '''
       file: targetmonitor.lua
     }
@@ -31261,18 +31261,18 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* type;
-        		const char* name;
-        		const char* desc;
-        		const char* hackeddesc;
-        		int64_t price;
-        		int32_t numrequiredwares;
-        		bool ishack;
-        		bool hacked;
-        		double hackduration;
-        		double hackexpiretime;
-        	} ControlPanelInfo;
+        typedef struct {
+        	const char* type;
+        	const char* name;
+        	const char* desc;
+        	const char* hackeddesc;
+        	int64_t price;
+        	int32_t numrequiredwares;
+        	bool ishack;
+        	bool hacked;
+        	double hackduration;
+        	double hackexpiretime;
+        } ControlPanelInfo;
         '''
       file: targetmonitor.lua
     }
@@ -31280,10 +31280,10 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* id;
-        		const char* name;
-        	} ControlPostInfo;
+        typedef struct {
+        	const char* id;
+        	const char* name;
+        } ControlPostInfo;
         '''
       file: menu_map.lua
     }
@@ -31291,10 +31291,10 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		int x;
-        		int y;
-        	} Coord2D;
+        typedef struct {
+        	int x;
+        	int y;
+        } Coord2D;
         '''
       file: menu_map.lua
     }
@@ -31302,11 +31302,11 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		float x;
-        		float y;
-        		float z;
-        	} Coord3D;
+        typedef struct {
+        	float x;
+        	float y;
+        	float z;
+        } Coord3D;
         '''
       file: menu_followcamera.lua
     }
@@ -31314,11 +31314,11 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* newroleid;
-        		NPCSeed seed;
-        		uint32_t amount;
-        	} CrewTransferContainer;
+        typedef struct {
+        	const char* newroleid;
+        	NPCSeed seed;
+        	uint32_t amount;
+        } CrewTransferContainer;
         '''
       file: menu_map.lua
     }
@@ -31326,12 +31326,12 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* newroleid;
-        		NPCSeed seed;
-        		uint32_t amount;
-        		int64_t price;
-        	} CrewTransferContainer2;
+        typedef struct {
+        	const char* newroleid;
+        	NPCSeed seed;
+        	uint32_t amount;
+        	int64_t price;
+        } CrewTransferContainer2;
         '''
       file: menu_ship_configuration.lua
     }
@@ -31339,14 +31339,14 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		CrewTransferContainer2* removed;
-        		uint32_t numremoved;
-        		CrewTransferContainer2* added;
-        		uint32_t numadded;
-        		CrewTransferContainer2* transferred;
-        		uint32_t numtransferred;
-        	} CrewTransferInfo2;
+        typedef struct {
+        	CrewTransferContainer2* removed;
+        	uint32_t numremoved;
+        	CrewTransferContainer2* added;
+        	uint32_t numadded;
+        	CrewTransferContainer2* transferred;
+        	uint32_t numtransferred;
+        } CrewTransferInfo2;
         '''
       file: menu_ship_configuration.lua
     }
@@ -31354,11 +31354,11 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		uint32_t numremoved;
-        		uint32_t numadded;
-        		uint32_t numtransferred;
-        	} CrewTransferInfoCounts;
+        typedef struct {
+        	uint32_t numremoved;
+        	uint32_t numadded;
+        	uint32_t numtransferred;
+        } CrewTransferInfoCounts;
         '''
       file: menu_ship_configuration.lua
     }
@@ -31366,10 +31366,10 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		uint32_t messageID;
-        		bool obstructed;
-        	} CrosshairMessage;
+        typedef struct {
+        	uint32_t messageID;
+        	bool obstructed;
+        } CrosshairMessage;
         '''
       file: targetsystem.lua
     }
@@ -31377,12 +31377,12 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		uint32_t width;
-        		uint32_t height;
-        		uint32_t xHotspot;
-        		uint32_t yHotspot;
-        	} CursorInfo;
+        typedef struct {
+        	uint32_t width;
+        	uint32_t height;
+        	uint32_t xHotspot;
+        	uint32_t yHotspot;
+        } CursorInfo;
         '''
       file: dialogmenu.lua
     }
@@ -31390,9 +31390,9 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* ware;
-        	} CustomGameStartBlueprint;
+        typedef struct {
+        	const char* ware;
+        } CustomGameStartBlueprint;
         '''
       file: customgame.lua
     }
@@ -31400,11 +31400,11 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* state;
-        		uint32_t numvalues;
-        		uint32_t numdefaultvalues;
-        	} CustomGameStartBlueprintPropertyState;
+        typedef struct {
+        	const char* state;
+        	uint32_t numvalues;
+        	uint32_t numdefaultvalues;
+        } CustomGameStartBlueprintPropertyState;
         '''
       file: customgame.lua
     }
@@ -31412,10 +31412,10 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* state;
-        		bool defaultvalue;
-        	} CustomGameStartBoolPropertyState;
+        typedef struct {
+        	const char* state;
+        	bool defaultvalue;
+        } CustomGameStartBoolPropertyState;
         '''
       file: customgame.lua
     }
@@ -31423,10 +31423,10 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* id;
-        		int64_t value;
-        	} CustomGameStartBudgetDetail;
+        typedef struct {
+        	const char* id;
+        	int64_t value;
+        } CustomGameStartBudgetDetail;
         '''
       file: customgame.lua
     }
@@ -31434,12 +31434,12 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* id;
-        		const char* name;
-        		const char* description;
-        		bool isresearch;
-        	} CustomGameStartBudgetGroupInfo;
+        typedef struct {
+        	const char* id;
+        	const char* name;
+        	const char* description;
+        	bool isresearch;
+        } CustomGameStartBudgetGroupInfo;
         '''
       file: customgame.lua
     }
@@ -31447,12 +31447,12 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* id;
-        		int64_t value;
-        		int64_t limit;
-        		uint32_t numdetails;
-        	} CustomGameStartBudgetInfo;
+        typedef struct {
+        	const char* id;
+        	int64_t value;
+        	int64_t limit;
+        	uint32_t numdetails;
+        } CustomGameStartBudgetInfo;
         '''
       file: customgame.lua
     }
@@ -31460,12 +31460,12 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		uint32_t nummacros;
-        		uint32_t numblueprints;
-        		uint32_t numconstructionplans;
-        		bool hasincompatibleloadout;
-        	} CustomGameStartContentCounts;
+        typedef struct {
+        	uint32_t nummacros;
+        	uint32_t numblueprints;
+        	uint32_t numconstructionplans;
+        	bool hasincompatibleloadout;
+        } CustomGameStartContentCounts;
         '''
       file: customgame.lua
     }
@@ -31473,14 +31473,14 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		UIMacroCount* macros;
-        		uint32_t nummacros;
-        		const char** blueprints;
-        		uint32_t numblueprints;
-        		const char** constructionplanids;
-        		uint32_t numconstructionplans;
-        	} CustomGameStartContentData2;
+        typedef struct {
+        	UIMacroCount* macros;
+        	uint32_t nummacros;
+        	const char** blueprints;
+        	uint32_t numblueprints;
+        	const char** constructionplanids;
+        	uint32_t numconstructionplans;
+        } CustomGameStartContentData2;
         '''
       file: customgame.lua
     }
@@ -31488,10 +31488,10 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* library;
-        		const char* item;
-        	} CustomGameStartEncyclopediaEntry;
+        typedef struct {
+        	const char* library;
+        	const char* item;
+        } CustomGameStartEncyclopediaEntry;
         '''
       file: customgame.lua
     }
@@ -31499,9 +31499,9 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* state;
-        	} CustomGameStartEncyclopediaPropertyState;
+        typedef struct {
+        	const char* state;
+        } CustomGameStartEncyclopediaPropertyState;
         '''
       file: customgame.lua
     }
@@ -31509,10 +31509,10 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* state;
-        		float defaultvalue;
-        	} CustomGameStartFloatPropertyState;
+        typedef struct {
+        	const char* state;
+        	float defaultvalue;
+        } CustomGameStartFloatPropertyState;
         '''
       file: menu_ship_configuration.lua
     }
@@ -31520,11 +31520,11 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* id;
-        		const char* name;
-        		const char* filename;
-        	} CustomGameStartInfo;
+        typedef struct {
+        	const char* id;
+        	const char* name;
+        	const char* filename;
+        } CustomGameStartInfo;
         '''
       file: customgame.lua
     }
@@ -31532,10 +31532,10 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* ware;
-        		int32_t amount;
-        	} CustomGameStartInventory;
+        typedef struct {
+        	const char* ware;
+        	int32_t amount;
+        } CustomGameStartInventory;
         '''
       file: customgame.lua
     }
@@ -31543,11 +31543,11 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* state;
-        		uint32_t numvalues;
-        		uint32_t numdefaultvalues;
-        	} CustomGameStartInventoryPropertyState;
+        typedef struct {
+        	const char* state;
+        	uint32_t numvalues;
+        	uint32_t numdefaultvalues;
+        } CustomGameStartInventoryPropertyState;
         '''
       file: customgame.lua
     }
@@ -31555,14 +31555,14 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* type;
-        		const char* item;
-        		const char* classid;
-        		int64_t budgetvalue;
-        		bool unlocked;
-        		bool hidden;
-        	} CustomGameStartKnownEntry2;
+        typedef struct {
+        	const char* type;
+        	const char* item;
+        	const char* classid;
+        	int64_t budgetvalue;
+        	bool unlocked;
+        	bool hidden;
+        } CustomGameStartKnownEntry2;
         '''
       file: customgame.lua
     }
@@ -31570,11 +31570,11 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* state;
-        		uint32_t numvalues;
-        		uint32_t numdefaultvalues;
-        	} CustomGameStartKnownPropertyState;
+        typedef struct {
+        	const char* state;
+        	uint32_t numvalues;
+        	uint32_t numdefaultvalues;
+        } CustomGameStartKnownPropertyState;
         '''
       file: customgame.lua
     }
@@ -31582,9 +31582,9 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* state;
-        	} CustomGameStartLoadoutPropertyState;
+        typedef struct {
+        	const char* state;
+        } CustomGameStartLoadoutPropertyState;
         '''
       file: menu_ship_configuration.lua
     }
@@ -31592,12 +31592,12 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* state;
-        		int64_t defaultvalue;
-        		int64_t minvalue;
-        		int64_t maxvalue;
-        	} CustomGameStartMoneyPropertyState;
+        typedef struct {
+        	const char* state;
+        	int64_t defaultvalue;
+        	int64_t minvalue;
+        	int64_t maxvalue;
+        } CustomGameStartMoneyPropertyState;
         '''
       file: customgame.lua
     }
@@ -31605,12 +31605,12 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* race;
-        		const char* tags;
-        		uint32_t numskills;
-        		SkillInfo* skills;
-        	} CustomGameStartPersonEntry;
+        typedef struct {
+        	const char* race;
+        	const char* tags;
+        	uint32_t numskills;
+        	SkillInfo* skills;
+        } CustomGameStartPersonEntry;
         '''
       file: menu_ship_configuration.lua
     }
@@ -31618,23 +31618,23 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* type;
-        		const char* id;
-        		const char* sector;
-        		UIPosRot offset;
-        		const char* dockedatid;
-        		const char* commanderid;
-        		const char* macroname;
-        		const char* name;
-        		const char* constructionplanid;
-        		const char* paintmod;
-        		const char* peopledefid;
-        		float peoplefillpercentage;
-        		uint32_t numcargo;
-        		UIWareInfo* cargo;
-        		uint32_t count;
-        	} CustomGameStartPlayerProperty3;
+        typedef struct {
+        	const char* type;
+        	const char* id;
+        	const char* sector;
+        	UIPosRot offset;
+        	const char* dockedatid;
+        	const char* commanderid;
+        	const char* macroname;
+        	const char* name;
+        	const char* constructionplanid;
+        	const char* paintmod;
+        	const char* peopledefid;
+        	float peoplefillpercentage;
+        	uint32_t numcargo;
+        	UIWareInfo* cargo;
+        	uint32_t count;
+        } CustomGameStartPlayerProperty3;
         '''
       file: customgame.lua
     }
@@ -31642,9 +31642,9 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		uint32_t numcargo;
-        	} CustomGameStartPlayerPropertyCounts;
+        typedef struct {
+        	uint32_t numcargo;
+        } CustomGameStartPlayerPropertyCounts;
         '''
       file: customgame.lua
     }
@@ -31652,10 +31652,10 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* state;
-        		uint32_t numvalues;
-        	} CustomGameStartPlayerPropertyPropertyState;
+        typedef struct {
+        	const char* state;
+        	uint32_t numvalues;
+        } CustomGameStartPlayerPropertyPropertyState;
         '''
       file: customgame.lua
     }
@@ -31663,10 +31663,10 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* state;
-        		UIPosRot defaultvalue;
-        	} CustomGameStartPosRotPropertyState;
+        typedef struct {
+        	const char* state;
+        	UIPosRot defaultvalue;
+        } CustomGameStartPosRotPropertyState;
         '''
       file: customgame.lua
     }
@@ -31674,11 +31674,11 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* factionid;
-        		const char* otherfactionid;
-        		int32_t relation;
-        	} CustomGameStartRelationInfo;
+        typedef struct {
+        	const char* factionid;
+        	const char* otherfactionid;
+        	int32_t relation;
+        } CustomGameStartRelationInfo;
         '''
       file: customgame.lua
     }
@@ -31686,9 +31686,9 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* state;
-        	} CustomGameStartRelationsPropertyState;
+        typedef struct {
+        	const char* state;
+        } CustomGameStartRelationsPropertyState;
         '''
       file: customgame.lua
     }
@@ -31696,9 +31696,9 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* state;
-        	} CustomGameStartResearchPropertyState;
+        typedef struct {
+        	const char* state;
+        } CustomGameStartResearchPropertyState;
         '''
       file: customgame.lua
     }
@@ -31706,16 +31706,16 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* id;
-        		const char* name;
-        		const char* description;
-        		const char* groupid;
-        		const char* wareid;
-        		int32_t index;
-        		int64_t budgetvalue;
-        		uint32_t numdependencylists;
-        	} CustomGameStartStoryInfo;
+        typedef struct {
+        	const char* id;
+        	const char* name;
+        	const char* description;
+        	const char* groupid;
+        	const char* wareid;
+        	int32_t index;
+        	int64_t budgetvalue;
+        	uint32_t numdependencylists;
+        } CustomGameStartStoryInfo;
         '''
       file: customgame.lua
     }
@@ -31723,11 +31723,11 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* state;
-        		uint32_t numvalues;
-        		uint32_t numdefaultvalues;
-        	} CustomGameStartStoryState;
+        typedef struct {
+        	const char* state;
+        	uint32_t numvalues;
+        	uint32_t numdefaultvalues;
+        } CustomGameStartStoryState;
         '''
       file: customgame.lua
     }
@@ -31735,11 +31735,11 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* state;
-        		const char* defaultvalue;
-        		const char* options;
-        	} CustomGameStartStringPropertyState;
+        typedef struct {
+        	const char* state;
+        	const char* defaultvalue;
+        	const char* options;
+        } CustomGameStartStringPropertyState;
         '''
       file: menu_ship_configuration.lua
     }
@@ -31747,15 +31747,15 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* id;
-        		const char* name;
-        		const char* desc;
-        		const char* shortdesc;
-        		const char* iconid;
-        		const char* agentname;
-        		const char* targetname;
-        	} DiplomacyActionInfo;
+        typedef struct {
+        	const char* id;
+        	const char* name;
+        	const char* desc;
+        	const char* shortdesc;
+        	const char* iconid;
+        	const char* agentname;
+        	const char* targetname;
+        } DiplomacyActionInfo;
         '''
       file: menu_diplomacy.lua
     }
@@ -31763,10 +31763,10 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		float dps;
-        		uint32_t quadranttextid;
-        	} DPSData;
+        typedef struct {
+        	float dps;
+        	uint32_t quadranttextid;
+        } DPSData;
         '''
       file: menu_map.lua
     }
@@ -31774,11 +31774,11 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* id;
-        		const char* name;
-        		bool possible;
-        	} DroneModeInfo;
+        typedef struct {
+        	const char* id;
+        	const char* name;
+        	bool possible;
+        } DroneModeInfo;
         '''
       file: menu_docked.lua
     }
@@ -31786,15 +31786,15 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		bool armed;
-        		bool blocked;
-        		const char* modeIcon;
-        		bool pending;
-        		bool possible;
-        		uint32_t total;
-        		uint32_t undocked;
-        	} DroneState;
+        typedef struct {
+        	bool armed;
+        	bool blocked;
+        	const char* modeIcon;
+        	bool pending;
+        	bool possible;
+        	uint32_t total;
+        	uint32_t undocked;
+        } DroneState;
         '''
       file: crosshair handling.lua
     }
@@ -31802,14 +31802,14 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		Color color;
-        		uint32_t width;
-        		uint32_t height;
-        		uint32_t x;
-        		uint32_t y;
-        		float glowfactor;
-        	} DropDownIconInfo;
+        typedef struct {
+        	Color color;
+        	uint32_t width;
+        	uint32_t height;
+        	uint32_t x;
+        	uint32_t y;
+        	float glowfactor;
+        } DropDownIconInfo;
         '''
       file: widget_fullscreen.lua
     }
@@ -31817,18 +31817,18 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* id;
-        		const char* iconid;
-        		const char* text;
-        		const char* text2;
-        		const char* mouseovertext;
-        		const char* font;
-        		Color overrideColor;
-        		bool displayRemoveOption;
-        		bool active;
-        		bool hasOverrideColor;
-        	} DropDownOption2;
+        typedef struct {
+        	const char* id;
+        	const char* iconid;
+        	const char* text;
+        	const char* text2;
+        	const char* mouseovertext;
+        	const char* font;
+        	Color overrideColor;
+        	bool displayRemoveOption;
+        	bool active;
+        	bool hasOverrideColor;
+        } DropDownOption2;
         '''
       file: widget_fullscreen.lua
     }
@@ -31836,15 +31836,15 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		Color color;
-        		Font font;
-        		const char* alignment;
-        		uint32_t x;
-        		uint32_t y;
-        		const char* textOverride;
-        		float glowfactor;
-        	} DropDownTextInfo;
+        typedef struct {
+        	Color color;
+        	Font font;
+        	const char* alignment;
+        	uint32_t x;
+        	uint32_t y;
+        	const char* textOverride;
+        	float glowfactor;
+        } DropDownTextInfo;
         '''
       file: widget_fullscreen.lua
     }
@@ -31852,14 +31852,14 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* id;
-        		const char* referenceid;
-        		Color color;
-        		float glowfactor;
-        		bool ispersonal;
-        		bool isdeletable;
-        	} EditableColorMapEntry;
+        typedef struct {
+        	const char* id;
+        	const char* referenceid;
+        	Color color;
+        	float glowfactor;
+        	bool ispersonal;
+        	bool isdeletable;
+        } EditableColorMapEntry;
         '''
       file: gameoptions.lua
     }
@@ -31867,10 +31867,10 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* tag;
-        		const char* name;
-        	} EquipmentCompatibilityInfo;
+        typedef struct {
+        	const char* tag;
+        	const char* name;
+        } EquipmentCompatibilityInfo;
         '''
       file: menu_ship_configuration.lua
     }
@@ -31878,15 +31878,15 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* PropertyType;
-        		float MinValueFloat;
-        		float MaxValueFloat;
-        		uint32_t MinValueUINT;
-        		uint32_t MaxValueUINT;
-        		uint32_t BonusMax;
-        		float BonusChance;
-        	} EquipmentModInfo;
+        typedef struct {
+        	const char* PropertyType;
+        	float MinValueFloat;
+        	float MaxValueFloat;
+        	uint32_t MinValueUINT;
+        	uint32_t MaxValueUINT;
+        	uint32_t BonusMax;
+        	float BonusChance;
+        } EquipmentModInfo;
         '''
       file: menu_ship_configuration.lua
     }
@@ -31894,14 +31894,14 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* id;
-        		const char* name;
-        		const char* description;
-        		const char* propdatatype;
-        		float basevalue;
-        		bool poseffect;
-        	} EquipmentModPropertyInfo;
+        typedef struct {
+        	const char* id;
+        	const char* name;
+        	const char* description;
+        	const char* propdatatype;
+        	float basevalue;
+        	bool poseffect;
+        } EquipmentModPropertyInfo;
         '''
       file: helper.lua
     }
@@ -31909,12 +31909,12 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* type;
-        		const char* ware;
-        		const char* macro;
-        		int amount;
-        	} EquipmentWareInfo;
+        typedef struct {
+        	const char* type;
+        	const char* ware;
+        	const char* macro;
+        	int amount;
+        } EquipmentWareInfo;
         '''
       file: menu_ship_configuration.lua
     }
@@ -31922,11 +31922,11 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* factionID;
-        		const char* factionName;
-        		const char* factionIcon;
-        	} FactionDetails;
+        typedef struct {
+        	const char* factionID;
+        	const char* factionName;
+        	const char* factionIcon;
+        } FactionDetails;
         '''
       file: menu_map.lua
     }
@@ -31934,27 +31934,27 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		uint32_t numfactions;
-        	} FightRuleCounts;
+        typedef struct {
+        	uint32_t numfactions;
+        } FightRuleCounts;
         '''
       file: helper.lua
     }
     FightRuleID: {
       kind: int32_t
-      declaration: '''	typedef int32_t FightRuleID;'''
+      declaration: typedef int32_t FightRuleID;
       file: menu_map.lua
     }
     FightRuleInfo: {
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		FightRuleID id;
-        		const char* name;
-        		uint32_t numfactions;
-        		UIFightRuleSetting* factions;
-        	} FightRuleInfo;
+        typedef struct {
+        	FightRuleID id;
+        	const char* name;
+        	uint32_t numfactions;
+        	UIFightRuleSetting* factions;
+        } FightRuleInfo;
         '''
       file: menu_playerinfo.lua
     }
@@ -31962,30 +31962,30 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		FightRuleID id;
-        		const char* type;
-        	} FightRuleTypeID;
+        typedef struct {
+        	FightRuleID id;
+        	const char* type;
+        } FightRuleTypeID;
         '''
       file: menu_ship_configuration.lua
     }
     FleetUnitID: {
       kind: uint64_t
-      declaration: '''	typedef uint64_t FleetUnitID;'''
+      declaration: typedef uint64_t FleetUnitID;
       file: menu_map.lua
     }
     FleetUnitInfo: {
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		FleetUnitID fleetunitid;
-        		const char* name;
-        		const char* idcode;
-        		const char* macro;
-        		BuildTaskID buildtaskid;
-        		UniverseID replacementid;
-        	} FleetUnitInfo;
+        typedef struct {
+        	FleetUnitID fleetunitid;
+        	const char* name;
+        	const char* idcode;
+        	const char* macro;
+        	BuildTaskID buildtaskid;
+        	UniverseID replacementid;
+        } FleetUnitInfo;
         '''
       file: menu_map.lua
     }
@@ -31993,10 +31993,10 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		float min;
-        		float max;
-        	} FloatRange;
+        typedef struct {
+        	float min;
+        	float max;
+        } FloatRange;
         '''
       file: gameoptions.lua
     }
@@ -32004,10 +32004,10 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* name;
-        		uint32_t size;
-        	} Font;
+        typedef struct {
+        	const char* name;
+        	uint32_t size;
+        } Font;
         '''
       file: widget_fullscreen.lua
     }
@@ -32015,12 +32015,12 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		double fps;
-        		double moveTime;
-        		double renderTime;
-        		double gpuTime;
-        	} FPSDetails;
+        typedef struct {
+        	double fps;
+        	double moveTime;
+        	double renderTime;
+        	double gpuTime;
+        } FPSDetails;
         '''
       file: debuglog.lua
     }
@@ -32028,12 +32028,12 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		int32_t year;
-        		uint32_t month;
-        		uint32_t day;
-        		bool isvalid;
-        	} GameStartDateInfo;
+        typedef struct {
+        	int32_t year;
+        	uint32_t month;
+        	uint32_t day;
+        	bool isvalid;
+        } GameStartDateInfo;
         '''
       file: helper.lua
     }
@@ -32041,10 +32041,10 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		int32_t id;
-        		const char* name;
-        	} GameStartGroupInfo;
+        typedef struct {
+        	int32_t id;
+        	const char* name;
+        } GameStartGroupInfo;
         '''
       file: gameoptions.lua
     }
@@ -32052,10 +32052,10 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		int major;
-        		int minor;
-        	} GameVersion;
+        typedef struct {
+        	int major;
+        	int minor;
+        } GameVersion;
         '''
       file: debuglog.lua
     }
@@ -32063,11 +32063,11 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		UniverseID entity;
-        		UniverseID personcontrollable;
-        		NPCSeed personseed;
-        	} GenericActor;
+        typedef struct {
+        	UniverseID entity;
+        	UniverseID personcontrollable;
+        	NPCSeed personseed;
+        } GenericActor;
         '''
       file: menu_map.lua
     }
@@ -32075,17 +32075,17 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		GraphTextInfo label;
-        		double startvalue;
-        		double endvalue;
-        		double granularity;
-        		double offset;
-        		bool grid;
-        		Color color;
-        		Color gridcolor;
-        		float glowfactor;
-        	} GraphAxisInfo;
+        typedef struct {
+        	GraphTextInfo label;
+        	double startvalue;
+        	double endvalue;
+        	double granularity;
+        	double offset;
+        	bool grid;
+        	Color color;
+        	Color gridcolor;
+        	float glowfactor;
+        } GraphAxisInfo;
         '''
       file: widget_fullscreen.lua
     }
@@ -32093,11 +32093,11 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		double x;
-        		double y;
-        		bool inactive;
-        	} GraphDataPoint2;
+        typedef struct {
+        	double x;
+        	double y;
+        	bool inactive;
+        } GraphDataPoint2;
         '''
       file: widget_fullscreen.lua
     }
@@ -32105,19 +32105,19 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		uint32_t MarkerType;
-        		uint32_t MarkerSize;
-        		Color MarkerColor;
-        		float MarkerGlowFactor;
-        		uint32_t LineType;
-        		uint32_t LineWidth;
-        		Color LineColor;
-        		float LineGlowFactor;
-        		size_t NumData;
-        		bool Highlighted;
-        		const char* MouseOverText;
-        	} GraphDataRecord;
+        typedef struct {
+        	uint32_t MarkerType;
+        	uint32_t MarkerSize;
+        	Color MarkerColor;
+        	float MarkerGlowFactor;
+        	uint32_t LineType;
+        	uint32_t LineWidth;
+        	Color LineColor;
+        	float LineGlowFactor;
+        	size_t NumData;
+        	bool Highlighted;
+        	const char* MouseOverText;
+        } GraphDataRecord;
         '''
       file: widget_fullscreen.lua
     }
@@ -32125,12 +32125,12 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		size_t DataRecordIdx;
-        		size_t DataIdx;
-        		const char* IconID;
-        		const char* MouseOverText;
-        	} GraphIcon;
+        typedef struct {
+        	size_t DataRecordIdx;
+        	size_t DataIdx;
+        	const char* IconID;
+        	const char* MouseOverText;
+        } GraphIcon;
         '''
       file: widget_fullscreen.lua
     }
@@ -32138,11 +32138,11 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* text;
-        		Font font;
-        		Color color;
-        	} GraphTextInfo;
+        typedef struct {
+        	const char* text;
+        	Font font;
+        	Color color;
+        } GraphTextInfo;
         '''
       file: widget_fullscreen.lua
     }
@@ -32150,10 +32150,10 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		UIPosRot offset;
-        		float cameradistance;
-        	} HoloMapState;
+        typedef struct {
+        	UIPosRot offset;
+        	float cameradistance;
+        } HoloMapState;
         '''
       file: menu_map.lua
     }
@@ -32161,12 +32161,12 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* iconid;
-        		uint32_t x;
-        		uint32_t y;
-        		bool display;
-        	} HotkeyInfo;
+        typedef struct {
+        	const char* iconid;
+        	uint32_t x;
+        	uint32_t y;
+        	bool display;
+        } HotkeyInfo;
         '''
       file: widget_fullscreen.lua
     }
@@ -32174,11 +32174,11 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* active;
-        		const char* inactive;
-        		const char* select;
-        	} IconSet;
+        typedef struct {
+        	const char* active;
+        	const char* inactive;
+        	const char* select;
+        } IconSet;
         '''
       file: targetsystem.lua
     }
@@ -32186,12 +32186,12 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		int32_t source;
-        		int32_t code;
-        		int32_t signum;
-        		bool istoggle;
-        	} InputData;
+        typedef struct {
+        	int32_t source;
+        	int32_t code;
+        	int32_t signum;
+        	bool istoggle;
+        } InputData;
         '''
       file: gameoptions.lua
     }
@@ -32199,13 +32199,13 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* type;
-        		uint32_t id;
-        		const char* idname;
-        		const char* textoption;
-        		const char* voiceoption;
-        	} InputFeedbackConfig;
+        typedef struct {
+        	const char* type;
+        	uint32_t id;
+        	const char* idname;
+        	const char* textoption;
+        	const char* voiceoption;
+        } InputFeedbackConfig;
         '''
       file: gameoptions.lua
     }
@@ -32213,13 +32213,13 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* id;
-        		const char* name;
-        		int32_t state;
-        		const char* requiredversion;
-        		const char* installedversion;
-        	} InvalidPatchInfo;
+        typedef struct {
+        	const char* id;
+        	const char* name;
+        	int32_t state;
+        	const char* requiredversion;
+        	const char* installedversion;
+        } InvalidPatchInfo;
         '''
       file: menu_mapeditor.lua
     }
@@ -32227,13 +32227,13 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		int32_t id;
-        		const char* name;
-        		const char* warning;
-        		const char* font;
-        		bool voice;
-        	} LanguageInfo;
+        typedef struct {
+        	int32_t id;
+        	const char* name;
+        	const char* warning;
+        	const char* font;
+        	bool voice;
+        } LanguageInfo;
         '''
       file: gameoptions.lua
     }
@@ -32241,11 +32241,11 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		UniverseID attacker;
-        		double time;
-        		const char* method;
-        	} LastAttackerInfo;
+        typedef struct {
+        	UniverseID attacker;
+        	double time;
+        	const char* method;
+        } LastAttackerInfo;
         '''
       file: menu_interactmenu.lua
     }
@@ -32253,10 +32253,10 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* name;
-        		const char* icon;
-        	} LicenceInfo;
+        typedef struct {
+        	const char* name;
+        	const char* icon;
+        } LicenceInfo;
         '''
       file: menu_ship_configuration.lua
     }
@@ -32264,10 +32264,10 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* HintText;
-        		uint32_t HintID;
-        	} LoadingHint;
+        typedef struct {
+        	const char* HintText;
+        	uint32_t HintID;
+        } LoadingHint;
         '''
       file: loading.lua
     }
@@ -32275,10 +32275,10 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		size_t numImportantMails;
-        		size_t numNormalMails;
-        	} MailCount;
+        typedef struct {
+        	size_t numImportantMails;
+        	size_t numNormalMails;
+        } MailCount;
         '''
       file: monitors.lua
     }
@@ -32286,15 +32286,15 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		uint64_t poiID;
-        		UniverseID componentID;
-        		const char* messageType;
-        		const char* connectionName;
-        		bool isAssociative;
-        		bool isMissionObjective;
-        		bool showIndicator;
-        	} MessageDetails;
+        typedef struct {
+        	uint64_t poiID;
+        	UniverseID componentID;
+        	const char* messageType;
+        	const char* connectionName;
+        	bool isAssociative;
+        	bool isMissionObjective;
+        	bool showIndicator;
+        } MessageDetails;
         '''
       file: monitors.lua
     }
@@ -32302,49 +32302,49 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		uint64_t poiID;
-        		UniverseID componentID;
-        		const char* messageType;
-        		const char* connectionName;
-        		bool isAssociative;
-        		bool isMissionTarget;
-        		bool isPriorityMissionTarget;
-        		bool showIndicator;
-        		bool hasAdditionalOffset;
-        	} MessageDetails3;
+        typedef struct {
+        	uint64_t poiID;
+        	UniverseID componentID;
+        	const char* messageType;
+        	const char* connectionName;
+        	bool isAssociative;
+        	bool isMissionTarget;
+        	bool isPriorityMissionTarget;
+        	bool showIndicator;
+        	bool hasAdditionalOffset;
+        } MessageDetails3;
         '''
       file: targetmonitor.lua
     }
     MessageID: {
       kind: uint64_t
-      declaration: '''	typedef uint64_t MessageID;'''
+      declaration: typedef uint64_t MessageID;
       file: menu_playerinfo.lua
     }
     MessageInfo: {
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		MessageID id;
-        		double time;
-        		const char* category;
-        		const char* title;
-        		const char* text;
-        		const char* source;
-        		UniverseID sourcecomponent;
-        		const char* interaction;
-        		UniverseID interactioncomponent;
-        		const char* interactiontext;
-        		const char* interactionshorttext;
-        		const char* cutscenekey;
-        		const char* entityname;
-        		const char* factionname;
-        		int64_t money;
-        		int64_t bonus;
-        		bool highlighted;
-        		bool isread;
-        	} MessageInfo;
+        typedef struct {
+        	MessageID id;
+        	double time;
+        	const char* category;
+        	const char* title;
+        	const char* text;
+        	const char* source;
+        	UniverseID sourcecomponent;
+        	const char* interaction;
+        	UniverseID interactioncomponent;
+        	const char* interactiontext;
+        	const char* interactionshorttext;
+        	const char* cutscenekey;
+        	const char* entityname;
+        	const char* factionname;
+        	int64_t money;
+        	int64_t bonus;
+        	bool highlighted;
+        	bool isread;
+        } MessageInfo;
         '''
       file: menu_playerinfo.lua
     }
@@ -32352,10 +32352,10 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* icon;
-        		const char* caption;
-        	} MissionBriefingIconInfo;
+        typedef struct {
+        	const char* icon;
+        	const char* caption;
+        } MissionBriefingIconInfo;
         '''
       file: menu_map.lua
     }
@@ -32363,29 +32363,29 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* missionName;
-        		const char* missionDescription;
-        		int difficulty;
-        		int upkeepalertlevel;
-        		const char* threadType;
-        		const char* mainType;
-        		const char* subType;
-        		const char* subTypeName;
-        		const char* faction;
-        		int64_t reward;
-        		const char* rewardText;
-        		size_t numBriefingObjectives;
-        		int activeBriefingStep;
-        		const char* opposingFaction;
-        		const char* license;
-        		float timeLeft;
-        		double duration;
-        		bool abortable;
-        		bool hasObjective;
-        		UniverseID associatedComponent;
-        		UniverseID threadMissionID;
-        	} MissionDetails;
+        typedef struct {
+        	const char* missionName;
+        	const char* missionDescription;
+        	int difficulty;
+        	int upkeepalertlevel;
+        	const char* threadType;
+        	const char* mainType;
+        	const char* subType;
+        	const char* subTypeName;
+        	const char* faction;
+        	int64_t reward;
+        	const char* rewardText;
+        	size_t numBriefingObjectives;
+        	int activeBriefingStep;
+        	const char* opposingFaction;
+        	const char* license;
+        	float timeLeft;
+        	double duration;
+        	bool abortable;
+        	bool hasObjective;
+        	UniverseID associatedComponent;
+        	UniverseID threadMissionID;
+        } MissionDetails;
         '''
       file: menu_map.lua
     }
@@ -32393,37 +32393,37 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* id;
-        		const char* name;
-        	} MissionGroupDetails;
+        typedef struct {
+        	const char* id;
+        	const char* name;
+        } MissionGroupDetails;
         '''
       file: menu_map.lua
     }
     MissionID: {
       kind: uint64_t
-      declaration: '''	typedef uint64_t MissionID;'''
+      declaration: typedef uint64_t MissionID;
       file: menu_map.lua
     }
     MissionInfo2: {
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		bool active;
-        		bool callbackMode;
-        		uint32_t barLine;
-        		float barPercent;
-        		const char* line1Left;
-        		const char* line1Right;
-        		const char* line2Left;
-        		const char* line2Right;
-        		const char* line3Left;
-        		const char* line3Right;
-        		const char* line4Left;
-        		const char* line4Right;
-        		const char* missionBarText;
-        	} MissionInfo2;
+        typedef struct {
+        	bool active;
+        	bool callbackMode;
+        	uint32_t barLine;
+        	float barPercent;
+        	const char* line1Left;
+        	const char* line1Right;
+        	const char* line2Left;
+        	const char* line2Right;
+        	const char* line3Left;
+        	const char* line3Right;
+        	const char* line4Left;
+        	const char* line4Right;
+        	const char* missionBarText;
+        } MissionInfo2;
         '''
       file: monitors.lua
     }
@@ -32431,12 +32431,12 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		MissionID missionid;
-        		uint32_t amount;
-        		uint32_t numskills;
-        		SkillInfo* skills;
-        	} MissionNPCInfo;
+        typedef struct {
+        	MissionID missionid;
+        	uint32_t amount;
+        	uint32_t numskills;
+        	SkillInfo* skills;
+        } MissionNPCInfo;
         '''
       file: menu_map.lua
     }
@@ -32444,14 +32444,14 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* objectiveText;
-        		float timeout;
-        		const char* progressname;
-        		uint32_t curProgress;
-        		uint32_t maxProgress;
-        		size_t numTargets;
-        	} MissionObjective2;
+        typedef struct {
+        	const char* objectiveText;
+        	float timeout;
+        	const char* progressname;
+        	uint32_t curProgress;
+        	uint32_t maxProgress;
+        	size_t numTargets;
+        } MissionObjective2;
         '''
       file: menu_map.lua
     }
@@ -32459,14 +32459,14 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* text;
-        		const char* actiontext;
-        		const char* detailtext;
-        		int step;
-        		bool failed;
-        		bool completedoutofsequence;
-        	} MissionObjectiveStep3;
+        typedef struct {
+        	const char* text;
+        	const char* actiontext;
+        	const char* detailtext;
+        	int step;
+        	bool failed;
+        	bool completedoutofsequence;
+        } MissionObjectiveStep3;
         '''
       file: menu_map.lua
     }
@@ -32474,11 +32474,11 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		MissionID missionid;
-        		const char* macroname;
-        		uint32_t amount;
-        	} MissionShipDeliveryInfo;
+        typedef struct {
+        	MissionID missionid;
+        	const char* macroname;
+        	uint32_t amount;
+        } MissionShipDeliveryInfo;
         '''
       file: menu_ship_configuration.lua
     }
@@ -32486,11 +32486,11 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		UniverseID target;
-        		uint32_t numwares;
-        		MissionID missionid;
-        	} MissionWareDeliveryCounts;
+        typedef struct {
+        	UniverseID target;
+        	uint32_t numwares;
+        	MissionID missionid;
+        } MissionWareDeliveryCounts;
         '''
       file: menu_interactmenu.lua
     }
@@ -32498,11 +32498,11 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		UniverseID target;
-        		UIWareAmount* wares;
-        		uint32_t numwares;
-        	} MissionWareDeliveryInfo;
+        typedef struct {
+        	UniverseID target;
+        	UIWareAmount* wares;
+        	uint32_t numwares;
+        } MissionWareDeliveryInfo;
         '''
       file: menu_map.lua
     }
@@ -32510,11 +32510,11 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		double time;
-        		int64_t money;
-        		int64_t entryid;
-        	} MoneyLogEntry;
+        typedef struct {
+        	double time;
+        	int64_t money;
+        	int64_t entryid;
+        } MoneyLogEntry;
         '''
       file: helper.lua
     }
@@ -32522,12 +32522,12 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		float x;
-        		float y;
-        		float width;
-        		float height;
-        	} MonitorExtents;
+        typedef struct {
+        	float x;
+        	float y;
+        	float width;
+        	float height;
+        } MonitorExtents;
         '''
       file: menu_interactmenu.lua
     }
@@ -32535,11 +32535,11 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		uint32_t id;
-        		bool ispin;
-        		bool ishome;
-        	} MultiverseMapPickInfo;
+        typedef struct {
+        	uint32_t id;
+        	bool ispin;
+        	bool ishome;
+        } MultiverseMapPickInfo;
         '''
       file: menu_map.lua
     }
@@ -32547,10 +32547,10 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* key;
-        		const char* value;
-        	} NewGameParameter;
+        typedef struct {
+        	const char* key;
+        	const char* value;
+        } NewGameParameter;
         '''
       file: gameoptions.lua
     }
@@ -32558,13 +32558,13 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* id;
-        		const char* icon;
-        		const char* text;
-        		const char* link;
-        		bool islinkappid;
-        	} NewsInfo;
+        typedef struct {
+        	const char* id;
+        	const char* icon;
+        	const char* text;
+        	const char* link;
+        	bool islinkappid;
+        } NewsInfo;
         '''
       file: promo.lua
     }
@@ -32572,29 +32572,29 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		NPCSeed seed;
-        		const char* roleid;
-        		int32_t tierid;
-        		const char* name;
-        		int32_t combinedskill;
-        	} NPCInfo;
+        typedef struct {
+        	NPCSeed seed;
+        	const char* roleid;
+        	int32_t tierid;
+        	const char* name;
+        	int32_t combinedskill;
+        } NPCInfo;
         '''
       file: menu_map.lua
     }
     NPCSeed: {
       kind: uint64_t
-      declaration: '''	typedef uint64_t NPCSeed;'''
+      declaration: typedef uint64_t NPCSeed;
       file: menu_map.lua
     }
     OnlineMissionInfo: {
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* chapter;
-        		const char* onlineid;
-        	} OnlineMissionInfo;
+        typedef struct {
+        	const char* chapter;
+        	const char* onlineid;
+        } OnlineMissionInfo;
         '''
       file: menu_map.lua
     }
@@ -32602,17 +32602,17 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		size_t queueidx;
-        		const char* state;
-        		const char* statename;
-        		const char* orderdef;
-        		size_t actualparams;
-        		bool enabled;
-        		bool isinfinite;
-        		bool issyncpointreached;
-        		bool istemporder;
-        	} Order;
+        typedef struct {
+        	size_t queueidx;
+        	const char* state;
+        	const char* statename;
+        	const char* orderdef;
+        	size_t actualparams;
+        	bool enabled;
+        	bool isinfinite;
+        	bool issyncpointreached;
+        	bool istemporder;
+        } Order;
         '''
       file: menu_map.lua
     }
@@ -32620,18 +32620,18 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		size_t queueidx;
-        		const char* state;
-        		const char* statename;
-        		const char* orderdef;
-        		size_t actualparams;
-        		bool enabled;
-        		bool isinfinite;
-        		bool issyncpointreached;
-        		bool istemporder;
-        		bool isoverride;
-        	} Order2;
+        typedef struct {
+        	size_t queueidx;
+        	const char* state;
+        	const char* statename;
+        	const char* orderdef;
+        	size_t actualparams;
+        	bool enabled;
+        	bool isinfinite;
+        	bool issyncpointreached;
+        	bool istemporder;
+        	bool isoverride;
+        } Order2;
         '''
       file: menu_map.lua
     }
@@ -32639,16 +32639,16 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* id;
-        		const char* name;
-        		const char* icon;
-        		const char* description;
-        		const char* category;
-        		const char* categoryname;
-        		bool infinite;
-        		uint32_t requiredSkill;
-        	} OrderDefinition;
+        typedef struct {
+        	const char* id;
+        	const char* name;
+        	const char* icon;
+        	const char* description;
+        	const char* category;
+        	const char* categoryname;
+        	bool infinite;
+        	uint32_t requiredSkill;
+        } OrderDefinition;
         '''
       file: menu_map.lua
     }
@@ -32656,15 +32656,15 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		uint32_t id;
-        		AIOrderID orderid;
-        		const char* orderdef;
-        		const char* message;
-        		double timestamp;
-        		bool wasdefaultorder;
-        		bool wasinloop;
-        	} OrderFailure;
+        typedef struct {
+        	uint32_t id;
+        	AIOrderID orderid;
+        	const char* orderdef;
+        	const char* message;
+        	double timestamp;
+        	bool wasdefaultorder;
+        	bool wasinloop;
+        } OrderFailure;
         '''
       file: menu_map.lua
     }
@@ -32672,32 +32672,32 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		uint32_t colidx;
-        		uint32_t colspan;
-        		const char* text;
-        		Color textcolor;
-        		float textglowfactor;
-        		uint32_t fontsize;
-        		bool wordwrap;
-        		bool typewritereffect;
-        		const char* icon;
-        		Color iconcolor;
-        		float iconglowfactor;
-        		uint32_t iconwidth;
-        		uint32_t iconheight;
-        		int32_t offsetx;
-        		int32_t offsety;
-        		uint32_t cellheight;
-        		const char* halign;
-        		const char* valign;
-        		Color backgroundcolor;
-        		float backgroundglowfactor;
-        		double flashduration;
-        		double flashinterval;
-        		Color flashcolor;
-        		float flashglowfactor;
-        	} OverlayCellInfo3;
+        typedef struct {
+        	uint32_t colidx;
+        	uint32_t colspan;
+        	const char* text;
+        	Color textcolor;
+        	float textglowfactor;
+        	uint32_t fontsize;
+        	bool wordwrap;
+        	bool typewritereffect;
+        	const char* icon;
+        	Color iconcolor;
+        	float iconglowfactor;
+        	uint32_t iconwidth;
+        	uint32_t iconheight;
+        	int32_t offsetx;
+        	int32_t offsety;
+        	uint32_t cellheight;
+        	const char* halign;
+        	const char* valign;
+        	Color backgroundcolor;
+        	float backgroundglowfactor;
+        	double flashduration;
+        	double flashinterval;
+        	Color flashcolor;
+        	float flashglowfactor;
+        } OverlayCellInfo3;
         '''
       file: overlay.lua
     }
@@ -32705,16 +32705,16 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		uint32_t numrows;
-        		float fadein;
-        		float fadeout;
-        		float relwidth;
-        		float reloffsetx;
-        		float reloffsety;
-        		bool fromright;
-        		bool fromtop;
-        	} OverlayInfo;
+        typedef struct {
+        	uint32_t numrows;
+        	float fadein;
+        	float fadeout;
+        	float relwidth;
+        	float reloffsetx;
+        	float reloffsety;
+        	bool fromright;
+        	bool fromtop;
+        } OverlayInfo;
         '''
       file: overlay.lua
     }
@@ -32722,13 +32722,13 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		uint32_t numcols;
-        		float reloffsetx;
-        		float reloffsety;
-        		bool fromright;
-        		bool fromtop;
-        	} OverlayRowInfo;
+        typedef struct {
+        	uint32_t numcols;
+        	float reloffsetx;
+        	float reloffsety;
+        	bool fromright;
+        	bool fromtop;
+        } OverlayRowInfo;
         '''
       file: overlay.lua
     }
@@ -32736,11 +32736,11 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* id;
-        		const char* name;
-        		const char* desc;
-        	} PeopleDefinitionInfo;
+        typedef struct {
+        	const char* id;
+        	const char* name;
+        	const char* desc;
+        } PeopleDefinitionInfo;
         '''
       file: menu_ship_configuration.lua
     }
@@ -32748,14 +32748,14 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* id;
-        		const char* name;
-        		const char* desc;
-        		uint32_t amount;
-        		uint32_t numtiers;
-        		bool canhire;
-        	} PeopleInfo;
+        typedef struct {
+        	const char* id;
+        	const char* name;
+        	const char* desc;
+        	uint32_t amount;
+        	uint32_t numtiers;
+        	bool canhire;
+        } PeopleInfo;
         '''
       file: menu_map.lua
     }
@@ -32763,9 +32763,9 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		uint32_t numspaces;
-        	} PlayerAlertCounts;
+        typedef struct {
+        	uint32_t numspaces;
+        } PlayerAlertCounts;
         '''
       file: menu_playerinfo.lua
     }
@@ -32773,21 +32773,21 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		size_t index;
-        		double interval;
-        		bool repeats;
-        		bool muted;
-        		uint32_t numspaces;
-        		UniverseID* spaceids;
-        		const char* objectclass;
-        		const char* objectpurpose;
-        		const char* objectidcode;
-        		const char* objectowner;
-        		const char* name;
-        		const char* message;
-        		const char* soundid;
-        	} PlayerAlertInfo2;
+        typedef struct {
+        	size_t index;
+        	double interval;
+        	bool repeats;
+        	bool muted;
+        	uint32_t numspaces;
+        	UniverseID* spaceids;
+        	const char* objectclass;
+        	const char* objectpurpose;
+        	const char* objectidcode;
+        	const char* objectowner;
+        	const char* name;
+        	const char* message;
+        	const char* soundid;
+        } PlayerAlertInfo2;
         '''
       file: menu_playerinfo.lua
     }
@@ -32795,10 +32795,10 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* POIName;
-        		const char* POIType;
-        	} POIDetails;
+        typedef struct {
+        	const char* POIName;
+        	const char* POIType;
+        } POIDetails;
         '''
       file: targetsystem.lua
     }
@@ -32806,10 +32806,10 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		float x;
-        		float y;
-        	} Position2D;
+        typedef struct {
+        	float x;
+        	float y;
+        } Position2D;
         '''
       file: menu_interactmenu.lua
     }
@@ -32817,14 +32817,14 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		float x;
-        		float y;
-        		float z;
-        		float yaw;
-        		float pitch;
-        		float roll;
-        	} PosRot;
+        typedef struct {
+        	float x;
+        	float y;
+        	float z;
+        	float yaw;
+        	float pitch;
+        	float roll;
+        } PosRot;
         '''
       file: menu_interactmenu.lua
     }
@@ -32832,10 +32832,10 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* id;
-        		const char* name;
-        	} ProductionMethodInfo;
+        typedef struct {
+        	const char* id;
+        	const char* name;
+        } ProductionMethodInfo;
         '''
       file: menu_map.lua
     }
@@ -32843,12 +32843,12 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* id;
-        		const char* name;
-        		double productiontime;
-        		double productionamount;
-        	} ProductionMethodInfo2;
+        typedef struct {
+        	const char* id;
+        	const char* name;
+        	double productiontime;
+        	double productionamount;
+        } ProductionMethodInfo2;
         '''
       file: menu_encyclopedia.lua
     }
@@ -32856,13 +32856,13 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* id;
-        		const char* name;
-        		const char* shortname;
-        		const char* description;
-        		const char* icon;
-        	} RaceInfo;
+        typedef struct {
+        	const char* id;
+        	const char* name;
+        	const char* shortname;
+        	const char* description;
+        	const char* icon;
+        } RaceInfo;
         '''
       file: menu_map.lua
     }
@@ -32870,11 +32870,11 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* classid;
-        		Coord3D size;
-        		bool inverted;
-        	} RegionBoundary;
+        typedef struct {
+        	const char* classid;
+        	Coord3D size;
+        	bool inverted;
+        } RegionBoundary;
         '''
       file: menu_mapeditor.lua
     }
@@ -32882,19 +32882,19 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* id;
-        		uint32_t numfields;
-        		uint32_t numboundaries;
-        		uint32_t numresources;
-        		Coord3D size;
-        		float density;
-        		float speed;
-        		float rotationSpeed;
-        		float defaultNoiseScale;
-        		float defaultMinNoiseValue;
-        		float defaultMaxNoiseValue;
-        	} RegionDefinition;
+        typedef struct {
+        	const char* id;
+        	uint32_t numfields;
+        	uint32_t numboundaries;
+        	uint32_t numresources;
+        	Coord3D size;
+        	float density;
+        	float speed;
+        	float rotationSpeed;
+        	float defaultNoiseScale;
+        	float defaultMinNoiseValue;
+        	float defaultMaxNoiseValue;
+        } RegionDefinition;
         '''
       file: menu_mapeditor.lua
     }
@@ -32902,10 +32902,10 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* fieldtype;
-        		const char* groupref;
-        	} RegionField;
+        typedef struct {
+        	const char* fieldtype;
+        	const char* groupref;
+        } RegionField;
         '''
       file: menu_mapeditor.lua
     }
@@ -32913,10 +32913,10 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* wareid;
-        		const char* yield;
-        	} RegionResource;
+        typedef struct {
+        	const char* wareid;
+        	const char* yield;
+        } RegionResource;
         '''
       file: menu_mapeditor.lua
     }
@@ -32924,12 +32924,12 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		int relationStatus;
-        		int relationValue;
-        		int relationLEDValue;
-        		bool isBoostedValue;
-        	} RelationDetails;
+        typedef struct {
+        	int relationStatus;
+        	int relationValue;
+        	int relationLEDValue;
+        	bool isBoostedValue;
+        } RelationDetails;
         '''
       file: crosshair handling.lua
     }
@@ -32937,10 +32937,10 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		int x;
-        		int y;
-        	} ResolutionInfo;
+        typedef struct {
+        	int x;
+        	int y;
+        } ResolutionInfo;
         '''
       file: gameoptions.lua
     }
@@ -32948,11 +32948,11 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* id;
-        		const char* name;
-        		const char* description;
-        	} ResponseInfo;
+        typedef struct {
+        	const char* id;
+        	const char* name;
+        	const char* description;
+        } ResponseInfo;
         '''
       file: menu_map.lua
     }
@@ -32960,11 +32960,11 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* name;
-        		int32_t skilllevel;
-        		uint32_t amount;
-        	} RoleTierData;
+        typedef struct {
+        	const char* name;
+        	int32_t skilllevel;
+        	uint32_t amount;
+        } RoleTierData;
         '''
       file: menu_map.lua
     }
@@ -32972,11 +32972,11 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		float yaw;
-        		float pitch;
-        		float roll;
-        	} Rotation;
+        typedef struct {
+        	float yaw;
+        	float pitch;
+        	float roll;
+        } Rotation;
         '''
       file: targetsystem.lua
     }
@@ -32984,12 +32984,12 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		bool active;
-        		bool reverse;
-        		uint32_t numtexts;
-        		uint32_t numinfotexts;
-        	} ScenarioLoadingData;
+        typedef struct {
+        	bool active;
+        	bool reverse;
+        	uint32_t numtexts;
+        	uint32_t numinfotexts;
+        } ScenarioLoadingData;
         '''
       file: loading.lua
     }
@@ -32997,14 +32997,14 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* name;
-        		const char* desc;
-        		const char* value;
-        		float score;
-        		float maxscore;
-        		bool hasscore;
-        	} ScenarioStat;
+        typedef struct {
+        	const char* name;
+        	const char* desc;
+        	const char* value;
+        	float score;
+        	float maxscore;
+        	bool hasscore;
+        } ScenarioStat;
         '''
       file: menu_scenario_debriefing.lua
     }
@@ -33012,11 +33012,11 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		float x;
-        		float y;
-        		bool onScreen;
-        	} ScreenPos;
+        typedef struct {
+        	float x;
+        	float y;
+        	bool onScreen;
+        } ScreenPos;
         '''
       file: targetsystem.lua
     }
@@ -33024,11 +33024,11 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		UniverseID context;
-        		const char* group;
-        		UniverseID component;
-        	} ShieldGroup;
+        typedef struct {
+        	UniverseID context;
+        	const char* group;
+        	UniverseID component;
+        } ShieldGroup;
         '''
       file: menu_map.lua
     }
@@ -33036,14 +33036,14 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* id;
-        		const char* name;
-        		const char* description;
-        		uint32_t numresponses;
-        		const char* defaultresponse;
-        		bool ask;
-        	} SignalInfo;
+        typedef struct {
+        	const char* id;
+        	const char* name;
+        	const char* description;
+        	uint32_t numresponses;
+        	const char* defaultresponse;
+        	bool ask;
+        } SignalInfo;
         '''
       file: menu_map.lua
     }
@@ -33051,12 +33051,12 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		uint32_t textid;
-        		uint32_t descriptionid;
-        		uint32_t value;
-        		uint32_t relevance;
-        	} Skill2;
+        typedef struct {
+        	uint32_t textid;
+        	uint32_t descriptionid;
+        	uint32_t value;
+        	uint32_t relevance;
+        } Skill2;
         '''
       file: menu_map.lua
     }
@@ -33064,14 +33064,14 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* id;
-        		uint32_t textid;
-        		uint32_t descriptionid;
-        		uint32_t value;
-        		uint32_t relevance;
-        		const char* ware;
-        	} SkillInfo;
+        typedef struct {
+        	const char* id;
+        	uint32_t textid;
+        	uint32_t descriptionid;
+        	uint32_t value;
+        	uint32_t relevance;
+        	const char* ware;
+        } SkillInfo;
         '''
       file: menu_map.lua
     }
@@ -33079,23 +33079,23 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		double min;
-        		double minSelect;
-        		double max;
-        		double maxSelect;
-        		double start;
-        		double step;
-        		double infinitevalue;
-        		uint32_t maxfactor;
-        		bool exceedmax;
-        		bool hidemaxvalue;
-        		bool righttoleft;
-        		bool fromcenter;
-        		bool readonly;
-        		bool useinfinitevalue;
-        		bool usetimeformat;
-        	} SliderCellDetails;
+        typedef struct {
+        	double min;
+        	double minSelect;
+        	double max;
+        	double maxSelect;
+        	double start;
+        	double step;
+        	double infinitevalue;
+        	uint32_t maxfactor;
+        	bool exceedmax;
+        	bool hidemaxvalue;
+        	bool righttoleft;
+        	bool fromcenter;
+        	bool readonly;
+        	bool useinfinitevalue;
+        	bool usetimeformat;
+        } SliderCellDetails;
         '''
       file: widget_fullscreen.lua
     }
@@ -33103,11 +33103,11 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		UniverseID softtargetID;
-        		const char* softtargetConnectionName;
-        		uint32_t messageID;
-        	} SofttargetDetails2;
+        typedef struct {
+        	UniverseID softtargetID;
+        	const char* softtargetConnectionName;
+        	uint32_t messageID;
+        } SofttargetDetails2;
         '''
       file: menu_docked.lua
     }
@@ -33115,10 +33115,10 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* max;
-        		const char* current;
-        	} SoftwareSlot;
+        typedef struct {
+        	const char* max;
+        	const char* current;
+        } SoftwareSlot;
         '''
       file: menu_map.lua
     }
@@ -33126,10 +33126,10 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* id;
-        		const char* name;
-        	} SoundInfo;
+        typedef struct {
+        	const char* id;
+        	const char* name;
+        } SoundInfo;
         '''
       file: menu_playerinfo.lua
     }
@@ -33137,11 +33137,11 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		bool factionNPC;
-        		bool missionActor;
-        		bool shadyGuy;
-        	} SpecialNPCSet;
+        typedef struct {
+        	bool factionNPC;
+        	bool missionActor;
+        	bool shadyGuy;
+        } SpecialNPCSet;
         '''
       file: targetsystem.lua
     }
@@ -33149,13 +33149,13 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		Coord3D offset;
-        		Coord3D tangent;
-        		float weight;
-        		float inlength;
-        		float outlength;
-        	} SplineData;
+        typedef struct {
+        	Coord3D offset;
+        	Coord3D tangent;
+        	float weight;
+        	float inlength;
+        	float outlength;
+        } SplineData;
         '''
       file: menu_mapeditor.lua
     }
@@ -33163,11 +33163,11 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* cutsceneid;
-        		uint32_t extensionidx;
-        		bool isdefault;
-        	} StartmenuBackgroundInfo;
+        typedef struct {
+        	const char* cutsceneid;
+        	uint32_t extensionidx;
+        	bool isdefault;
+        } StartmenuBackgroundInfo;
         '''
       file: gameoptions.lua
     }
@@ -33175,12 +33175,12 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* name;
-        		const char* transport;
-        		uint32_t spaceused;
-        		uint32_t capacity;
-        	} StorageInfo;
+        typedef struct {
+        	const char* name;
+        	const char* transport;
+        	uint32_t spaceused;
+        	uint32_t capacity;
+        } StorageInfo;
         '''
       file: menu_map.lua
     }
@@ -33188,10 +33188,10 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		UniverseID controllableid;
-        		int group;
-        	} SubordinateGroup;
+        typedef struct {
+        	UniverseID controllableid;
+        	int group;
+        } SubordinateGroup;
         '''
       file: menu_map.lua
     }
@@ -33199,13 +33199,13 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		int64_t trade;
-        		int64_t defence;
-        		int64_t build;
-        		int64_t repair;
-        		int64_t missile;
-        	} SupplyBudget;
+        typedef struct {
+        	int64_t trade;
+        	int64_t defence;
+        	int64_t build;
+        	int64_t repair;
+        	int64_t missile;
+        } SupplyBudget;
         '''
       file: menu_station_overview.lua
     }
@@ -33213,10 +33213,10 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* macro;
-        		int amount;
-        	} SupplyOverride;
+        typedef struct {
+        	const char* macro;
+        	int amount;
+        } SupplyOverride;
         '''
       file: menu_station_overview.lua
     }
@@ -33224,12 +33224,12 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* ware;
-        		int total;
-        		int current;
-        		const char* supplytypes;
-        	} SupplyResourceInfo;
+        typedef struct {
+        	const char* ware;
+        	int total;
+        	int current;
+        	const char* supplytypes;
+        } SupplyResourceInfo;
         '''
       file: menu_station_overview.lua
     }
@@ -33237,12 +33237,12 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		uint32_t id;
-        		UniverseID owningcontrollable;
-        		size_t owningorderidx;
-        		bool reached;
-        	} SyncPointInfo2;
+        typedef struct {
+        	uint32_t id;
+        	UniverseID owningcontrollable;
+        	size_t owningorderidx;
+        	bool reached;
+        } SyncPointInfo2;
         '''
       file: menu_map.lua
     }
@@ -33250,13 +33250,13 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		uint32_t toprow;
-        		uint32_t selectedrow;
-        		uint32_t selectedcol;
-        		uint32_t shiftstart;
-        		uint32_t shiftend;
-        	} TableSelectionInfo;
+        typedef struct {
+        	uint32_t toprow;
+        	uint32_t selectedrow;
+        	uint32_t selectedcol;
+        	uint32_t shiftstart;
+        	uint32_t shiftend;
+        } TableSelectionInfo;
         '''
       file: widget_fullscreen.lua
     }
@@ -33264,10 +33264,10 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* text;
-        		const char* mouseovertext;
-        	} TextEntry;
+        typedef struct {
+        	const char* text;
+        	const char* mouseovertext;
+        } TextEntry;
         '''
       file: menu_diplomacy.lua
     }
@@ -33275,15 +33275,15 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* text;
-        		int32_t x;
-        		int32_t y;
-        		const char* alignment;
-        		Color color;
-        		Font font;
-        		float glowfactor;
-        	} TextInfo;
+        typedef struct {
+        	const char* text;
+        	int32_t x;
+        	int32_t y;
+        	const char* alignment;
+        	Color color;
+        	Font font;
+        	float glowfactor;
+        } TextInfo;
         '''
       file: widget_fullscreen.lua
     }
@@ -33291,69 +33291,69 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		TickerCacheID id;
-        		double time;
-        		const char* category;
-        		const char* title;
-        		const char* text;
-        	} TickerCacheEntry;
+        typedef struct {
+        	TickerCacheID id;
+        	double time;
+        	const char* category;
+        	const char* title;
+        	const char* text;
+        } TickerCacheEntry;
         '''
       file: menu_playerinfo.lua
     }
     TickerCacheID: {
       kind: uint64_t
-      declaration: '''	typedef uint64_t TickerCacheID;'''
+      declaration: typedef uint64_t TickerCacheID;
       file: menu_playerinfo.lua
     }
     TimelineInfo: {
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* id;
-        		const char* name;
-        		const char* description;
-        		const char* image;
-        		const char* video;
-        		const char* voice;
-        		float date;
-        		uint32_t group;
-        	} TimelineInfo;
+        typedef struct {
+        	const char* id;
+        	const char* name;
+        	const char* description;
+        	const char* image;
+        	const char* video;
+        	const char* voice;
+        	float date;
+        	uint32_t group;
+        } TimelineInfo;
         '''
       file: menu_timeline.lua
     }
     TradeID: {
       kind: uint64_t
-      declaration: '''	typedef uint64_t TradeID;'''
+      declaration: typedef uint64_t TradeID;
       file: menu_map.lua
     }
     TradeRuleCounts: {
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		uint32_t numfactions;
-        	} TradeRuleCounts;
+        typedef struct {
+        	uint32_t numfactions;
+        } TradeRuleCounts;
         '''
       file: menu_playerinfo.lua
     }
     TradeRuleID: {
       kind: int32_t
-      declaration: '''	typedef int32_t TradeRuleID;'''
+      declaration: typedef int32_t TradeRuleID;
       file: menu_map.lua
     }
     TradeRuleInfo: {
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		uint32_t id;
-        		const char* name;
-        		uint32_t numfactions;
-        		const char** factions;
-        		bool iswhitelist;
-        	} TradeRuleInfo;
+        typedef struct {
+        	uint32_t id;
+        	const char* name;
+        	uint32_t numfactions;
+        	const char** factions;
+        	bool iswhitelist;
+        } TradeRuleInfo;
         '''
       file: menu_playerinfo.lua
     }
@@ -33361,25 +33361,25 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		double time;
-        		int64_t money;
-        		int64_t entryid;
-        		const char* eventtype;
-        		const char* eventtypename;
-        		UniverseID partnerid;
-        		const char* partnername;
-        		const char* partneridcode;
-        		int64_t tradeentryid;
-        		const char* tradeeventtype;
-        		const char* tradeeventtypename;
-        		UniverseID buyerid;
-        		UniverseID sellerid;
-        		const char* ware;
-        		uint32_t amount;
-        		int64_t price;
-        		bool complete;
-        	} TransactionLogEntry;
+        typedef struct {
+        	double time;
+        	int64_t money;
+        	int64_t entryid;
+        	const char* eventtype;
+        	const char* eventtypename;
+        	UniverseID partnerid;
+        	const char* partnername;
+        	const char* partneridcode;
+        	int64_t tradeentryid;
+        	const char* tradeeventtype;
+        	const char* tradeeventtypename;
+        	UniverseID buyerid;
+        	UniverseID sellerid;
+        	const char* ware;
+        	uint32_t amount;
+        	int64_t price;
+        	bool complete;
+        } TransactionLogEntry;
         '''
       file: helper.lua
     }
@@ -33387,14 +33387,14 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* icon;
-        		const char* mode;
-        		uint32_t damageState;
-        		bool active;
-        		bool usesAmmo;
-        		uint32_t ammo;
-        	} TurretDetails;
+        typedef struct {
+        	const char* icon;
+        	const char* mode;
+        	uint32_t damageState;
+        	bool active;
+        	bool usesAmmo;
+        	uint32_t ammo;
+        } TurretDetails;
         '''
       file: crosshair handling.lua
     }
@@ -33402,10 +33402,10 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		double time;
-        		int64_t money;
-        	} UIAccountStatData;
+        typedef struct {
+        	double time;
+        	int64_t money;
+        } UIAccountStatData;
         '''
       file: menu_station_overview.lua
     }
@@ -33413,13 +33413,13 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		uint32_t id;
-        		const char* text;
-        		const char* type;
-        		bool ispossible;
-        		bool istobedisplayed;
-        	} UIAction;
+        typedef struct {
+        	uint32_t id;
+        	const char* text;
+        	const char* type;
+        	bool ispossible;
+        	bool istobedisplayed;
+        } UIAction;
         '''
       file: menu_interactmenu.lua
     }
@@ -33427,11 +33427,11 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* macro;
-        		const char* ware;
-        		const char* productionmethodid;
-        	} UIBlueprint;
+        typedef struct {
+        	const char* macro;
+        	const char* ware;
+        	const char* productionmethodid;
+        } UIBlueprint;
         '''
       file: menu_encyclopedia.lua
     }
@@ -33439,12 +33439,12 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		UniverseID shipid;
-        		const char* macroname;
-        		UILoadout loadout;
-        		uint32_t amount;
-        	} UIBuildOrderList;
+        typedef struct {
+        	UniverseID shipid;
+        	const char* macroname;
+        	UILoadout loadout;
+        	uint32_t amount;
+        } UIBuildOrderList;
         '''
       file: menu_map.lua
     }
@@ -33452,11 +33452,11 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* wareid;
-        		UICargoStatData* data;
-        		uint32_t numdata;
-        	} UICargoStat;
+        typedef struct {
+        	const char* wareid;
+        	UICargoStatData* data;
+        	uint32_t numdata;
+        } UICargoStat;
         '''
       file: menu_station_overview.lua
     }
@@ -33464,10 +33464,10 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		double time;
-        		uint64_t amount;
-        	} UICargoStatData;
+        typedef struct {
+        	double time;
+        	uint64_t amount;
+        } UICargoStatData;
         '''
       file: menu_station_overview.lua
     }
@@ -33475,16 +33475,16 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* name;
-        		const char* typeclass;
-        		const char* geology;
-        		const char* atmosphere;
-        		const char* population;
-        		const char* settlements;
-        		uint32_t nummoons;
-        		bool hasterraforming;
-        	} UICelestialBodyInfo2;
+        typedef struct {
+        	const char* name;
+        	const char* typeclass;
+        	const char* geology;
+        	const char* atmosphere;
+        	const char* population;
+        	const char* settlements;
+        	uint32_t nummoons;
+        	bool hasterraforming;
+        } UICelestialBodyInfo2;
         '''
       file: menu_encyclopedia.lua
     }
@@ -33492,11 +33492,11 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* ID;
-        		const char* Name;
-        		const char* RawName;
-        	} UIClothingTheme;
+        typedef struct {
+        	const char* ID;
+        	const char* Name;
+        	const char* RawName;
+        } UIClothingTheme;
         '''
       file: menu_playerinfo.lua
     }
@@ -33504,10 +33504,10 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* filename;
-        		const char* name;
-        	} UIColorProfileInfo;
+        typedef struct {
+        	const char* filename;
+        	const char* name;
+        } UIColorProfileInfo;
         '''
       file: gameoptions.lua
     }
@@ -33515,10 +33515,10 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		UniverseID component;
-        		const char* connection;
-        	} UIComponentSlot;
+        typedef struct {
+        	UniverseID component;
+        	const char* connection;
+        } UIComponentSlot;
         '''
       file: menu_transporter.lua
     }
@@ -33526,12 +33526,12 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* name;
-        		const char* id;
-        		const char* source;
-        		bool deleteable;
-        	} UIConstructionPlan;
+        typedef struct {
+        	const char* name;
+        	const char* id;
+        	const char* source;
+        	bool deleteable;
+        } UIConstructionPlan;
         '''
       file: menu_mapeditor.lua
     }
@@ -33539,16 +33539,16 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		size_t idx;
-        		const char* macroid;
-        		UniverseID componentid;
-        		UIPosRot offset;
-        		const char* connectionid;
-        		size_t predecessoridx;
-        		const char* predecessorconnectionid;
-        		bool isfixed;
-        	} UIConstructionPlanEntry;
+        typedef struct {
+        	size_t idx;
+        	const char* macroid;
+        	UniverseID componentid;
+        	UIPosRot offset;
+        	const char* connectionid;
+        	size_t predecessoridx;
+        	const char* predecessorconnectionid;
+        	bool isfixed;
+        } UIConstructionPlanEntry;
         '''
       file: menu_map.lua
     }
@@ -33556,11 +33556,11 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* filename;
-        		const char* name;
-        		const char* id;
-        	} UIConstructionPlanInfo;
+        typedef struct {
+        	const char* filename;
+        	const char* name;
+        	const char* id;
+        } UIConstructionPlanInfo;
         '''
       file: menu_station_configuration.lua
     }
@@ -33568,11 +33568,11 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* reason;
-        		NPCSeed person;
-        		NPCSeed partnerperson;
-        	} UICrewExchangeResult;
+        typedef struct {
+        	const char* reason;
+        	NPCSeed person;
+        	NPCSeed partnerperson;
+        } UICrewExchangeResult;
         '''
       file: menu_map.lua
     }
@@ -33580,29 +33580,29 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* Name;
-        		const char* RawName;
-        		const char* Ware;
-        		uint32_t Quality;
-        		const char* PropertyType;
-        		float ForwardThrustFactor;
-        		float StrafeAccFactor;
-        		float StrafeThrustFactor;
-        		float RotationThrustFactor;
-        		float BoostAccFactor;
-        		float BoostThrustFactor;
-        		float BoostDurationFactor;
-        		float BoostAttackTimeFactor;
-        		float BoostReleaseTimeFactor;
-        		float BoostChargeTimeFactor;
-        		float BoostRechargeTimeFactor;
-        		float TravelThrustFactor;
-        		float TravelStartThrustFactor;
-        		float TravelAttackTimeFactor;
-        		float TravelReleaseTimeFactor;
-        		float TravelChargeTimeFactor;
-        	} UIEngineMod2;
+        typedef struct {
+        	const char* Name;
+        	const char* RawName;
+        	const char* Ware;
+        	uint32_t Quality;
+        	const char* PropertyType;
+        	float ForwardThrustFactor;
+        	float StrafeAccFactor;
+        	float StrafeThrustFactor;
+        	float RotationThrustFactor;
+        	float BoostAccFactor;
+        	float BoostThrustFactor;
+        	float BoostDurationFactor;
+        	float BoostAttackTimeFactor;
+        	float BoostReleaseTimeFactor;
+        	float BoostChargeTimeFactor;
+        	float BoostRechargeTimeFactor;
+        	float TravelThrustFactor;
+        	float TravelStartThrustFactor;
+        	float TravelAttackTimeFactor;
+        	float TravelReleaseTimeFactor;
+        	float TravelChargeTimeFactor;
+        } UIEngineMod2;
         '''
       file: menu_ship_configuration.lua
     }
@@ -33610,12 +33610,12 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* Name;
-        		const char* RawName;
-        		const char* Ware;
-        		uint32_t Quality;
-        	} UIEquipmentMod;
+        typedef struct {
+        	const char* Name;
+        	const char* RawName;
+        	const char* Ware;
+        	uint32_t Quality;
+        } UIEquipmentMod;
         '''
       file: menu_playerinfo.lua
     }
@@ -33623,11 +33623,11 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* factionid;
-        		const char* civiliansetting;
-        		const char* militarysetting;
-        	} UIFightRuleSetting;
+        typedef struct {
+        	const char* factionid;
+        	const char* civiliansetting;
+        	const char* militarysetting;
+        } UIFightRuleSetting;
         '''
       file: menu_playerinfo.lua
     }
@@ -33635,15 +33635,15 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* shape;
-        		const char* name;
-        		uint32_t requiredSkill;
-        		float radius;
-        		bool rollMembers;
-        		bool rollFormation;
-        		size_t maxShipsPerLine;
-        	} UIFormationInfo;
+        typedef struct {
+        	const char* shape;
+        	const char* name;
+        	uint32_t requiredSkill;
+        	float radius;
+        	bool rollMembers;
+        	bool rollFormation;
+        	size_t maxShipsPerLine;
+        } UIFormationInfo;
         '''
       file: menu_map.lua
     }
@@ -33651,19 +33651,19 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* iconid;
-        		Color color;
-        		uint32_t width;
-        		uint32_t height;
-        		int32_t rotationrate;
-        		uint32_t rotstart;
-        		float rotduration;
-        		float rotinterval;
-        		float initscale;
-        		float scaleduration;
-        		float glowfactor;
-        	} UIFrameTextureInfo;
+        typedef struct {
+        	const char* iconid;
+        	Color color;
+        	uint32_t width;
+        	uint32_t height;
+        	int32_t rotationrate;
+        	uint32_t rotstart;
+        	float rotduration;
+        	float rotinterval;
+        	float initscale;
+        	float scaleduration;
+        	float glowfactor;
+        } UIFrameTextureInfo;
         '''
       file: widget_fullscreen.lua
     }
@@ -33671,27 +33671,27 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		UILoadoutMacroData* weapons;
-        		uint32_t numweapons;
-        		UILoadoutMacroData* turrets;
-        		uint32_t numturrets;
-        		UILoadoutMacroData* shields;
-        		uint32_t numshields;
-        		UILoadoutMacroData* engines;
-        		uint32_t numengines;
-        		UILoadoutGroupData* turretgroups;
-        		uint32_t numturretgroups;
-        		UILoadoutGroupData* shieldgroups;
-        		uint32_t numshieldgroups;
-        		UILoadoutAmmoData* ammo;
-        		uint32_t numammo;
-        		UILoadoutAmmoData* units;
-        		uint32_t numunits;
-        		UILoadoutSoftwareData* software;
-        		uint32_t numsoftware;
-        		UILoadoutVirtualMacroData thruster;
-        	} UILoadout;
+        typedef struct {
+        	UILoadoutMacroData* weapons;
+        	uint32_t numweapons;
+        	UILoadoutMacroData* turrets;
+        	uint32_t numturrets;
+        	UILoadoutMacroData* shields;
+        	uint32_t numshields;
+        	UILoadoutMacroData* engines;
+        	uint32_t numengines;
+        	UILoadoutGroupData* turretgroups;
+        	uint32_t numturretgroups;
+        	UILoadoutGroupData* shieldgroups;
+        	uint32_t numshieldgroups;
+        	UILoadoutAmmoData* ammo;
+        	uint32_t numammo;
+        	UILoadoutAmmoData* units;
+        	uint32_t numunits;
+        	UILoadoutSoftwareData* software;
+        	uint32_t numsoftware;
+        	UILoadoutVirtualMacroData thruster;
+        } UILoadout;
         '''
       file: menu_map.lua
     }
@@ -33699,30 +33699,30 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		UILoadoutMacroData2* weapons;
-        		uint32_t numweapons;
-        		UILoadoutMacroData2* turrets;
-        		uint32_t numturrets;
-        		UILoadoutMacroData2* shields;
-        		uint32_t numshields;
-        		UILoadoutMacroData2* engines;
-        		uint32_t numengines;
-        		UILoadoutGroupData2* turretgroups;
-        		uint32_t numturretgroups;
-        		UILoadoutGroupData2* shieldgroups;
-        		uint32_t numshieldgroups;
-        		UILoadoutAmmoData* ammo;
-        		uint32_t numammo;
-        		UILoadoutAmmoData* units;
-        		uint32_t numunits;
-        		UILoadoutSoftwareData* software;
-        		uint32_t numsoftware;
-        		UILoadoutVirtualMacroData thruster;
-        		uint32_t numcrew;
-        		UILoadoutCrewData* crew;
-        		bool hascrewexperience;
-        	} UILoadout2;
+        typedef struct {
+        	UILoadoutMacroData2* weapons;
+        	uint32_t numweapons;
+        	UILoadoutMacroData2* turrets;
+        	uint32_t numturrets;
+        	UILoadoutMacroData2* shields;
+        	uint32_t numshields;
+        	UILoadoutMacroData2* engines;
+        	uint32_t numengines;
+        	UILoadoutGroupData2* turretgroups;
+        	uint32_t numturretgroups;
+        	UILoadoutGroupData2* shieldgroups;
+        	uint32_t numshieldgroups;
+        	UILoadoutAmmoData* ammo;
+        	uint32_t numammo;
+        	UILoadoutAmmoData* units;
+        	uint32_t numunits;
+        	UILoadoutSoftwareData* software;
+        	uint32_t numsoftware;
+        	UILoadoutVirtualMacroData thruster;
+        	uint32_t numcrew;
+        	UILoadoutCrewData* crew;
+        	bool hascrewexperience;
+        } UILoadout2;
         '''
       file: menu_ship_configuration.lua
     }
@@ -33730,11 +33730,11 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* macro;
-        		uint32_t amount;
-        		bool optional;
-        	} UILoadoutAmmoData;
+        typedef struct {
+        	const char* macro;
+        	uint32_t amount;
+        	bool optional;
+        } UILoadoutAmmoData;
         '''
       file: menu_map.lua
     }
@@ -33742,17 +33742,17 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		uint32_t numweapons;
-        		uint32_t numturrets;
-        		uint32_t numshields;
-        		uint32_t numengines;
-        		uint32_t numturretgroups;
-        		uint32_t numshieldgroups;
-        		uint32_t numammo;
-        		uint32_t numunits;
-        		uint32_t numsoftware;
-        	} UILoadoutCounts;
+        typedef struct {
+        	uint32_t numweapons;
+        	uint32_t numturrets;
+        	uint32_t numshields;
+        	uint32_t numengines;
+        	uint32_t numturretgroups;
+        	uint32_t numshieldgroups;
+        	uint32_t numammo;
+        	uint32_t numunits;
+        	uint32_t numsoftware;
+        } UILoadoutCounts;
         '''
       file: menu_station_configuration.lua
     }
@@ -33760,18 +33760,18 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		uint32_t numweapons;
-        		uint32_t numturrets;
-        		uint32_t numshields;
-        		uint32_t numengines;
-        		uint32_t numturretgroups;
-        		uint32_t numshieldgroups;
-        		uint32_t numammo;
-        		uint32_t numunits;
-        		uint32_t numsoftware;
-        		uint32_t numcrew;
-        	} UILoadoutCounts2;
+        typedef struct {
+        	uint32_t numweapons;
+        	uint32_t numturrets;
+        	uint32_t numshields;
+        	uint32_t numengines;
+        	uint32_t numturretgroups;
+        	uint32_t numshieldgroups;
+        	uint32_t numammo;
+        	uint32_t numunits;
+        	uint32_t numsoftware;
+        	uint32_t numcrew;
+        } UILoadoutCounts2;
         '''
       file: menu_ship_configuration.lua
     }
@@ -33779,11 +33779,11 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* roleid;
-        		uint32_t count;
-        		bool optional;
-        	} UILoadoutCrewData;
+        typedef struct {
+        	const char* roleid;
+        	uint32_t count;
+        	bool optional;
+        } UILoadoutCrewData;
         '''
       file: menu_ship_configuration.lua
     }
@@ -33791,13 +33791,13 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* macro;
-        		const char* path;
-        		const char* group;
-        		uint32_t count;
-        		bool optional;
-        	} UILoadoutGroupData;
+        typedef struct {
+        	const char* macro;
+        	const char* path;
+        	const char* group;
+        	uint32_t count;
+        	bool optional;
+        } UILoadoutGroupData;
         '''
       file: menu_map.lua
     }
@@ -33805,14 +33805,14 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* macro;
-        		const char* path;
-        		const char* group;
-        		uint32_t count;
-        		bool optional;
-        		UILoadoutWeaponSetting weaponsetting;
-        	} UILoadoutGroupData2;
+        typedef struct {
+        	const char* macro;
+        	const char* path;
+        	const char* group;
+        	uint32_t count;
+        	bool optional;
+        	UILoadoutWeaponSetting weaponsetting;
+        } UILoadoutGroupData2;
         '''
       file: menu_ship_configuration.lua
     }
@@ -33820,12 +33820,12 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* id;
-        		const char* name;
-        		const char* iconid;
-        		bool deleteable;
-        	} UILoadoutInfo;
+        typedef struct {
+        	const char* id;
+        	const char* name;
+        	const char* iconid;
+        	bool deleteable;
+        } UILoadoutInfo;
         '''
       file: menu_ship_configuration.lua
     }
@@ -33833,12 +33833,12 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* macro;
-        		const char* upgradetypename;
-        		size_t slot;
-        		bool optional;
-        	} UILoadoutMacroData;
+        typedef struct {
+        	const char* macro;
+        	const char* upgradetypename;
+        	size_t slot;
+        	bool optional;
+        } UILoadoutMacroData;
         '''
       file: menu_map.lua
     }
@@ -33846,13 +33846,13 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* macro;
-        		const char* upgradetypename;
-        		size_t slot;
-        		bool optional;
-        		UILoadoutWeaponSetting weaponsetting;
-        	} UILoadoutMacroData2;
+        typedef struct {
+        	const char* macro;
+        	const char* upgradetypename;
+        	size_t slot;
+        	bool optional;
+        	UILoadoutWeaponSetting weaponsetting;
+        } UILoadoutMacroData2;
         '''
       file: menu_ship_configuration.lua
     }
@@ -33860,10 +33860,10 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* upgradetype;
-        		size_t slot;
-        	} UILoadoutSlot;
+        typedef struct {
+        	const char* upgradetype;
+        	size_t slot;
+        } UILoadoutSlot;
         '''
       file: menu_ship_configuration.lua
     }
@@ -33871,9 +33871,9 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* ware;
-        	} UILoadoutSoftwareData;
+        typedef struct {
+        	const char* ware;
+        } UILoadoutSoftwareData;
         '''
       file: menu_map.lua
     }
@@ -33881,51 +33881,51 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		float HullValue;
-        		float ShieldValue;
-        		double ShieldDelay;
-        		float ShieldRate;
-        		float GroupedShieldValue;
-        		double GroupedShieldDelay;
-        		float GroupedShieldRate;
-        		float BurstDPS;
-        		float SustainedDPS;
-        		float TurretBurstDPS;
-        		float TurretSustainedDPS;
-        		float GroupedTurretBurstDPS;
-        		float GroupedTurretSustainedDPS;
-        		float ForwardSpeed;
-        		float BoostSpeed;
-        		float TravelSpeed;
-        		float YawSpeed;
-        		float PitchSpeed;
-        		float RollSpeed;
-        		float HorizontalStrafeSpeed;
-        		float VerticalStrafeSpeed;
-        		float ForwardAcceleration;
-        		float HorizontalStrafeAcceleration;
-        		float VerticalStrafeAcceleration;
-        		float BoostAcceleration;
-        		float BoostRechargeRate;
-        		float BoostMaxDuration;
-        		float TravelAcceleration;
-        		float TravelChargeTime;
-        		uint32_t NumDocksShipMedium;
-        		uint32_t NumDocksShipSmall;
-        		uint32_t ShipCapacityMedium;
-        		uint32_t ShipCapacitySmall;
-        		uint32_t CrewCapacity;
-        		uint32_t ContainerCapacity;
-        		uint32_t SolidCapacity;
-        		uint32_t LiquidCapacity;
-        		uint32_t CondensateCapacity;
-        		uint32_t UnitCapacity;
-        		uint32_t MissileCapacity;
-        		uint32_t CountermeasureCapacity;
-        		uint32_t DeployableCapacity;
-        		float RadarRange;
-        	} UILoadoutStatistics5;
+        typedef struct {
+        	float HullValue;
+        	float ShieldValue;
+        	double ShieldDelay;
+        	float ShieldRate;
+        	float GroupedShieldValue;
+        	double GroupedShieldDelay;
+        	float GroupedShieldRate;
+        	float BurstDPS;
+        	float SustainedDPS;
+        	float TurretBurstDPS;
+        	float TurretSustainedDPS;
+        	float GroupedTurretBurstDPS;
+        	float GroupedTurretSustainedDPS;
+        	float ForwardSpeed;
+        	float BoostSpeed;
+        	float TravelSpeed;
+        	float YawSpeed;
+        	float PitchSpeed;
+        	float RollSpeed;
+        	float HorizontalStrafeSpeed;
+        	float VerticalStrafeSpeed;
+        	float ForwardAcceleration;
+        	float HorizontalStrafeAcceleration;
+        	float VerticalStrafeAcceleration;
+        	float BoostAcceleration;
+        	float BoostRechargeRate;
+        	float BoostMaxDuration;
+        	float TravelAcceleration;
+        	float TravelChargeTime;
+        	uint32_t NumDocksShipMedium;
+        	uint32_t NumDocksShipSmall;
+        	uint32_t ShipCapacityMedium;
+        	uint32_t ShipCapacitySmall;
+        	uint32_t CrewCapacity;
+        	uint32_t ContainerCapacity;
+        	uint32_t SolidCapacity;
+        	uint32_t LiquidCapacity;
+        	uint32_t CondensateCapacity;
+        	uint32_t UnitCapacity;
+        	uint32_t MissileCapacity;
+        	uint32_t CountermeasureCapacity;
+        	uint32_t DeployableCapacity;
+        	float RadarRange;
+        } UILoadoutStatistics5;
         '''
       file: menu_ship_comparison.lua
     }
@@ -33933,10 +33933,10 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* macro;
-        		bool optional;
-        	} UILoadoutVirtualMacroData;
+        typedef struct {
+        	const char* macro;
+        	bool optional;
+        } UILoadoutVirtualMacroData;
         '''
       file: menu_map.lua
     }
@@ -33944,10 +33944,10 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* ammomacroname;
-        		const char* weaponmode;
-        	} UILoadoutWeaponSetting;
+        typedef struct {
+        	const char* ammomacroname;
+        	const char* weaponmode;
+        } UILoadoutWeaponSetting;
         '''
       file: menu_ship_configuration.lua
     }
@@ -33955,11 +33955,11 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* file;
-        		const char* icon;
-        		bool ispersonal;
-        	} UILogo;
+        typedef struct {
+        	const char* file;
+        	const char* icon;
+        	bool ispersonal;
+        } UILogo;
         '''
       file: menu_diplomacy.lua
     }
@@ -33967,10 +33967,10 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* macro;
-        		uint32_t amount;
-        	} UIMacroCount;
+        typedef struct {
+        	const char* macro;
+        	uint32_t amount;
+        } UIMacroCount;
         '''
       file: menu_playerinfo.lua
     }
@@ -33978,13 +33978,13 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* icon;
-        		Color color;
-        		uint32_t volume_s;
-        		uint32_t volume_m;
-        		uint32_t volume_l;
-        	} UIMapTradeVolumeParameter;
+        typedef struct {
+        	const char* icon;
+        	Color color;
+        	uint32_t volume_s;
+        	uint32_t volume_m;
+        	uint32_t volume_l;
+        } UIMapTradeVolumeParameter;
         '''
       file: menu_map.lua
     }
@@ -33992,10 +33992,10 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* id;
-        		const char* name;
-        	} UIModuleSet;
+        typedef struct {
+        	const char* id;
+        	const char* name;
+        } UIModuleSet;
         '''
       file: menu_map.lua
     }
@@ -34003,14 +34003,14 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* id;
-        		const char* name;
-        		const char* desc;
-        		const char* category;
-        		bool enabled;
-        		bool enabledByDefault;
-        	} UINotificationType2;
+        typedef struct {
+        	const char* id;
+        	const char* name;
+        	const char* desc;
+        	const char* category;
+        	bool enabled;
+        	bool enabledByDefault;
+        } UINotificationType2;
         '''
       file: menu_playerinfo.lua
     }
@@ -34018,16 +34018,16 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* id;
-        		const char* text;
-        		uint32_t x;
-        		uint32_t y;
-        		uint32_t width;
-        		uint32_t height;
-        		bool highlightonly;
-        		bool usebackgroundspan;
-        	} UIOverlayInfo2;
+        typedef struct {
+        	const char* id;
+        	const char* text;
+        	uint32_t x;
+        	uint32_t y;
+        	uint32_t width;
+        	uint32_t height;
+        	bool highlightonly;
+        	bool usebackgroundspan;
+        } UIOverlayInfo2;
         '''
       file: widget_fullscreen.lua
     }
@@ -34035,13 +34035,13 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* Name;
-        		const char* RawName;
-        		const char* Ware;
-        		uint32_t Quality;
-        		uint32_t Amount;
-        	} UIPaintMod;
+        typedef struct {
+        	const char* Name;
+        	const char* RawName;
+        	const char* Ware;
+        	uint32_t Quality;
+        	uint32_t Amount;
+        } UIPaintMod;
         '''
       file: menu_ship_configuration.lua
     }
@@ -34049,12 +34049,12 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* ID;
-        		const char* Name;
-        		const char* RawName;
-        		const char* Icon;
-        	} UIPaintTheme;
+        typedef struct {
+        	const char* ID;
+        	const char* Name;
+        	const char* RawName;
+        	const char* Icon;
+        } UIPaintTheme;
         '''
       file: menu_playerinfo.lua
     }
@@ -34062,14 +34062,14 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		float x;
-        		float y;
-        		float z;
-        		float yaw;
-        		float pitch;
-        		float roll;
-        	} UIPosRot;
+        typedef struct {
+        	float x;
+        	float y;
+        	float z;
+        	float yaw;
+        	float pitch;
+        	float roll;
+        } UIPosRot;
         '''
       file: menu_map.lua
     }
@@ -34077,23 +34077,23 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* filename;
-        		const char* name;
-        		const char* description;
-        		const char* version;
-        		uint32_t rawversion;
-        		const char* time;
-        		int64_t rawtime;
-        		double playtime;
-        		const char* playername;
-        		const char* location;
-        		int64_t money;
-        		bool error;
-        		bool invalidgameid;
-        		bool invalidversion;
-        		uint32_t numinvalidpatches;
-        	} UISaveInfo;
+        typedef struct {
+        	const char* filename;
+        	const char* name;
+        	const char* description;
+        	const char* version;
+        	uint32_t rawversion;
+        	const char* time;
+        	int64_t rawtime;
+        	double playtime;
+        	const char* playername;
+        	const char* location;
+        	int64_t money;
+        	bool error;
+        	bool invalidgameid;
+        	bool invalidversion;
+        	uint32_t numinvalidpatches;
+        } UISaveInfo;
         '''
       file: gameoptions.lua
     }
@@ -34101,16 +34101,16 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* Name;
-        		const char* RawName;
-        		const char* Ware;
-        		uint32_t Quality;
-        		const char* PropertyType;
-        		float CapacityFactor;
-        		float RechargeDelayFactor;
-        		float RechargeRateFactor;
-        	} UIShieldMod;
+        typedef struct {
+        	const char* Name;
+        	const char* RawName;
+        	const char* Ware;
+        	uint32_t Quality;
+        	const char* PropertyType;
+        	float CapacityFactor;
+        	float RechargeDelayFactor;
+        	float RechargeRateFactor;
+        } UIShieldMod;
         '''
       file: menu_ship_configuration.lua
     }
@@ -34118,24 +34118,24 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* Name;
-        		const char* RawName;
-        		const char* Ware;
-        		uint32_t Quality;
-        		const char* PropertyType;
-        		float MassFactor;
-        		float DragFactor;
-        		float MaxHullFactor;
-        		float RadarRangeFactor;
-        		uint32_t AddedUnitCapacity;
-        		uint32_t AddedMissileCapacity;
-        		uint32_t AddedCountermeasureCapacity;
-        		uint32_t AddedDeployableCapacity;
-        		float RadarCloakFactor;
-        		float RegionDamageProtection;
-        		float HideCargoChance;
-        	} UIShipMod2;
+        typedef struct {
+        	const char* Name;
+        	const char* RawName;
+        	const char* Ware;
+        	uint32_t Quality;
+        	const char* PropertyType;
+        	float MassFactor;
+        	float DragFactor;
+        	float MaxHullFactor;
+        	float RadarRangeFactor;
+        	uint32_t AddedUnitCapacity;
+        	uint32_t AddedMissileCapacity;
+        	uint32_t AddedCountermeasureCapacity;
+        	uint32_t AddedDeployableCapacity;
+        	float RadarCloakFactor;
+        	float RegionDamageProtection;
+        	float HideCargoChance;
+        } UIShipMod2;
         '''
       file: helper.lua
     }
@@ -34143,9 +34143,9 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* environment;
-        	} UISpaceInfo;
+        typedef struct {
+        	const char* environment;
+        } UISpaceInfo;
         '''
       file: menu_encyclopedia.lua
     }
@@ -34153,10 +34153,10 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* name;
-        		const char* typeclass;
-        	} UISunInfo;
+        typedef struct {
+        	const char* name;
+        	const char* typeclass;
+        } UISunInfo;
         '''
       file: menu_encyclopedia.lua
     }
@@ -34164,13 +34164,13 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		UISpaceInfo space;
-        		uint32_t numsuns;
-        		UISunInfo* suns;
-        		uint32_t numplanets;
-        		UICelestialBodyInfo2* planets;
-        	} UISystemInfo2;
+        typedef struct {
+        	UISpaceInfo space;
+        	uint32_t numsuns;
+        	UISunInfo* suns;
+        	uint32_t numplanets;
+        	UICelestialBodyInfo2* planets;
+        } UISystemInfo2;
         '''
       file: menu_encyclopedia.lua
     }
@@ -34178,10 +34178,10 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		uint32_t numsuns;
-        		uint32_t numplanets;
-        	} UISystemInfoCounts;
+        typedef struct {
+        	uint32_t numsuns;
+        	uint32_t numplanets;
+        } UISystemInfoCounts;
         '''
       file: menu_encyclopedia.lua
     }
@@ -34189,11 +34189,11 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		uint32_t numbuildsinprogress;
-        		uint32_t numbuildsinqueue;
-        		uint32_t numcurrentdeliveries;
-        	} UITerraformingDroneInfo;
+        typedef struct {
+        	uint32_t numbuildsinprogress;
+        	uint32_t numbuildsinqueue;
+        	uint32_t numcurrentdeliveries;
+        } UITerraformingDroneInfo;
         '''
       file: menu_terraforming.lua
     }
@@ -34201,10 +34201,10 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		MissionID missionid;
-        		bool missioncompleted;
-        	} UITerraformingMissionInfo;
+        typedef struct {
+        	MissionID missionid;
+        	bool missioncompleted;
+        } UITerraformingMissionInfo;
         '''
       file: menu_terraforming.lua
     }
@@ -34212,35 +34212,35 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* id;
-        		const char* group;
-        		const char* name;
-        		const char* description;
-        		double duration;
-        		double repeatcooldown;
-        		uint32_t timescompleted;
-        		int32_t successchance;
-        		bool resilient;
-        		bool showalways;
-        		int64_t price;
-        		float payoutfactor;
-        		const char* requiredresearchid;
-        		const char* pricescale;
-        		const char* pricescaletext;
-        		bool anypredecessor;
-        		uint32_t numpredecessors;
-        		uint32_t numpredecessorgroups;
-        		uint32_t numblockingprojects;
-        		uint32_t numconditions;
-        		uint32_t numprimaryeffects;
-        		uint32_t numsideeffects;
-        		uint32_t numblockedprojects;
-        		uint32_t numblockedgroups;
-        		uint32_t numrebates;
-        		uint32_t numresources;
-        		uint32_t numremovedprojects;
-        	} UITerraformingProject2;
+        typedef struct {
+        	const char* id;
+        	const char* group;
+        	const char* name;
+        	const char* description;
+        	double duration;
+        	double repeatcooldown;
+        	uint32_t timescompleted;
+        	int32_t successchance;
+        	bool resilient;
+        	bool showalways;
+        	int64_t price;
+        	float payoutfactor;
+        	const char* requiredresearchid;
+        	const char* pricescale;
+        	const char* pricescaletext;
+        	bool anypredecessor;
+        	uint32_t numpredecessors;
+        	uint32_t numpredecessorgroups;
+        	uint32_t numblockingprojects;
+        	uint32_t numconditions;
+        	uint32_t numprimaryeffects;
+        	uint32_t numsideeffects;
+        	uint32_t numblockedprojects;
+        	uint32_t numblockedgroups;
+        	uint32_t numrebates;
+        	uint32_t numresources;
+        	uint32_t numremovedprojects;
+        } UITerraformingProject2;
         '''
       file: menu_station_overview.lua
     }
@@ -34248,14 +34248,14 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* stat;
-        		uint32_t min;
-        		uint32_t max;
-        		uint64_t minvalue;
-        		uint64_t maxvalue;
-        		bool issatisfied;
-        	} UITerraformingProjectCondition;
+        typedef struct {
+        	const char* stat;
+        	uint32_t min;
+        	uint32_t max;
+        	uint64_t minvalue;
+        	uint64_t maxvalue;
+        	bool issatisfied;
+        } UITerraformingProjectCondition;
         '''
       file: helper.lua
     }
@@ -34263,19 +34263,19 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* text;
-        		const char* stat;
-        		int32_t change;
-        		uint64_t value;
-        		uint64_t minvalue;
-        		uint64_t maxvalue;
-        		bool onfail;
-        		bool issideeffect;
-        		uint32_t chance;
-        		uint32_t setbackpercent;
-        		bool isbeneficial;
-        	} UITerraformingProjectEffect;
+        typedef struct {
+        	const char* text;
+        	const char* stat;
+        	int32_t change;
+        	uint64_t value;
+        	uint64_t minvalue;
+        	uint64_t maxvalue;
+        	bool onfail;
+        	bool issideeffect;
+        	uint32_t chance;
+        	uint32_t setbackpercent;
+        	bool isbeneficial;
+        } UITerraformingProjectEffect;
         '''
       file: helper.lua
     }
@@ -34283,10 +34283,10 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* id;
-        		const char* name;
-        	} UITerraformingProjectGroup;
+        typedef struct {
+        	const char* id;
+        	const char* name;
+        } UITerraformingProjectGroup;
         '''
       file: helper.lua
     }
@@ -34294,10 +34294,10 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* id;
-        		bool anyproject;
-        	} UITerraformingProjectPredecessorGroup;
+        typedef struct {
+        	const char* id;
+        	bool anyproject;
+        } UITerraformingProjectPredecessorGroup;
         '''
       file: helper.lua
     }
@@ -34305,11 +34305,11 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* ware;
-        		const char* waregroupname;
-        		uint32_t value;
-        	} UITerraformingProjectRebate;
+        typedef struct {
+        	const char* ware;
+        	const char* waregroupname;
+        	uint32_t value;
+        } UITerraformingProjectRebate;
         '''
       file: helper.lua
     }
@@ -34317,18 +34317,18 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* id;
-        		const char* name;
-        		const char* description;
-        		const char* inactivetext;
-        		const char* iconid;
-        		bool dynamic;
-        		uint64_t value;
-        		uint32_t state;
-        		bool useranges;
-        		uint32_t numranges;
-        	} UITerraformingStat;
+        typedef struct {
+        	const char* id;
+        	const char* name;
+        	const char* description;
+        	const char* inactivetext;
+        	const char* iconid;
+        	bool dynamic;
+        	uint64_t value;
+        	uint32_t state;
+        	bool useranges;
+        	uint32_t numranges;
+        } UITerraformingStat;
         '''
       file: menu_terraforming.lua
     }
@@ -34336,12 +34336,12 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		uint64_t endvalue;
-        		uint32_t state;
-        		Color color;
-        		const char* description;
-        	} UITerraformingStatRange;
+        typedef struct {
+        	uint64_t endvalue;
+        	uint32_t state;
+        	Color color;
+        	const char* description;
+        } UITerraformingStatRange;
         '''
       file: menu_terraforming.lua
     }
@@ -34349,10 +34349,10 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* name;
-        		bool ismoon;
-        	} UITerraformingWorldInfo;
+        typedef struct {
+        	const char* name;
+        	bool ismoon;
+        } UITerraformingWorldInfo;
         '''
       file: menu_terraforming.lua
     }
@@ -34360,12 +34360,12 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* wareid;
-        		bool isSellOffer;
-        		UITradeOfferStatData* data;
-        		uint32_t numdata;
-        	} UITradeOfferStat;
+        typedef struct {
+        	const char* wareid;
+        	bool isSellOffer;
+        	UITradeOfferStatData* data;
+        	uint32_t numdata;
+        } UITradeOfferStat;
         '''
       file: menu_encyclopedia.lua
     }
@@ -34373,12 +34373,12 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		double time;
-        		int64_t price;
-        		int amount;
-        		int limit;
-        	} UITradeOfferStatData;
+        typedef struct {
+        	double time;
+        	int64_t price;
+        	int amount;
+        	int limit;
+        } UITradeOfferStatData;
         '''
       file: menu_encyclopedia.lua
     }
@@ -34386,14 +34386,14 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* name;
-        		const char* rawname;
-        		const char* icon;
-        		const char* rewardicon;
-        		int64_t remainingtime;
-        		uint32_t numships;
-        	} UIVentureInfo;
+        typedef struct {
+        	const char* name;
+        	const char* rawname;
+        	const char* icon;
+        	const char* rewardicon;
+        	int64_t remainingtime;
+        	uint32_t numships;
+        } UIVentureInfo;
         '''
       file: helper.lua
     }
@@ -34401,10 +34401,10 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* wareid;
-        		uint32_t amount;
-        	} UIWareAmount;
+        typedef struct {
+        	const char* wareid;
+        	uint32_t amount;
+        } UIWareAmount;
         '''
       file: menu_encyclopedia.lua
     }
@@ -34412,11 +34412,11 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* ware;
-        		const char* macro;
-        		int amount;
-        	} UIWareInfo;
+        typedef struct {
+        	const char* ware;
+        	const char* macro;
+        	int amount;
+        } UIWareInfo;
         '''
       file: menu_ship_configuration.lua
     }
@@ -34424,10 +34424,10 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		bool primary;
-        		uint32_t idx;
-        	} UIWeaponGroup;
+        typedef struct {
+        	bool primary;
+        	uint32_t idx;
+        } UIWeaponGroup;
         '''
       file: menu_map.lua
     }
@@ -34435,25 +34435,25 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* Name;
-        		const char* RawName;
-        		const char* Ware;
-        		uint32_t Quality;
-        		const char* PropertyType;
-        		float DamageFactor;
-        		float CoolingFactor;
-        		float ReloadFactor;
-        		float SpeedFactor;
-        		float LifeTimeFactor;
-        		float MiningFactor;
-        		float StickTimeFactor;
-        		float ChargeTimeFactor;
-        		float BeamLengthFactor;
-        		uint32_t AddedAmount;
-        		float RotationSpeedFactor;
-        		float SurfaceElementFactor;
-        	} UIWeaponMod;
+        typedef struct {
+        	const char* Name;
+        	const char* RawName;
+        	const char* Ware;
+        	uint32_t Quality;
+        	const char* PropertyType;
+        	float DamageFactor;
+        	float CoolingFactor;
+        	float ReloadFactor;
+        	float SpeedFactor;
+        	float LifeTimeFactor;
+        	float MiningFactor;
+        	float StickTimeFactor;
+        	float ChargeTimeFactor;
+        	float BeamLengthFactor;
+        	uint32_t AddedAmount;
+        	float RotationSpeedFactor;
+        	float SurfaceElementFactor;
+        } UIWeaponMod;
         '''
       file: menu_ship_configuration.lua
     }
@@ -34461,12 +34461,12 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* type;
-        		const char* name;
-        		float value;
-        		bool active;
-        	} UIWorkforceInfluence;
+        typedef struct {
+        	const char* type;
+        	const char* name;
+        	float value;
+        	bool active;
+        } UIWorkforceInfluence;
         '''
       file: menu_station_overview.lua
     }
@@ -34474,27 +34474,27 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* macro;
-        		const char* category;
-        		uint32_t amount;
-        	} UnitData;
+        typedef struct {
+        	const char* macro;
+        	const char* category;
+        	uint32_t amount;
+        } UnitData;
         '''
       file: menu_ship_configuration.lua
     }
     UniverseID: {
       kind: uint64_t
-      declaration: '''	typedef uint64_t UniverseID;'''
+      declaration: typedef uint64_t UniverseID;
       file: menu_docked.lua
     }
     UpgradeGroup: {
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* path;
-        		const char* group;
-        	} UpgradeGroup;
+        typedef struct {
+        	const char* path;
+        	const char* group;
+        } UpgradeGroup;
         '''
       file: menu_encyclopedia.lua
     }
@@ -34502,11 +34502,11 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		UniverseID contextid;
-        		const char* path;
-        		const char* group;
-        	} UpgradeGroup2;
+        typedef struct {
+        	UniverseID contextid;
+        	const char* path;
+        	const char* group;
+        } UpgradeGroup2;
         '''
       file: menu_docked.lua
     }
@@ -34514,14 +34514,14 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		UniverseID currentcomponent;
-        		const char* currentmacro;
-        		const char* slotsize;
-        		uint32_t count;
-        		uint32_t operational;
-        		uint32_t total;
-        	} UpgradeGroupInfo;
+        typedef struct {
+        	UniverseID currentcomponent;
+        	const char* currentmacro;
+        	const char* slotsize;
+        	uint32_t count;
+        	uint32_t operational;
+        	uint32_t total;
+        } UpgradeGroupInfo;
         '''
       file: menu_docked.lua
     }
@@ -34529,12 +34529,12 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		float speed;
-        		float screenx;
-        		float screeny;
-        		bool onscreen;
-        	} VelocityInfo;
+        typedef struct {
+        	float speed;
+        	float screenx;
+        	float screeny;
+        	bool onscreen;
+        } VelocityInfo;
         '''
       file: targetsystem.lua
     }
@@ -34542,15 +34542,15 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* id;
-        		const char* icon;
-        		const char* factoryname;
-        		const char* factorydesc;
-        		const char* factorymapicon;
-        		const char* factoryhudicon;
-        		uint32_t tier;
-        	} WareGroupInfo;
+        typedef struct {
+        	const char* id;
+        	const char* icon;
+        	const char* factoryname;
+        	const char* factorydesc;
+        	const char* factorymapicon;
+        	const char* factoryhudicon;
+        	uint32_t tier;
+        } WareGroupInfo;
         '''
       file: menu_map.lua
     }
@@ -34558,17 +34558,17 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		UniverseID reserverid;
-        		const char* ware;
-        		uint32_t amount;
-        		bool isbuyreservation;
-        		double eta;
-        		TradeID tradedealid;
-        		MissionID missionid;
-        		bool isvirtual;
-        		bool issupply;
-        	} WareReservationInfo2;
+        typedef struct {
+        	UniverseID reserverid;
+        	const char* ware;
+        	uint32_t amount;
+        	bool isbuyreservation;
+        	double eta;
+        	TradeID tradedealid;
+        	MissionID missionid;
+        	bool isvirtual;
+        	bool issupply;
+        } WareReservationInfo2;
         '''
       file: menu_map.lua
     }
@@ -34576,10 +34576,10 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* sourcetype;
-        		const char* sourcelocation;
-        	} WareSource;
+        typedef struct {
+        	const char* sourcetype;
+        	const char* sourcelocation;
+        } WareSource;
         '''
       file: menu_encyclopedia.lua
     }
@@ -34587,11 +34587,11 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* transport;
-        		const char* name;
-        		int value;
-        	} WareTransportInfo;
+        typedef struct {
+        	const char* transport;
+        	const char* name;
+        	int value;
+        } WareTransportInfo;
         '''
       file: menu_encyclopedia.lua
     }
@@ -34599,11 +34599,11 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* ware;
-        		int32_t current;
-        		int32_t max;
-        	} WareYield;
+        typedef struct {
+        	const char* ware;
+        	int32_t current;
+        	int32_t max;
+        } WareYield;
         '''
       file: menu_encyclopedia.lua
     }
@@ -34611,19 +34611,19 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* icon;
-        		uint32_t damageState;
-        		bool active;
-        		bool usesAmmo;
-        		uint32_t ammo;
-        		uint32_t mode;
-        		float reloadPercent;
-        		uint32_t heatState;
-        		float heatPercent;
-        		float lockPercent;
-        		uint64_t counterMeasureTarget;
-        	} WeaponDetails;
+        typedef struct {
+        	const char* icon;
+        	uint32_t damageState;
+        	bool active;
+        	bool usesAmmo;
+        	uint32_t ammo;
+        	uint32_t mode;
+        	float reloadPercent;
+        	uint32_t heatState;
+        	float heatPercent;
+        	float lockPercent;
+        	uint64_t counterMeasureTarget;
+        } WeaponDetails;
         '''
       file: targetsystem.lua
     }
@@ -34631,23 +34631,23 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* icon;
-        		uint32_t damageState;
-        		bool active;
-        		bool usesAmmo;
-        		uint32_t ammo;
-        		int32_t currentclip;
-        		int32_t maxclip;
-        		uint32_t mode;
-        		float reloadPercent;
-        		bool isAutoReloading;
-        		uint32_t heatState;
-        		float heatPercent;
-        		float nextShotHeatPercent;
-        		float lockPercent;
-        		uint64_t counterMeasureTarget;
-        	} WeaponDetails3;
+        typedef struct {
+        	const char* icon;
+        	uint32_t damageState;
+        	bool active;
+        	bool usesAmmo;
+        	uint32_t ammo;
+        	int32_t currentclip;
+        	int32_t maxclip;
+        	uint32_t mode;
+        	float reloadPercent;
+        	bool isAutoReloading;
+        	uint32_t heatState;
+        	float heatPercent;
+        	float nextShotHeatPercent;
+        	float lockPercent;
+        	uint64_t counterMeasureTarget;
+        } WeaponDetails3;
         '''
       file: crosshair handling.lua
     }
@@ -34655,11 +34655,11 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* id;
-        		const char* name;
-        		bool active;
-        	} WeaponSystemInfo;
+        typedef struct {
+        	const char* id;
+        	const char* name;
+        	bool active;
+        } WeaponSystemInfo;
         '''
       file: menu_map.lua
     }
@@ -34667,10 +34667,10 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		uint32_t numcapacityinfluences;
-        		uint32_t numgrowthinfluences;
-        	} WorkforceInfluenceCounts;
+        typedef struct {
+        	uint32_t numcapacityinfluences;
+        	uint32_t numgrowthinfluences;
+        } WorkforceInfluenceCounts;
         '''
       file: menu_station_overview.lua
     }
@@ -34678,18 +34678,18 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		uint32_t numcapacityinfluences;
-        		UIWorkforceInfluence* capacityinfluences;
-        		uint32_t numgrowthinfluences;
-        		UIWorkforceInfluence* growthinfluences;
-        		float basegrowth;
-        		uint32_t capacity;
-        		uint32_t current;
-        		uint32_t sustainable;
-        		uint32_t target;
-        		int32_t change;
-        	} WorkforceInfluenceInfo;
+        typedef struct {
+        	uint32_t numcapacityinfluences;
+        	UIWorkforceInfluence* capacityinfluences;
+        	uint32_t numgrowthinfluences;
+        	UIWorkforceInfluence* growthinfluences;
+        	float basegrowth;
+        	uint32_t capacity;
+        	uint32_t current;
+        	uint32_t sustainable;
+        	uint32_t target;
+        	int32_t change;
+        } WorkforceInfluenceInfo;
         '''
       file: menu_station_overview.lua
     }
@@ -34697,14 +34697,14 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		uint32_t current;
-        		uint32_t capacity;
-        		uint32_t optimal;
-        		uint32_t available;
-        		uint32_t maxavailable;
-        		double timeuntilnextupdate;
-        	} WorkForceInfo;
+        typedef struct {
+        	uint32_t current;
+        	uint32_t capacity;
+        	uint32_t optimal;
+        	uint32_t available;
+        	uint32_t maxavailable;
+        	double timeuntilnextupdate;
+        } WorkForceInfo;
         '''
       file: menu_encyclopedia.lua
     }
@@ -34712,10 +34712,10 @@
       kind: struct
       declaration:
         '''
-        	typedef struct {
-        		const char* wareid;
-        		int32_t amount;
-        	} YieldInfo;
+        typedef struct {
+        	const char* wareid;
+        	int32_t amount;
+        } YieldInfo;
         '''
       file: menu_map.lua
     }

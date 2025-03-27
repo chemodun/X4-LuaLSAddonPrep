@@ -99,44 +99,53 @@
   DrawCircle: {
     type: wrapper
     original: widgetSystem.queueShapeDraw
-    wrapperParams: ...
-    targetParams: '''"circle", ...'''
-    fixedParams: [
-      '''"circle"'''
+    parameters: [
+      {
+        name: ...
+        type: any
+        optional: false
+        description: ""
+      }
     ]
-    paramTransformation: Prepends fixed parameters: "circle"
     file: widget_fullscreen.lua
-    description: Wrapper for widgetSystem.queueShapeDraw with parameter transformation
+    description: Global access to widgetSystem.queueShapeDraw with parameter transformation
     detailed: ""
     notes: ""
+    returnType: any
   }
   DrawRect: {
     type: wrapper
     original: widgetSystem.queueShapeDraw
-    wrapperParams: ...
-    targetParams: '''"rectangle", ...'''
-    fixedParams: [
-      '''"rectangle"'''
+    parameters: [
+      {
+        name: ...
+        type: any
+        optional: false
+        description: ""
+      }
     ]
-    paramTransformation: Prepends fixed parameters: "rectangle"
     file: widget_fullscreen.lua
-    description: Wrapper for widgetSystem.queueShapeDraw with parameter transformation
+    description: Global access to widgetSystem.queueShapeDraw with parameter transformation
     detailed: ""
     notes: ""
+    returnType: any
   }
   DrawTriangle: {
     type: wrapper
     original: widgetSystem.queueShapeDraw
-    wrapperParams: ...
-    targetParams: '''"triangle", ...'''
-    fixedParams: [
-      '''"triangle"'''
+    parameters: [
+      {
+        name: ...
+        type: any
+        optional: false
+        description: ""
+      }
     ]
-    paramTransformation: Prepends fixed parameters: "triangle"
     file: widget_fullscreen.lua
-    description: Wrapper for widgetSystem.queueShapeDraw with parameter transformation
+    description: Global access to widgetSystem.queueShapeDraw with parameter transformation
     detailed: ""
     notes: ""
+    returnType: any
   }
   GetCurrentMouseOverFont: {
     type: direct

@@ -398,7 +398,6 @@ async function parseWikiHtml() {
             description,
             parameters,
             returnType,
-            usages: [],
             deprecated: isDeprecated,
             detailed: detailedFormatted,
             notes: notesFormatted
@@ -794,7 +793,7 @@ function processFfiDefinitionsInFile(content, fileName) {
           // Store type definition
           dataStore.ffiTypes.set(typeName, {
             kind: typeKind,
-            declaration: match[0],
+            declaration: match[0].split('\n').map(line => line.replace(/^\s/, '')).join('\n'),
             file: fileName
           });
         }
@@ -972,53 +971,13 @@ function processGloballyExposedFunctionsInFile(content, fileName) {
 
     dataStore.globallyExposedFunctions.add(exposedFunctionName);
 
-    // Parse the parameter transformation
-    let paramTransformation = 'unknown';
-    const fixedParams = [];
-
-    // Extract fixed parameters that are prepended
-    if (targetParams) {
-      const paramParts = targetParams.split(',').map(p => p.trim());
-      let foundSpread = false;
-
-      for (const param of paramParts) {
-        if (param === '...') {
-          foundSpread = true;
-          break;
-        } else if (!param.includes('...')) {
-          fixedParams.push(param);
-        } else {
-          // Handle case like "param, ..."
-          const parts = param.split('...');
-          if (parts[0].trim()) {
-            fixedParams.push(parts[0].trim());
-          }
-          foundSpread = true;
-          break;
-        }
-      }
-
-      if (foundSpread) {
-        if (fixedParams.length > 0) {
-          paramTransformation = `Prepends fixed parameters: ${fixedParams.join(', ')}`;
-        } else {
-          paramTransformation = 'Passes all parameters directly';
-        }
-      } else {
-        paramTransformation = `Uses fixed parameters: ${targetParams}`;
-      }
-    }
-
     // Store wrapper function information
     dataStore.GloballyExposedFunctions.set(exposedFunctionName, {
       type: 'wrapper',
       original: targetFunction,
-      wrapperParams: wrapperParams || '...',
-      targetParams: targetParams,
-      fixedParams: fixedParams,
-      paramTransformation: paramTransformation,
+      parameters: targetParams.split(',').map(p => p.trim()),
       file: fileName,
-      description: `Wrapper for ${targetFunction} with parameter transformation`,
+      description: `Global access to ${targetFunction} with parameter transformation`,
       detailed: '', // Add field for future detailed descriptions
       notes: ''     // Add field for future notes
     });
@@ -1028,12 +987,37 @@ function processGloballyExposedFunctionsInFile(content, fileName) {
 
   // For each direct mapping, try to enrich with original function info
   dataStore.GloballyExposedFunctions.forEach((funcInfo, funcName) => {
-    if (funcInfo.type === 'direct') {
-      const originalFuncInfo = lookupFromCatalog(funcInfo.original);
-      if (originalFuncInfo) {
+    const originalFuncInfo = lookupFromCatalog(funcInfo.original);
+    // Enrich with original function return type
+    if (originalFuncInfo) {
+      funcInfo.returnType = originalFuncInfo.returnType;
+      if (funcInfo.type === 'direct') {
         // Enrich with original function parameters and return type
         funcInfo.parameters = originalFuncInfo.parameters;
-        funcInfo.returnType = originalFuncInfo.returnType;
+      }
+      else if (funcInfo.parameters.length > 0 && originalFuncInfo.parameters.length >= funcInfo.parameters.length) {
+        let originalParams = [...originalFuncInfo.parameters];
+        for (let i = funcInfo.parameters.length - 1; i >= 0; i--) {
+          if (funcInfo.parameters[i] === '...') {
+            const toSlice = i - (funcInfo.parameters.length - 1);
+            if (toSlice !== 0) {
+              originalParams = originalParams.slice(0, toSlice - 1);
+            }
+            break;
+          }
+        }
+        for (let i = 0; i < funcInfo.parameters.length; i++) {
+          if (funcInfo.parameters[i] === '...') {
+            if (i > 0) {
+              originalParams.splice(0, i);
+            }
+            break;
+          }
+        }
+        funcInfo.parameters = originalParams;
+      }
+      else {
+        funcInfo.parameters = [];
       }
     }
   });
@@ -1366,8 +1350,7 @@ function findUndocumentedFunctions(files) {
             name: functionName,
             parameters: [],
             returnType: 'any',
-            description: `Undocumented function found in ${path.basename(filePath)}`,
-            usages: [],
+            description: `Undocumented function found in unpacked Lua files`,
             files: new Set(),
             detailed: '',
             notes: ''
@@ -1376,12 +1359,6 @@ function findUndocumentedFunctions(files) {
 
         const funcInfo = dataStore.undocumentedFunctions.get(functionName);
         funcInfo.files.add(path.basename(filePath));
-
-        // Store usage information
-        funcInfo.usages.push({
-          file: path.basename(filePath),
-          arguments: args
-        });
 
         // Create merged parameter info using all our data with improved parameter count accuracy
         const mergedParams = mergeParameterInfo(funcInfo.parameters, args, paramTypes);
@@ -1692,7 +1669,9 @@ function generateFfiTypesAnnotations() {
 
   // Add all FFI types
   for (const [typeName, typeInfo] of sortedTypes) {
-    output += `-- ${typeInfo.declaration}\n`;
+    typeInfo.declaration.split('\n').forEach(line => {
+      output += `-- ${line}\n`;
+    });
     output += `---@class ${typeName}\n`;
 
     // If it's a struct or union type with fields, add field annotations
@@ -1806,9 +1785,6 @@ function generateUndocumentedApiAnnotations() {
   output += '-- Generated automatically by analyzing game files\n';
   output += '-- These functions are not officially documented and may change without notice\n\n';
 
-  // Known functions that take a single string parameter even if it looks like multiple
-  const singleStringParamFunctions = new Set(['DebugError', 'Logf', 'ErrorLog', 'DebugLog']);
-
   // Convert Map to sorted array for alphabetical output
   const sortedFunctions = Array.from(dataStore.undocumentedFunctions.entries())
     .sort((a, b) => a[0].localeCompare(b[0]));
@@ -1822,13 +1798,6 @@ function generateUndocumentedApiAnnotations() {
     // Add files where this function was found
     if (funcInfo.files && funcInfo.files.size > 0) {
       output += `-- Found in: ${Array.from(funcInfo.files).sort().join(', ')}\n`;
-    }
-
-    // Special case for known functions that take a single string parameter
-    if (singleStringParamFunctions.has(funcName)) {
-      output += `---@param message string # Message to display/log (can include string concatenation)\n`;
-      output += `function ${funcName}(message) end\n\n`;
-      continue;
     }
 
     // Add notes if available - with proper indentation
@@ -1934,98 +1903,26 @@ function generateGloballyExposedFunctionAnnotation(funcName, funcInfo) {
   output += `-- Mapped from: ${funcInfo.original}\n`;
   output += `-- Source: ${funcInfo.file}\n`;
 
-  if (funcInfo.type === 'wrapper') {
-    output += `-- Parameter transformation: ${funcInfo.paramTransformation}\n`;
+  if (funcInfo.parameters && funcInfo.parameters.length > 0) {
+    // Use the parameters we fetched earlier
+    funcInfo.parameters.forEach(param => {
+      const optionalFlag = param.optional ? '?' : '';
+      output += `---@param ${param.name}${optionalFlag} ${param.type}\n`;
+    });
   }
 
-  // Try to find the original function information from catalog
-  const originalFuncInfo = lookupFromCatalog(funcInfo.original);
+  // Add return type
+  const returnType = funcInfo.returnType || 'any';
+  if (returnType !== 'unknown' && returnType !== 'void') {
+    output += `---@return ${returnType}\n`;
+  }
 
-  // Process parameters based on function type
-  if (funcInfo.type === 'direct') {
-    // For direct mapping, use original function parameters if available
-    if (originalFuncInfo && originalFuncInfo.parameters) {
-      originalFuncInfo.parameters.forEach(param => {
-        const optionalFlag = param.optional ? '?' : '';
-        output += `---@param ${param.name}${optionalFlag} ${param.type}\n`;
-      });
-    } else if (funcInfo.parameters && funcInfo.parameters.length > 0) {
-      // Use the parameters we fetched earlier
-      funcInfo.parameters.forEach(param => {
-        const optionalFlag = param.optional ? '?' : '';
-        output += `---@param ${param.name}${optionalFlag} ${param.type}\n`;
-      });
-    } else {
-      output += `---@param ... any # Original function parameters unknown\n`;
-    }
-
-    // Add return type
-    const returnType = (originalFuncInfo && originalFuncInfo.returnType) ||
-      funcInfo.returnType || 'any';
-    if (returnType !== 'unknown' && returnType !== 'void') {
-      output += `---@return ${returnType}\n`;
-    }
-
-    // Generate function declaration
-    if ((originalFuncInfo && originalFuncInfo.parameters) ||
-      (funcInfo.parameters && funcInfo.parameters.length > 0)) {
-      const params = (originalFuncInfo ? originalFuncInfo.parameters : funcInfo.parameters)
-        .map(p => p.name).join(', ');
-      output += `function ${funcName}(${params}) end\n\n`;
-    } else {
-      output += `function ${funcName}(...) end\n\n`;
-    }
+  // Generate function declaration
+  if (funcInfo.parameters && funcInfo.parameters.length > 0) {
+    const params = funcInfo.parameters.map(p => p.name).join(', ');
+    output += `function ${funcName}(${params}) end\n\n`;
   } else {
-    // For wrapper functions, adjust parameters based on the transformation
-    if (originalFuncInfo && originalFuncInfo.parameters) {
-      const fixedParamCount = funcInfo.fixedParams.length;
-
-      // If we have fixed parameters that replace the first N original parameters
-      if (fixedParamCount > 0 && funcInfo.targetParams.includes('...')) {
-        // Skip the first N parameters that are replaced by fixed values
-        originalFuncInfo.parameters.slice(fixedParamCount).forEach(param => {
-          const optionalFlag = param.optional ? '?' : '';
-          output += `---@param ${param.name}${optionalFlag} ${param.type}\n`;
-        });
-      } else if (!funcInfo.targetParams.includes('...')) {
-        // If no variable arguments, the function might not take any parameters
-        // or has completely custom parameters
-        if (funcInfo.wrapperParams && funcInfo.wrapperParams !== '...') {
-          // If we have explicit wrapper params, use those
-          funcInfo.wrapperParams.split(',').map(p => p.trim()).forEach((param, index) => {
-            output += `---@param ${param} any\n`;
-          });
-        }
-      } else {
-        // For cases where all original parameters are used
-        originalFuncInfo.parameters.forEach(param => {
-          const optionalFlag = param.optional ? '?' : '';
-          output += `---@param ${param.name}${optionalFlag} ${param.type}\n`;
-        });
-      }
-
-      // Add return type from original function
-      if (originalFuncInfo.returnType && originalFuncInfo.returnType !== 'unknown') {
-        output += `---@return ${originalFuncInfo.returnType}\n`;
-      }
-    } else {
-      // If we can't determine specific parameters
-      if (funcInfo.wrapperParams && funcInfo.wrapperParams !== '...') {
-        // Use the wrapper parameters if explicitly defined
-        funcInfo.wrapperParams.split(',').map(p => p.trim()).forEach(param => {
-          output += `---@param ${param} any\n`;
-        });
-      } else {
-        output += `---@param ... any # Parameters derived from ${funcInfo.original}\n`;
-      }
-    }
-
-    // Generate function declaration
-    if (funcInfo.wrapperParams && funcInfo.wrapperParams !== '...') {
-      output += `function ${funcName}(${funcInfo.wrapperParams}) end\n\n`;
-    } else {
-      output += `function ${funcName}(...) end\n\n`;
-    }
+    output += `function ${funcName}() end\n\n`;
   }
 
   return output;
@@ -2455,7 +2352,7 @@ async function main() {
   try {
     const args = process.argv.slice(2);
     const options = {
-      usehjson: args.includes('--use-hjson'),
+      generateFromData: args.includes('--generate-from-data'),
       skiphjsonExport: args.includes('--skip-hjson-export'),
       types: {
         lua: !args.includes('--no-lua'),
@@ -2467,7 +2364,7 @@ async function main() {
     };
 
     // Load from hjson if requested
-    if (options.usehjson) {
+    if (options.generateFromData) {
       if (options.types.lua) importFromhjson('lua');
       if (options.types.ffi) importFromhjson('ffi');
       if (options.types.helper) importFromhjson('helper');
@@ -2506,7 +2403,7 @@ async function main() {
       }
 
       // Export to hjson unless skipped
-      if (!options.skiphjsonExport && !options.usehjson) {
+      if (!options.skiphjsonExport && !options.generateFromData) {
         if (options.types.lua) exportTohjson('lua');
         if (options.types.ffi) exportTohjson('ffi');
         if (options.types.helper) exportTohjson('helper');

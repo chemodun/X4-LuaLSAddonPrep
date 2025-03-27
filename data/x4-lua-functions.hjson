@@ -3,7 +3,6 @@
     description: Notifies* *the system that the ability menu was closed.
     parameters: []
     returnType: unknown
-    usages: []
     deprecated: true
     detailed: ""
     notes: **DEPRECATED** - use FFI function CircularMenuClosed() instead
@@ -12,7 +11,6 @@
     description: Function which needs to be called, if the ability menu is opened.
     parameters: []
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -27,7 +25,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -42,7 +39,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -51,7 +47,6 @@
     description: Activates all drones with passive abilities.
     parameters: []
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -81,7 +76,6 @@
       }
     ]
     returnType: addedamount
-    usages: []
     deprecated: false
     detailed: ""
     notes: Added "checkonly" parameter in 4.00 Beta 4
@@ -106,7 +100,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -136,7 +129,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: Added "crafting" parameter in 4.00 Beta 4
@@ -156,7 +148,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -181,7 +172,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -211,7 +201,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -231,7 +220,6 @@
       }
     ]
     returnType: transferredamount
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -251,7 +239,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -276,7 +263,6 @@
       }
     ]
     returnType: tradeID
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -301,7 +287,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: optional screenparam parameter added in 4.00 RC 2
@@ -331,7 +316,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -346,7 +330,6 @@
       }
     ]
     returnType: string
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -366,7 +349,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -381,7 +363,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -406,7 +387,6 @@
       }
     ]
     returnType: hullfraction
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -421,7 +401,6 @@
       }
     ]
     returnType: hullfraction
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -441,7 +420,6 @@
       }
     ]
     returnType: bool
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -450,7 +428,6 @@
     description: Cancels the current conversation, e.g. when closing a conversation menu.
     parameters: []
     returnType: success
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -475,7 +452,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: It may be necessary to call **SetVirtualCargoMode** on containerID first, if the container has a shopping queue.
@@ -490,7 +466,6 @@
       }
     ]
     returnType: bool
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -499,7 +474,6 @@
     description: Checks whether inputmap.xml version regressed in the past.
     parameters: []
     returnType: bool
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -519,7 +493,6 @@
       }
     ]
     returnType: bool
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -539,7 +512,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -564,7 +536,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -573,7 +544,6 @@
     description: Clears the internal error log.
     parameters: []
     returnType: unknown
-    usages: []
     deprecated: true
     detailed: ""
     notes: **DEPRECATED** - use FFI function ClearErrorLog() instead
@@ -593,7 +563,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -608,7 +577,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: Clearing the trade queue will not happen instantaneously, especially if a trade is of the queue is already in progress.
@@ -638,7 +606,6 @@
       }
     ]
     returnType: bool
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -653,7 +620,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -688,7 +654,6 @@
       }
     ]
     returnType: string
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -703,7 +668,6 @@
       }
     ]
     returnType: string
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -718,7 +682,6 @@
       }
     ]
     returnType: string
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -758,7 +721,6 @@
       }
     ]
     returnType: string
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -773,7 +735,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -788,7 +749,6 @@
       }
     ]
     returnType: luaID
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -818,7 +778,6 @@
       }
     ]
     returnType: string
-    usages: []
     deprecated: false
     detailed:
       '''
@@ -851,7 +810,6 @@
       }
     ]
     returnType: descriptor
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -866,7 +824,6 @@
       }
     ]
     returnType: descriptor
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -886,7 +843,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: true
     detailed: ""
     notes: **DEPRECATED** - use CreateInteractionDescriptor2() instead
@@ -906,7 +862,6 @@
       }
     ]
     returnType: interactionDescriptorID
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -926,7 +881,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: The cluster needs to be destroyed using **DestroyPresentationCluster**, when it is no longer needed.
@@ -935,7 +889,6 @@
     description: Resets the profile timer. Call this function at the start of the section which you want to profile.
     parameters: []
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -944,7 +897,6 @@
     description: Returns the time (in ms) since the last call to DebugProfileStart().
     parameters: []
     returnType: timeInMs
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -959,7 +911,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -979,7 +930,6 @@
       }
     ]
     returnType: text
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -999,7 +949,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -1019,7 +968,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -1028,7 +976,6 @@
     description: Returns the component with the active mission guidance if any.
     parameters: []
     returnType: componentID
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -1037,7 +984,6 @@
     description: Returns the name of the current adapter.
     parameters: []
     returnType: string
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -1046,7 +992,6 @@
     description: Get current setting of the aim assist option.
     parameters: []
     returnType: int
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -1061,7 +1006,6 @@
       }
     ]
     returnType: componentIDArray
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -1070,7 +1014,6 @@
     description: Returns the settings for all registered extensions.
     parameters: []
     returnType: extensionSettingsTable
-    usages: []
     deprecated: false
     detailed:
       '''
@@ -1112,7 +1055,6 @@
       }
     ]
     returnType: upgradeArray
-    usages: []
     deprecated: false
     detailed:
       '''
@@ -1134,7 +1076,6 @@
     description: Returns the ids of all statistic properties.
     parameters: []
     returnType: stringArray
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -1159,7 +1100,6 @@
       }
     ]
     returnType: upgradeTable
-    usages: []
     deprecated: false
     detailed:
       '''
@@ -1195,7 +1135,6 @@
       }
     ]
     returnType: weaponTable
-    usages: []
     deprecated: false
     detailed:
       '''
@@ -1237,7 +1176,6 @@
       }
     ]
     returnType: wareKeyTable
-    usages: []
     deprecated: false
     detailed:
       '''
@@ -1255,7 +1193,6 @@
     description: Returns the current anti alias mode setting.
     parameters: []
     returnType: int
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -1264,7 +1201,6 @@
     description: Returns all possible anti alias modes currently possible.
     parameters: []
     returnType: aaModesArray
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -1273,7 +1209,6 @@
     description: Returns the target of the auto pilot, if any.
     parameters: []
     returnType: componentID
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -1282,7 +1217,6 @@
     description: Returns current autoroll setting.
     parameters: []
     returnType: bool
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -1291,7 +1225,6 @@
     description: Returns current autosave setting.
     parameters: []
     returnType: bool
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -1311,7 +1244,6 @@
       }
     ]
     returnType: fontsize
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -1320,7 +1252,6 @@
     description: Returns information about all bonus content.
     parameters: []
     returnType: bonusContentArray
-    usages: []
     deprecated: false
     detailed:
       '''
@@ -1347,7 +1278,6 @@
     description: Returns the current boost toggle setting.
     parameters: []
     returnType: bool
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -1367,7 +1297,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -1382,7 +1311,6 @@
       }
     ]
     returnType: componentID
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -1397,7 +1325,6 @@
       }
     ]
     returnType: builderMacrosArray
-    usages: []
     deprecated: false
     detailed:
       '''
@@ -1429,7 +1356,6 @@
       }
     ]
     returnType: method
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -1454,7 +1380,6 @@
       }
     ]
     returnType: duration
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -1489,7 +1414,6 @@
       }
     ]
     returnType: resourceTable
-    usages: []
     deprecated: false
     detailed:
       '''
@@ -1540,7 +1464,6 @@
       }
     ]
     returnType: moduleArray
-    usages: []
     deprecated: false
     detailed:
       '''
@@ -1588,7 +1511,6 @@
       }
     ]
     returnType: upgradeTable
-    usages: []
     deprecated: false
     detailed:
       '''
@@ -1620,7 +1542,6 @@
       }
     ]
     returnType: buildTreeTable
-    usages: []
     deprecated: false
     detailed:
       '''
@@ -1649,7 +1570,6 @@
     description: Returns current capture hq setting.
     parameters: []
     returnType: bool
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -1664,7 +1584,6 @@
       }
     ]
     returnType: wareKeyTable
-    usages: []
     deprecated: false
     detailed:
       '''
@@ -1688,7 +1607,6 @@
       }
     ]
     returnType: componentIDArray
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -1703,7 +1621,6 @@
       }
     ]
     returnType: collectableDataTable
-    usages: []
     deprecated: false
     detailed:
       '''
@@ -1738,7 +1655,6 @@
     description: Returns current collision avoidance assist option.
     parameters: []
     returnType: bool
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -1753,7 +1669,6 @@
       }
     ]
     returnType: commanderID
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -1768,7 +1683,6 @@
       }
     ]
     returnType: entityID
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -1788,7 +1702,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed:
       '''
@@ -1890,7 +1803,6 @@
       }
     ]
     returnType: name
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -1899,7 +1811,6 @@
     description: Returns the current confine mouse option.
     parameters: []
     returnType: bool
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -1919,7 +1830,6 @@
       }
     ]
     returnType: objectIDArray
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -1939,7 +1849,6 @@
       }
     ]
     returnType: shipIDArray
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -1959,7 +1868,6 @@
       }
     ]
     returnType: shipIDArray
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -1984,7 +1892,6 @@
       }
     ]
     returnType: stationIDArray
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -2009,7 +1916,6 @@
       }
     ]
     returnType: stationIDArray
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -2034,7 +1940,6 @@
       }
     ]
     returnType: price
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -2059,7 +1964,6 @@
       }
     ]
     returnType: contextID
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -2079,7 +1983,6 @@
       }
     ]
     returnType: entityID
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -2088,7 +1991,6 @@
     description: Returns the current input mode ("mouseSteering"|"mouseCursor"|"gamepad"|"touch"|"joystick") and the joystick input angle (only reasonable in "touch", "joystick", or "gamepad" mode).
     parameters: []
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: *The angle value will be -1, if the joystick is in its safe area. Otherwise it returns the angle in radian \[0..2π\] (with 0 corresponding to the joystick pointing upwards - rotation is clockwise).*
     notes:
@@ -2101,7 +2003,6 @@
     description: Returns the current crash report setting.
     parameters: []
     returnType: bool
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -2110,7 +2011,6 @@
     description: Returns the real time since session start in seconds.
     parameters: []
     returnType: time
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -2125,7 +2025,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed:
       '''
@@ -2152,7 +2051,6 @@
       }
     ]
     returnType: resourceTable
-    usages: []
     deprecated: false
     detailed:
       '''
@@ -2177,7 +2075,6 @@
     description: Returns the name of the current game module.
     parameters: []
     returnType: unknown
-    usages: []
     deprecated: true
     detailed: ""
     notes: **DEPRECATED** - use FFI function IsStartmenu() instead
@@ -2186,7 +2083,6 @@
     description: Returns the ingame time in seconds.
     parameters: []
     returnType: unknown
-    usages: []
     deprecated: true
     detailed: ""
     notes: **DEPRECATED** - use FFI function GetCurrentGameTime() instead
@@ -2206,7 +2102,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: Refer to the Lua documentation about os.date() for details.*
     notes: As of XR 4.30 RC 1 GetDate() supports only the following format specifiers:
@@ -2215,7 +2110,6 @@
     description: Returns the current deadzone setting.
     parameters: []
     returnType: int
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -2230,7 +2124,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed:
       '''
@@ -2247,7 +2140,6 @@
     description: Returns the current difficulty setting.
     parameters: []
     returnType: string
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -2256,7 +2148,6 @@
     description: Returns the current distortion setting.
     parameters: []
     returnType: bool
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -2271,7 +2162,6 @@
       }
     ]
     returnType: dronecommanderID
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -2286,7 +2176,6 @@
       }
     ]
     returnType: droneIDArray
-    usages: []
     deprecated: false
     detailed: ""
     notes: See also **GetUnitStorageData**.
@@ -2295,7 +2184,6 @@
     description: Returns the current effect distance setting.
     parameters: []
     returnType: number
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -2310,7 +2198,6 @@
       }
     ]
     returnType: stringArray
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -2319,7 +2206,6 @@
     description: Returns false
     parameters: []
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: **DEPRECATED** \- do not use
@@ -2339,7 +2225,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -2354,7 +2239,6 @@
       }
     ]
     returnType: severity
-    usages: []
     deprecated: false
     detailed:
       '''
@@ -2373,7 +2257,6 @@
     description: Returns information about all extensions.
     parameters: []
     returnType: extensionTable
-    usages: []
     deprecated: false
     detailed:
       '''
@@ -2423,7 +2306,6 @@
       }
     ]
     returnType: string
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -2432,7 +2314,6 @@
     description: Returns current fov setting.
     parameters: []
     returnType: number
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -2452,7 +2333,6 @@
       }
     ]
     returnType: amount
-    usages: []
     deprecated: false
     detailed: ""
     notes: Call **SetVirtualCargoMode** on containerID first, otherwise result will be empty.
@@ -2467,7 +2347,6 @@
       }
     ]
     returnType: amount
-    usages: []
     deprecated: false
     detailed: ""
     notes: Call **SetVirtualCargoMode** on containerID first, otherwise result will be empty.
@@ -2476,7 +2355,6 @@
     description: Returns the current fullscreen detailmonitor setting.
     parameters: []
     returnType: bool
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -2485,7 +2363,6 @@
     description: Returns the current fullscreen and borderless setting.
     parameters: []
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -2494,7 +2371,6 @@
     description: Returns the current gamepad mode setting.
     parameters: []
     returnType: int
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -2503,7 +2379,6 @@
     description: Returns the current gamma setting.
     parameters: []
     returnType: number
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -2523,7 +2398,6 @@
       }
     ]
     returnType: gateIDArray
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -2532,7 +2406,6 @@
     description: Returns the current gfx quality setting.
     parameters: []
     returnType: int
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -2541,7 +2414,6 @@
     description: Returns the current global extension sync setting.
     parameters: []
     returnType: bool
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -2550,7 +2422,6 @@
     description: Returns the current glow setting.
     parameters: []
     returnType: int
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -2565,7 +2436,6 @@
       }
     ]
     returnType: licenceTable
-    usages: []
     deprecated: false
     detailed:
       '''
@@ -2597,7 +2467,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -2606,7 +2475,6 @@
     description: Returns the colors defined for various* *holomap items in parameters.xml.
     parameters: []
     returnType: unknown
-    usages: []
     deprecated: false
     detailed:
       '''
@@ -2632,7 +2500,6 @@
       }
     ]
     returnType: wareKeyTable
-    usages: []
     deprecated: false
     detailed:
       '''
@@ -2650,7 +2517,6 @@
     description: Returns the current input actions mapped.
     parameters: []
     returnType: actionTable
-    usages: []
     deprecated: false
     detailed:
       '''
@@ -2675,7 +2541,6 @@
     description: Returns information about the current input profiles.
     parameters: []
     returnType: inputProfileTable
-    usages: []
     deprecated: false
     detailed:
       '''
@@ -2700,7 +2565,6 @@
     description: Returns the current input ranges mapped.
     parameters: []
     returnType: rangeTable
-    usages: []
     deprecated: false
     detailed:
       '''
@@ -2725,7 +2589,6 @@
     description: Returns the current input states mapped.
     parameters: []
     returnType: stateTable
-    usages: []
     deprecated: false
     detailed:
       '''
@@ -2756,7 +2619,6 @@
       }
     ]
     returnType: wareTable
-    usages: []
     deprecated: false
     detailed:
       '''
@@ -2784,7 +2646,6 @@
       }
     ]
     returnType: bool
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -2793,7 +2654,6 @@
     description: Returns information about currently connected joysticks.
     parameters: []
     returnType: joystickTable
-    usages: []
     deprecated: false
     detailed:
       '''
@@ -2825,7 +2685,6 @@
       }
     ]
     returnType: jumpbeaconIDArray
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -2834,7 +2693,6 @@
     description: Returns the current legacy main menu setting.
     parameters: []
     returnType: bool
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -2843,7 +2701,6 @@
     description: Returns the current legacy shaders setting.
     parameters: []
     returnType: bool
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -2858,7 +2715,6 @@
       }
     ]
     returnType: libraryTable
-    usages: []
     deprecated: false
     detailed:
       '''
@@ -2893,7 +2749,6 @@
       }
     ]
     returnType: entryTable
-    usages: []
     deprecated: false
     detailed:
       '''
@@ -2977,7 +2832,6 @@
       }
     ]
     returnType: int
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -2997,7 +2851,6 @@
       }
     ]
     returnType: string
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -3012,7 +2865,6 @@
       }
     ]
     returnType: string
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -3021,7 +2873,6 @@
     description: Returns the current mouse click position (nil, if the mouse was not clicked on the current environment).
     parameters: []
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -3030,7 +2881,6 @@
     description: Returns the current mouse position (nil, if the mouse is not over the current environment).
     parameters: []
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -3039,7 +2889,6 @@
     description: Returns the current lod setting.
     parameters: []
     returnType: number
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -3064,7 +2913,6 @@
       }
     ]
     returnType: logbookTable
-    usages: []
     deprecated: false
     detailed:
       '''
@@ -3103,7 +2951,6 @@
       }
     ]
     returnType: resourceTable
-    usages: []
     deprecated: false
     detailed:
       '''
@@ -3139,7 +2986,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: *"name", "icon", "efficiencyfactor", "efficiencybonus", "ware", "primarypurpose", "primarypurposename", "storagecapacity", "storagetags", "storagenames", "scanlevel"*
     notes:
@@ -3174,7 +3020,6 @@
       }
     ]
     returnType: int
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -3183,7 +3028,6 @@
     description: Returns an array of joysticks currently mapped for input. Indices refer to the return value of **GetJoysticksOption**().
     parameters: []
     returnType: joystickIndexArray
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -3213,7 +3057,6 @@
       }
     ]
     returnType: stringLength
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -3222,7 +3065,6 @@
     description: Returns the parameters the current menu was opened with.
     parameters: []
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -3237,7 +3079,6 @@
       }
     ]
     returnType: macroArray
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -3267,7 +3108,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes:
@@ -3301,7 +3141,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: 4.31 Beta 1: removed fontname, fontsize, and textwidth parameters
@@ -3321,7 +3160,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -3351,7 +3189,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes:
@@ -3370,7 +3207,6 @@
       }
     ]
     returnType: type
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -3385,7 +3221,6 @@
       }
     ]
     returnType: resourceTable
-    usages: []
     deprecated: false
     detailed:
       '''
@@ -3410,7 +3245,6 @@
     description: Returns the setting whether non-squad ships should be included in the trade offers menu.
     parameters: []
     returnType: bool
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -3425,7 +3259,6 @@
       }
     ]
     returnType: notificationDetailsTable
-    usages: []
     deprecated: false
     detailed: ""
     notes:
@@ -3449,7 +3282,6 @@
       }
     ]
     returnType: componentIDArray
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -3469,7 +3301,6 @@
       }
     ]
     returnType: value
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -3484,7 +3315,6 @@
       }
     ]
     returnType: entityIDArray
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -3504,7 +3334,6 @@
       }
     ]
     returnType: entityIDArray
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -3519,7 +3348,6 @@
       }
     ]
     returnType: int
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -3534,7 +3362,6 @@
       }
     ]
     returnType: int
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -3543,7 +3370,6 @@
     description: Returns the number of accecpted missions.
     parameters: []
     returnType: int
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -3558,7 +3384,6 @@
       }
     ]
     returnType: subsystemsTable
-    usages: []
     deprecated: false
     detailed:
       '''
@@ -3596,7 +3421,6 @@
       }
     ]
     returnType: licenceTable
-    usages: []
     deprecated: false
     detailed:
       '''
@@ -3622,7 +3446,6 @@
     description: Returns the setting to send personalized crash reports.
     parameters: []
     returnType: bool
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -3637,7 +3460,6 @@
       }
     ]
     returnType: dockingbayIDArray
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -3646,7 +3468,6 @@
     description: Returns the current player mode.
     parameters: []
     returnType: string
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -3661,7 +3482,6 @@
       }
     ]
     returnType: int
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -3676,7 +3496,6 @@
       }
     ]
     returnType: contextID
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -3685,7 +3504,6 @@
     description: Returns the number of drone slots on the player ship.
     parameters: []
     returnType: int
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -3694,7 +3512,6 @@
     description: Returns information on the drones of the playership.
     parameters: []
     returnType: playerDroneTable
-    usages: []
     deprecated: false
     detailed:
       '''
@@ -3717,7 +3534,6 @@
     description: Returns the player's enviroment object.
     parameters: []
     returnType: componentID
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -3726,7 +3542,6 @@
     description: Returns information about the wares held in the inventory of specified entity.
     parameters: []
     returnType: wareTable
-    usages: []
     deprecated: false
     detailed:
       '''
@@ -3748,7 +3563,6 @@
     description: Returns the amount of money in the player account.
     parameters: []
     returnType: money
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -3757,7 +3571,6 @@
     description: Returns the macro of the cockpit currently installed in the player ship.
     parameters: []
     returnType: macro
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -3766,7 +3579,6 @@
     description: Returns the player primary ship.
     parameters: []
     returnType: shipID
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -3775,7 +3587,6 @@
     description: Returns the macro of the player primary ship.
     parameters: []
     returnType: macro
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -3784,7 +3595,6 @@
     description: Returns the current player room.
     parameters: []
     returnType: roomID
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -3793,7 +3603,6 @@
     description: Returns the current player target.
     parameters: []
     returnType: componentID
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -3802,7 +3611,6 @@
     description: Returns information about all possible display adapters.
     parameters: []
     returnType: adapterTable
-    usages: []
     deprecated: false
     detailed:
       '''
@@ -3828,7 +3636,6 @@
       }
     ]
     returnType: productionInfoTable
-    usages: []
     deprecated: false
     detailed:
       '''
@@ -3859,7 +3666,6 @@
     description: Returns information about all possible resolutions.
     parameters: []
     returnType: resolutionsTable
-    usages: []
     deprecated: false
     detailed:
       '''
@@ -3886,7 +3692,6 @@
       }
     ]
     returnType: entityIDArray
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -3901,7 +3706,6 @@
       }
     ]
     returnType: productionDataTable
-    usages: []
     deprecated: false
     detailed:
       '''
@@ -3946,7 +3750,6 @@
       }
     ]
     returnType: productionmoduleIDArray
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -3961,7 +3764,6 @@
       }
     ]
     returnType: string
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -3970,7 +3772,6 @@
     description: Returns the current radar setting.
     parameters: []
     returnType: int
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -4005,7 +3806,6 @@
       }
     ]
     returnType: money
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -4014,7 +3814,6 @@
     description: Returns information about all registered modules.
     parameters: []
     returnType: moduleArray
-    usages: []
     deprecated: false
     detailed:
       '''
@@ -4045,7 +3844,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: *Note that the return value is undefined if the element is not pickable at all or wasn't hit by the mouse cursor in the current frame.*
     notes: 4.31 Beta 1: added sizedMousePoint parameter
@@ -4085,7 +3883,6 @@
       }
     ]
     returnType: resourceTable
-    usages: []
     deprecated: false
     detailed:
       '''
@@ -4116,7 +3913,6 @@
       }
     ]
     returnType: resolutionTable
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -4125,7 +3921,6 @@
     description: Returns the current controller rumble intensity setting.
     parameters: []
     returnType: number
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -4140,7 +3935,6 @@
       }
     ]
     returnType: productionmoduleID
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -4149,7 +3943,6 @@
     description: Returns information about existing savegames.
     parameters: []
     returnType: savegameTable
-    usages: []
     deprecated: false
     detailed:
       '''
@@ -4189,7 +3982,6 @@
     description: Returns available information about existing savegames.
     parameters: []
     returnType: savegameTable
-    usages: []
     deprecated: false
     detailed:
       '''
@@ -4208,7 +4000,6 @@
       }
     ]
     returnType: sectorIDArray
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -4223,7 +4014,6 @@
       }
     ]
     returnType: number
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -4232,7 +4022,6 @@
     description: Returns the current shader quality setting.
     parameters: []
     returnType: int
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -4241,7 +4030,6 @@
     description: Returns the current shadow setting.
     parameters: []
     returnType: int
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -4256,7 +4044,6 @@
       }
     ]
     returnType: shoppingListTable
-    usages: []
     deprecated: false
     detailed:
       '''
@@ -4289,7 +4076,6 @@
     description: Returns the current soft shadow setting.
     parameters: []
     returnType: bool
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -4298,7 +4084,6 @@
     description: Returns the current global sound setting.
     parameters: []
     returnType: bool
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -4307,7 +4092,6 @@
     description: Returns the current ssao setting.
     parameters: []
     returnType: int
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -4322,7 +4106,6 @@
       }
     ]
     returnType: macroArray
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -4342,7 +4125,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -4351,7 +4133,6 @@
     description: Returns the current steering note setting.
     parameters: []
     returnType: bool
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -4360,7 +4141,6 @@
     description: Returns the current setting whether the playership should stop while a menu is open.
     parameters: []
     returnType: bool
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -4375,7 +4155,6 @@
       }
     ]
     returnType: storageDataTable
-    usages: []
     deprecated: false
     detailed:
       '''
@@ -4424,7 +4203,6 @@
       }
     ]
     returnType: componentIDArray
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -4433,7 +4211,6 @@
     description: Returns the current subtitle option.
     parameters: []
     returnType: string
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -4468,7 +4245,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: true
     detailed: Note that the width parameter specifies the maximum width (per row) to be displayed. The parameter is ignored, if wordwrap is false.*
     notes: **DEPRECATED** - use FFI function GetTextHeight() instead
@@ -4498,7 +4274,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: 4.00 Beta 1: added the second return value (actualwidth)
@@ -4523,7 +4298,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: true
     detailed: ""
     notes: **DEPRECATED** - use FFI function GetTextWidth() instead
@@ -4548,7 +4322,6 @@
       }
     ]
     returnType: money
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -4563,7 +4336,6 @@
       }
     ]
     returnType: tradeData
-    usages: []
     deprecated: false
     detailed:
       '''
@@ -4627,7 +4399,6 @@
       }
     ]
     returnType: tradeDataArray
-    usages: []
     deprecated: false
     detailed:
       '''
@@ -4684,7 +4455,6 @@
       }
     ]
     returnType: restrictionsTable
-    usages: []
     deprecated: false
     detailed:
       '''
@@ -4716,7 +4486,6 @@
       }
     ]
     returnType: tradeArray
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -4731,7 +4500,6 @@
       }
     ]
     returnType: tradeShipData
-    usages: []
     deprecated: false
     detailed:
       '''
@@ -4774,7 +4542,6 @@
     description: Returns an array with information about ships related to trading.
     parameters: []
     returnType: tradeShipDataArray
-    usages: []
     deprecated: false
     detailed:
       '''
@@ -4826,7 +4593,6 @@
       }
     ]
     returnType: macroArray
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -4851,7 +4617,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed:
       '''
@@ -4880,7 +4645,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed:
       '''
@@ -4900,7 +4664,6 @@
       }
     ]
     returnType: relation
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -4930,7 +4693,6 @@
       }
     ]
     returnType: unitTable
-    usages: []
     deprecated: false
     detailed:
       '''
@@ -4992,7 +4754,6 @@
       }
     ]
     returnType: resourceTable
-    usages: []
     deprecated: false
     detailed:
       '''
@@ -5027,7 +4788,6 @@
     description: Returns the current game version.
     parameters: []
     returnType: string
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -5036,7 +4796,6 @@
     description: Returns the current view distance setting.
     parameters: []
     returnType: number
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -5051,7 +4810,6 @@
       }
     ]
     returnType: number
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -5060,7 +4818,6 @@
     description: Returns the current vsync setting.
     parameters: []
     returnType: bool
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -5085,7 +4842,6 @@
       }
     ]
     returnType: int
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -5105,7 +4861,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: '''"transport", "image", "video", "hasproductionmethod", "productionmethod", "products", "resources", "buyprice", "volatile", "gift", "allowdrop", "groupID", "groupName", "groupIcon", "isweaponmod", "isammo", "issinglecraft"'''
     notes:
@@ -5139,7 +4894,6 @@
       }
     ]
     returnType: tradeDataArray
-    usages: []
     deprecated: false
     detailed:
       '''
@@ -5201,7 +4955,6 @@
       }
     ]
     returnType: int
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -5216,7 +4969,6 @@
       }
     ]
     returnType: zoneIDArray
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -5236,7 +4988,6 @@
       }
     ]
     returnType: yieldTable
-    usages: []
     deprecated: false
     detailed:
       '''
@@ -5272,7 +5023,6 @@
       }
     ]
     returnType: bool
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -5292,7 +5042,6 @@
       }
     ]
     returnType: bool
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -5317,7 +5066,6 @@
       }
     ]
     returnType: bool
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -5342,7 +5090,6 @@
       }
     ]
     returnType: bool
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -5357,7 +5104,6 @@
       }
     ]
     returnType: bool
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -5382,7 +5128,6 @@
       }
     ]
     returnType: bool
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -5391,7 +5136,6 @@
     description: Returns static variable to re-init the options menu after ui reload, e.g. on device lost.
     parameters: []
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: **DEPRECATED** - This solution for static variables is deprecated. Use <savedvariable /> in ui.xml instead.
@@ -5400,7 +5144,6 @@
     description: Checks whether extension settings changed in this session.
     parameters: []
     returnType: bool
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -5420,7 +5163,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -5435,7 +5177,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -5444,7 +5185,6 @@
     description: Stops the current player ship computer line.
     parameters: []
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -5453,7 +5193,6 @@
     description: Checks whether the game has cheats enabled.
     parameters: []
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -5473,7 +5212,6 @@
       }
     ]
     returnType: bool
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -5488,7 +5226,6 @@
       }
     ]
     returnType: bool
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -5503,7 +5240,6 @@
       }
     ]
     returnType: bool
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -5523,7 +5259,6 @@
       }
     ]
     returnType: bool
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -5543,7 +5278,6 @@
       }
     ]
     returnType: bool
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -5558,7 +5292,6 @@
       }
     ]
     returnType: bool
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -5567,7 +5300,6 @@
     description: Check whether the gamepad is active.
     parameters: []
     returnType: bool
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -5587,7 +5319,6 @@
       }
     ]
     returnType: bool
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -5607,7 +5338,6 @@
       }
     ]
     returnType: bool
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -5627,7 +5357,6 @@
       }
     ]
     returnType: bool
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -5652,7 +5381,6 @@
       }
     ]
     returnType: bool
-    usages: []
     deprecated: false
     detailed:
       '''
@@ -5665,7 +5393,6 @@
     description: Checks whether the player is in first person mode.
     parameters: []
     returnType: bool
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -5685,7 +5412,6 @@
       }
     ]
     returnType: bool
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -5705,7 +5431,6 @@
       }
     ]
     returnType: bool
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -5714,7 +5439,6 @@
     description: Checks whether saving is currently possible.
     parameters: []
     returnType: bool
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -5723,7 +5447,6 @@
     description: Checks whether steamworks are enabled.
     parameters: []
     returnType: bool
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -5738,7 +5461,6 @@
       }
     ]
     returnType: bool
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -5763,7 +5485,6 @@
       }
     ]
     returnType: bool
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -5772,7 +5493,6 @@
     description: Ends the interact menu interaction.
     parameters: []
     returnType: unknown
-    usages: []
     deprecated: true
     detailed: ""
     notes: **DEPRECATED** - use FFI function LeaveInteractMenu() instead
@@ -5781,7 +5501,6 @@
     description: Raises a lua event for the next input instead of evaluating that input. Event names are: "keyboardInput", "mousebuttonsInput", "joyaxesInputPosSgn\[1-8\]", "joyaxesInputNegSgn\[1-8\]", "joybuttonsInput\[1-8\]"
     parameters: []
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -5796,7 +5515,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -5816,7 +5534,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -5836,7 +5553,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -5851,7 +5567,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: Needs cheats enabled.
@@ -5871,7 +5586,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -5886,7 +5600,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -5901,7 +5614,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -5921,7 +5633,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -5936,7 +5647,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: Note: prior to 4.21 Beta 1 (VR: 4.20) a call to Pause() (or Pause(false) didn't display a Game Paused text. As of 4.21 Beta 1 (VR: 4.20) both cases will display this text now.
@@ -5945,7 +5655,6 @@
     description: Play the credits.
     parameters: []
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -5960,7 +5669,6 @@
       }
     ]
     returnType: bool
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -5975,7 +5683,6 @@
       }
     ]
     returnType: success
-    usages: []
     deprecated: false
     detailed: *Retur*n value indicates success/failure.
     notes: **UNSUPPORTED.** Not designed to be used by mods.
@@ -6000,7 +5707,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -6009,7 +5715,6 @@
     description: Notifies* *the system that the quick menu was closed.
     parameters: []
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -6018,7 +5723,6 @@
     description: Quit to desktop.
     parameters: []
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -6027,7 +5731,6 @@
     description: Quit the current module to the start menu.
     parameters: []
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -6047,7 +5750,6 @@
       }
     ]
     returnType: text
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -6067,7 +5769,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: **UNSUPPORTED.** Not designed to be used by mods.
@@ -6082,7 +5783,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -6097,7 +5797,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: **DEPRECATED** - use FFI: ReleaseInteractionDescriptor() instead
@@ -6122,7 +5821,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -6147,7 +5845,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -6172,7 +5869,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -6192,7 +5888,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -6212,7 +5907,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -6227,7 +5921,6 @@
       }
     ]
     returnType: requesterRemoved
-    usages: []
     deprecated: false
     detailed:
       '''
@@ -6256,7 +5949,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -6271,7 +5963,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -6286,7 +5977,6 @@
       }
     ]
     returnType: success
-    usages: []
     deprecated: false
     detailed: Prior to 4.20 the function could be used to prevent objects being targeted (i.e. calling RequestSofttargetLock() with no current target). As of 4.20 such a call will fail and indicate the failure via its return value.*
     notes: 4.21 Beta 1 (VR: 4.20): added success return value
@@ -6295,7 +5985,6 @@
     description: Resets all changes to extension settings from this session.
     parameters: []
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -6304,7 +5993,6 @@
     description: Restores the game settings from the default config.
     parameters: []
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -6313,7 +6001,6 @@
     description: Restores the gfx settings from the default config.
     parameters: []
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -6322,7 +6009,6 @@
     description: Opens the options menu.
     parameters: []
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -6331,7 +6017,6 @@
     description: Restores the sound settings from the default config.
     parameters: []
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -6346,7 +6031,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -6355,7 +6039,6 @@
     description: Save the current fullscreen setting to the player config.
     parameters: []
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -6375,7 +6058,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -6405,7 +6087,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -6430,7 +6111,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed:
       '''
@@ -6483,7 +6163,6 @@
     description: Save the current resolutions setting to the player config.
     parameters: []
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -6492,7 +6171,6 @@
     description: Schedule a ui reload.
     parameters: []
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -6501,7 +6179,6 @@
     description: Select the back in a conversation choice.
     parameters: []
     returnType: bool
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -6521,7 +6198,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -6551,7 +6227,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed:
       '''
@@ -6578,7 +6253,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -6593,7 +6267,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -6608,7 +6281,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -6623,7 +6295,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -6632,7 +6303,6 @@
     description: Toggles the autoroll setting.
     parameters: []
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -6641,7 +6311,6 @@
     description: Toggles autosave setting.
     parameters: []
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -6650,7 +6319,6 @@
     description: Toggle the boost toggle setting.
     parameters: []
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -6670,7 +6338,6 @@
       }
     ]
     returnType: responsibility
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -6705,7 +6372,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -6714,7 +6380,6 @@
     description: Toggle the capture hq setting.
     parameters: []
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -6723,7 +6388,6 @@
     description: Toggle the collision avoidance assist setting.
     parameters: []
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -6743,7 +6407,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -6752,7 +6415,6 @@
     description: Toggle confine mouse setting.
     parameters: []
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -6777,7 +6439,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -6807,7 +6468,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -6816,7 +6476,6 @@
     description: Toggles the crash report setting.
     parameters: []
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -6831,7 +6490,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -6846,7 +6504,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -6855,7 +6512,6 @@
     description: Toggles the distortion setting.
     parameters: []
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -6870,7 +6526,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -6879,7 +6534,6 @@
     description: Toggle the event monitor cutscene setting.
     parameters: []
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: **DEPRECATED** \- do not use
@@ -6909,7 +6563,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -6924,7 +6577,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -6933,7 +6585,6 @@
     description: Toggles the fullscreen detailmonitor setting.
     parameters: []
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -6942,7 +6593,6 @@
     description: Sets the render mode of the current UI environment to fullscreen 1:1 mapping.* Return value indicates success/failure.
     parameters: []
     returnType: bool
-    usages: []
     deprecated: false
     detailed: ""
     notes: 4.10 Beta 1: added boolean return value.
@@ -6962,7 +6612,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -6971,7 +6620,6 @@
     description: Sets the render mode of the current UI environment to worldspace rendering mode.
     parameters: []
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -6986,7 +6634,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -7001,7 +6648,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -7016,7 +6662,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -7031,7 +6676,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -7051,7 +6695,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -7071,7 +6714,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -7080,7 +6722,6 @@
     description: Toggles the legacy main menu setting.
     parameters: []
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -7089,7 +6730,6 @@
     description: Toggles the legacy shaders setting.
     parameters: []
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -7104,7 +6744,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -7124,7 +6763,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: **UNSUPPORTED.** Not designed to be used by mods.
@@ -7144,7 +6782,6 @@
       }
     ]
     returnType: amount
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -7164,7 +6801,6 @@
       }
     ]
     returnType: amount
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -7184,7 +6820,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: true
     detailed: ""
     notes: **DEPRECATED** - use SetPointerOverride() instead (simply pass the cursorIcon as pointerID)
@@ -7193,7 +6828,6 @@
     description: Sets the mouse to sleep until moved again.
     parameters: []
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -7202,7 +6836,6 @@
     description: Toggles the setting whether non-squad ships should be included in the trade offers menu.
     parameters: []
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -7227,7 +6860,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: 4.10 Beta 5: If the "value" is nil, the blackboard variable is cleared.
@@ -7252,7 +6884,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -7261,7 +6892,6 @@
     description: Toggles the setting to send personalized crash reports.
     parameters: []
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -7281,7 +6911,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -7301,7 +6930,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: **UNSUPPORTED.** Not designed to be used by mods.
@@ -7316,7 +6944,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -7325,7 +6952,6 @@
     description: Swaps the rendering mode to a preset rendertarget. It's intended for UI internal use. No current support to utilize this in a useful way for UI modding.
     parameters: []
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -7350,7 +6976,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: **UNSUPPORTED.** Not designed to be used by mods.
@@ -7375,7 +7000,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -7390,7 +7014,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -7415,7 +7038,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -7430,7 +7052,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -7445,7 +7066,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -7454,7 +7074,6 @@
     description: Toggles the soft shadow setting.
     parameters: []
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -7463,7 +7082,6 @@
     description: Toggle the global sound setting.
     parameters: []
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -7478,7 +7096,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -7498,7 +7115,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -7507,7 +7123,6 @@
     description: Toggles the steering note setting.
     parameters: []
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -7516,7 +7131,6 @@
     description: Toggles the setting whether the playership should stop while a menu is open.
     parameters: []
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -7531,7 +7145,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -7546,7 +7159,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -7566,7 +7178,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: Virtual cargo mode should be disabled again when leaving the current menu.
@@ -7586,7 +7197,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -7595,7 +7205,6 @@
     description: Toggles the vsync setting.
     parameters: []
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -7604,7 +7213,6 @@
     description: Starts the interact menu interaction.
     parameters: []
     returnType: unknown
-    usages: []
     deprecated: true
     detailed: ""
     notes: **DEPRECATED** - use FFI function EnterInteractMenu() instead
@@ -7639,7 +7247,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -7654,7 +7261,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -7679,7 +7285,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -7704,7 +7309,6 @@
       }
     ]
     returnType: success
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -7739,7 +7343,6 @@
       }
     ]
     returnType: success
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -7748,7 +7351,6 @@
     description: Stops the auto pilot.
     parameters: []
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -7763,7 +7365,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -7772,7 +7373,6 @@
     description: Stop restoring the options menu after ui reloads.
     parameters: []
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -7787,7 +7387,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -7807,7 +7406,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -7822,7 +7420,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -7847,7 +7444,6 @@
       }
     ]
     returnType: transferredAmount
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -7867,7 +7463,6 @@
       }
     ]
     returnType: transferredMoney
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -7892,7 +7487,6 @@
       }
     ]
     returnType: transferredAmount
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -7912,7 +7506,6 @@
       }
     ]
     returnType: transferredMoney
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -7952,7 +7545,6 @@
       }
     ]
     returnType: text
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -7967,7 +7559,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -7982,7 +7573,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -8002,7 +7592,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: **UNSUPPORTED.** Not designed to be used by mods.
@@ -8017,7 +7606,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -8026,7 +7614,6 @@
     description: Resets the render target for the radar/map display.
     parameters: []
     returnType: unknown
-    usages: []
     deprecated: true
     detailed: ""
     notes: **DEPRECATED** - use FFI function UnsetRadarRendertTarget() instead
@@ -8041,7 +7628,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: true
     detailed: ""
     notes: **DEPRECATED** - use UnsetPointerOverride() instead
@@ -8056,7 +7642,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
@@ -8081,7 +7666,6 @@
       }
     ]
     returnType: unknown
-    usages: []
     deprecated: false
     detailed: ""
     notes: ""
