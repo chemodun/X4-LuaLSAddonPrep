@@ -10,15 +10,18 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout AddonPrep repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
+        with:
+          path: common/X4-LuaLSAddonPrep
 
       - name: Checkout X4-LuaLSAddon repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           repository: ${{ github.repository_owner }}/X4-LuaLSAddon
+          path: common/X4-LuaLSAddon
 
       - name: Set up Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: '22'
 
@@ -27,31 +30,31 @@ jobs:
         run: echo "branch_name=library-update-$(date +'%Y%m%d-%H%M')" >> $GITHUB_OUTPUT
 
       - name: Create branch in X4-LuaLSAddon
-        working-directory: X4-LuaLSAddon
+        working-directory: common/X4-LuaLSAddon
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
           git checkout -b ${{ steps.branch-name.outputs.branch_name }}
 
       - name: Install dependencies
-        working-directory: X4-LuaLSAddonPrep/script
+        working-directory: common/X4-LuaLSAddonPrep/script
         run: npm install
 
       - name: Generate annotations
-        working-directory: X4-LuaLSAddonPrep/script
+        working-directory: common/X4-LuaLSAddonPrep/script
         run: node generateAllAnnotations.js --generate-from-data
 
 
       - name: Check for changes
         id: check_changes
-        working-directory: X4-LuaLSAddon
+        working-directory: common/X4-LuaLSAddon
         run: |
           git add .
           git diff --staged --quiet || echo "changes=true" >> $GITHUB_OUTPUT
 
       - name: Commit and push changes
         if: steps.check_changes.outputs.changes == 'true'
-        working-directory: X4-LuaLSAddon
+        working-directory: common/X4-LuaLSAddon
         run: |
           git commit -m "Auto-update X4 add-on library from data files"
           git push -u origin ${{ steps.branch-name.outputs.branch_name }}
@@ -61,7 +64,7 @@ jobs:
         uses: peter-evans/create-pull-request@v5
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          path: X4-LuaLSAddon
+          path: common/X4-LuaLSAddon
           commit-message: Auto-update X4 add-on library from data files
           title: Auto-update X4 add-on library from data files
           body: |
